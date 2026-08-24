@@ -1,3 +1,7 @@
+> **Note on telemetry/velocity/distance claims:** Any statements in this document about on-screen **velocity, distance, or timestamp** behavior should be read together with the corrected [`comprehensive_frame_report.md`](comprehensive_frame_report.md). Re-verification of the dial readings found that the earlier "time reset", "velocity reversal", and "geometric impossibility" claims were **OCR misreads / a misread CURRENT-vs-TOTAL time field and have been retracted**. This segment is also a NASA-labeled **VISUALIZATION shown during the comms blackout** (modeled values, not a live downlink). Treat the corrected report as authoritative for telemetry.
+>
+> ---
+
 # NASA Spacecraft Re-Entry Transcript: Complete Analysis
 
 **Research by:** TrueSiddiqui  

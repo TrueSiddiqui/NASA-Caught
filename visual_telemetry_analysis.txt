@@ -1,33 +1,50 @@
-# NASA Artemis II Re-Entry Broadcast: Visual Telemetry Analysis
-## Complete Analysis of 266 YouTube Screenshot Frames
+⚠️ SUPERSEDED — SEE CORRECTED REPORT
+>
+This document has been superseded by `comprehensive_frame_report.md`, which corrects errors found in this analysis.
+>
+On re-verification against the original frames, several headline claims below were found to be OCR misreads or a misread on-screen time field, and are retracted:
+>
+- "−142 minute time reset" / "time resets" (scenes 2817, 419, 1156, etc.) — FALSE. The overlay shows time as CURRENT / TOTAL; "3:53:41" is the video's total duration, not a timestamp. Scene 2817's true time is 1:31:25, consistent with its neighbors. No time reset occurred.
+- "+2,937 mph velocity reversal" (scenes 2872 / 2883) — FALSE. OCR misread the leading digit 1 as 4 (11,778→"14,778"). The true sequence is a smooth deceleration.
+- "Geometric impossibility" of both distances increasing — WITHDRAWN. Simultaneous increase is geometrically possible during a skip/altitude-gain phase.
+- Minor value fixes: scene 144 velocity = 25,105; scene 265 To-Moon = 248,254.
+>
+Also note: this segment is a NASA-labeled VISUALIZATION shown during the communications blackout, so the dials are modeled values, not a live downlink. The byte-identical "frozen" frames each carry the same on-screen timestamp — they are the same broadcast moment captured repeatedly, not later moments with stale numbers.
+>
+The content below is retained only for transparency/audit. Do not cite its anomaly claims. Refer to the corrected report instead.
+>
+---
 
-**Repository**: https://github.com/TrueSiddiqui/NASA-Caught  
-**License**: CC BY-NC 4.0  
-**Source Video**: [NASA Artemis II Flight Test Broadcast](https://www.youtube.com/watch?v=nfhDuOHMp0A)  
-**Analysis Date**: August 23, 2026  
+NASA Artemis II Re-Entry Broadcast: Visual Telemetry Analysis
+Complete Analysis of 266 YouTube Screenshot Frames
+
+Repository: https://github.com/TrueSiddiqui/NASA-Caught  
+License: CC BY-NC 4.0  
+Source Video: NASA Artemis II Flight Test Broadcast  
+Analysis Date: August 23, 2026  
 
 ---
 
-## Executive Summary
+Executive Summary
 
-This report documents a comprehensive analysis of **266 screenshot frames** captured from NASA's YouTube broadcast of the Artemis II spacecraft re-entry simulation. Using reproducible OCR-based telemetry extraction and cryptographic hash verification, we identified **7 categories of anomalies** in the broadcast's visual telemetry display.
+This report documents a comprehensive analysis of 266 screenshot frames captured from NASA's YouTube broadcast of the Artemis II spacecraft re-entry simulation. Using reproducible OCR-based telemetry extraction and cryptographic hash verification, we identified 7 categories of anomalies in the broadcast's visual telemetry display.
 
-**Key Findings**:
-- **114 frames** (42.9%) are pixel-perfect duplicates across 3 groups, despite being captured at different time intervals
-- **3 video timestamp resets** where playback time jumps backward
-- **Velocity increases during atmospheric re-entry** (expected: deceleration)
-- **Distance-from-Earth field** shows only 12 miles variation across entire broadcast segment
-- **7 velocity reversals** in post-blackout segment contradicting deceleration trend
+Key Findings:
+- 114 frames (42.9%) are pixel-perfect duplicates across 3 groups, despite being captured at different time intervals
+- 3 video timestamp resets where playback time jumps backward
+- Velocity increases during atmospheric re-entry (expected: deceleration)
+- Distance-from-Earth field shows only 12 miles variation across entire broadcast segment
+- 7 velocity reversals in post-blackout segment contradicting deceleration trend
 
-All findings are **Tier 1 (internally verifiable)** — provable from the broadcast frames alone without external data sources.
+All findings are Tier 1 (internally verifiable) — provable from the broadcast frames alone without external data sources.
 
 ---
 
-## Telemetry Data Extract
+Telemetry Data Extract
 
 The following table shows extracted telemetry readings from all 266 frames. Duplicate frames (🔁) show identical pixel content. Time resets (⏮) indicate backward jumps in video timestamp. Velocity warnings (⚠) highlight anomalous increases during descent phase.
 
-**Legend**: 🔁 = Byte-identical duplicate | ⏮ = Time reset | ⬆ = Velocity increase (re-entry phase) | ⚠ = Velocity reversal (descent phase)
+Legend: 🔁 = Byte-identical duplicate | ⏮ = Time reset | ⬆ = Velocity increase (re-entry phase) | ⚠ = Velocity reversal (descent phase)
 
 | Scene # | Video Time | Velocity (mph) | From Earth (mi) | To Moon (mi) | Notes |
 |---------|------------|----------------|-----------------|--------------|-------|
@@ -44,7 +61,7 @@ The following table shows extracted telemetry readings from all 266 frames. Dupl
 | ... | ... | ... | ... | ... | *38 unique frames showing monotonic velocity increase* |
 | 00397 | 1:28:44 | 25,188 | 32 | 248,294 | ⬆ Vel increase |
 | 00408 | 1:28:44 | 25,192 | 32 | 248,297 | ⬆ Vel increase |
-| **00419** | **1:28:19** | **25,064** | **28** | **248,175** | **⏮ TIME RESET** |
+| 00419 | 1:28:19 | 25,064 | 28 | 248,175 | ⏮ TIME RESET |
 | 00430 | 1:28:20 | 25,067 | 28 | 248,177 |  |
 | 00441 | 1:28:20 | 25,067 | 28 | 248,177 | 🔁 Duplicate |
 | 00452 | 1:28:20 | 25,067 | 28 | 248,177 | 🔁 Duplicate |
@@ -52,7 +69,7 @@ The following table shows extracted telemetry readings from all 266 frames. Dupl
 | 01123 | 1:28:20 | 25,067 | 28 | 248,177 | 🔁 Duplicate |
 | 01134 | 1:28:20 | 25,067 | 28 | 248,177 | 🔁 Duplicate |
 | 01145 | 1:28:21 | 25,069 | 28 | 248,180 |  |
-| **01156** | **1:28:19** | **25,064** | **28** | **248,175** | **⏮ TIME RESET** |
+| 01156 | 1:28:19 | 25,064 | 28 | 248,175 | ⏮ TIME RESET |
 | 01178 | 1:28:19 | 25,064 | 28 | 248,174 |  |
 | 01189 | 1:28:19 | 25,064 | 28 | 248,174 | 🔁 Duplicate |
 | ... | ... | ... | ... | ... | *47 byte-identical frames (scattered through 01178-01673)* |
@@ -71,38 +88,38 @@ The following table shows extracted telemetry readings from all 266 frames. Dupl
 | 02322 | 1:30:51 | 13,399 | 38 | 248,540 | ⚠ +103 mph |
 | 02366 | 1:30:54 | 13,212 | 37 | 248,551 | ⚠ +95 mph |
 | 02751 | 1:31:20 | 12,117 | 35 | 248,607 |  |
-| **02817** | **3:53:41** | **11,936** | **34** | **248,615** | *Anomalous timestamp* |
-| **02828** | **1:31:26** | **11,903** | **34** | **248,617** | **⏮ TIME RESET (-142 min)** |
-| **02872** | **1:31:29** | **14,778** | **34** | **248,623** | **⚠ +2,937 mph** |
+| 02817 | 3:53:41 | 11,936 | 34 | 248,615 | *Anomalous timestamp* |
+| 02828 | 1:31:26 | 11,903 | 34 | 248,617 | ⏮ TIME RESET (-142 min) |
+| 02872 | 1:31:29 | 14,778 | 34 | 248,623 | ⚠ +2,937 mph |
 | 02883 | 1:31:29 | 14,745 | 34 | 248,624 |  |
 | 02927 | 1:31:33 | N/A | N/A | N/A | *Final frame (no telemetry)* |
 
-**Full dataset**: 266 frames total, 155 unique images, 114 duplicates across 3 groups. Complete JSON data available in repository.
+Full dataset: 266 frames total, 155 unique images, 114 duplicates across 3 groups. Complete JSON data available in repository.
 
 ---
 
-## Methodology
+Methodology
 
-### Data Collection
-- **Source**: 266 PNG screenshots from Google Drive folder linked to original research
-- **Frame naming**: scene00001 through scene02927 (not sequential; ~11-scene intervals)
-- **Download method**: Direct Google Drive API links with retry logic
-- **Verification**: MD5 hash computed for each frame; duplicates verified via isolated re-download
+Data Collection
+- Source: 266 PNG screenshots from Google Drive folder linked to original research
+- Frame naming: scene00001 through scene02927 (not sequential; ~11-scene intervals)
+- Download method: Direct Google Drive API links with retry logic
+- Verification: MD5 hash computed for each frame; duplicates verified via isolated re-download
 
-### Telemetry Extraction
-All telemetry readings were extracted using **Tesseract OCR** with fixed pixel coordinates:
+Telemetry Extraction
+All telemetry readings were extracted using Tesseract OCR with fixed pixel coordinates:
 
 ```python
-# Crop regions (3632×1712 source images)
+Crop regions (3632×1712 source images)
 video_time:   (280, 1580, 780, 1680)   # Format: H:MM:SS
 velocity:     (1890, 1465, 2035, 1535) # MPH
 from_earth:   (2085, 1470, 2200, 1530) # Miles  
 to_moon:      (2260, 1465, 2410, 1535) # Miles
 ```
 
-**OCR Parameters**: `--psm 7 -c tessedit_char_whitelist=0123456789:,/`
+OCR Parameters: `--psm 7 -c tessedit_char_whitelist=0123456789:,/`
 
-### Reproducibility
+Reproducibility
 - All 266 frames: `/home/ubuntu/frames_final/scene*.png`
 - Extracted data: `/home/ubuntu/telemetry_clean.json`
 - Analysis scripts: `/home/ubuntu/analyze_frames.py`
@@ -112,50 +129,50 @@ Anyone with the source frames can reproduce these findings by running the provid
 
 ---
 
-## TIER 1 FINDINGS: Internally Verifiable
+TIER 1 FINDINGS: Internally Verifiable
 
-### ISSUE 1: Byte-Identical Frames Across Time Intervals
+ISSUE 1: Byte-Identical Frames Across Time Intervals
 
-**Description**: Screenshots captured at different intervals during the broadcast are pixel-perfect identical (same MD5 hash), including all telemetry overlays.
+Description: Screenshots captured at different intervals during the broadcast are pixel-perfect identical (same MD5 hash), including all telemetry overlays.
 
-#### Block A: 65 Identical Frames
-- **Hash**: `318cbfe640d49899daa9ab2769cd0a69`
-- **Scene range**: scene00430 → scene01134
-- **Video timestamp shown**: 1:28:20
-- **Frozen telemetry**:
+Block A: 65 Identical Frames
+- Hash: `318cbfe640d49899daa9ab2769cd0a69`
+- Scene range: scene00430 → scene01134
+- Video timestamp shown: 1:28:20
+- Frozen telemetry:
   - Velocity: 25,067 mph
   - From Earth: 28 miles
   - To Moon: 248,177 miles
 
-#### Block B: 47 Identical Frames  
-- **Hash**: `c6ca223093f161faae6bcde4bde136df`
-- **Scene range**: scene00001 → scene01673 (scattered)
-- **Video timestamp shown**: 1:28:19
-- **Frozen telemetry**:
+Block B: 47 Identical Frames  
+- Hash: `c6ca223093f161faae6bcde4bde136df`
+- Scene range: scene00001 → scene01673 (scattered)
+- Video timestamp shown: 1:28:19
+- Frozen telemetry:
   - Velocity: 25,064 mph
   - From Earth: 28 miles
   - To Moon: 248,174 miles
 
-#### Block C: 2 Identical Frames
-- **Hash**: `f5accc2c143fba69f2375dd7a32fb983`
-- **Scene range**: scene00419, scene01167
-- **Video timestamp shown**: 1:28:19
-- **Frozen telemetry**:
+Block C: 2 Identical Frames
+- Hash: `f5accc2c143fba69f2375dd7a32fb983`
+- Scene range: scene00419, scene01167
+- Video timestamp shown: 1:28:19
+- Frozen telemetry:
   - Velocity: 25,064 mph
   - From Earth: 28 miles
   - To Moon: 248,175 miles
 
-**Implication**: 114 out of 266 frames (42.9%) show no telemetry updates despite screenshots being taken at different intervals. This represents either:
+Implication: 114 out of 266 frames (42.9%) show no telemetry updates despite screenshots being taken at different intervals. This represents either:
 1. Broadcast froze/repeated same frame for extended periods, OR
 2. Telemetry system stopped updating while video continued
 
-**Evidence**: Verified via MD5 cryptographic hashing — byte-level identical files confirm not just similar values but exact pixel replication including timestamp overlays.
+Evidence: Verified via MD5 cryptographic hashing — byte-level identical files confirm not just similar values but exact pixel replication including timestamp overlays.
 
 ---
 
-### ISSUE 2: Video Timestamp Resets (Non-Linear Playback)
+ISSUE 2: Video Timestamp Resets (Non-Linear Playback)
 
-**Description**: Video playback timestamp jumps **backward** between consecutive screenshot frames.
+Description: Video playback timestamp jumps backward between consecutive screenshot frames.
 
 | From Scene | To Scene | Time Jump | Delta |
 |------------|----------|-----------|-------|
@@ -163,123 +180,123 @@ Anyone with the source frames can reproduce these findings by running the provid
 | scene01145 | scene01156 | 1:28:21 → 1:28:19 | -2 seconds |
 | scene02817 | scene02828 | 3:53:41 → 1:31:26 | -142 minutes |
 
-**Context**: The third reset (scene02817 → scene02828) shows a massive jump from 3:53:41 back to 1:31:26 — a **2 hour 22 minute backward leap**.
+Context: The third reset (scene02817 → scene02828) shows a massive jump from 3:53:41 back to 1:31:26 — a 2 hour 22 minute backward leap.
 
-**Implication**: Either:
+Implication: Either:
 1. Broadcast video was spliced/looped non-linearly
 2. Screenshots were captured from multiple replays and merged into single sequence
 3. Video player timestamp display malfunctioned
 
-**Note**: scene02817 timestamp `3:53:41` appears to be a **total video duration marker** rather than mission elapsed time, suggesting potential video editing artifacts.
+Note: scene02817 timestamp `3:53:41` appears to be a total video duration marker rather than mission elapsed time, suggesting potential video editing artifacts.
 
 ---
 
-### ISSUE 3: Velocity Increase During Atmospheric Re-Entry
+ISSUE 3: Velocity Increase During Atmospheric Re-Entry
 
-**Description**: First chronological segment shows **increasing velocity** during phase labeled as atmospheric re-entry.
+Description: First chronological segment shows increasing velocity during phase labeled as atmospheric re-entry.
 
-**Segment 1 Data** (scenes 1-408):
-- **Timespan**: Video 1:28:19 → 1:28:44 (25 seconds of broadcast)
-- **Frames analyzed**: 38 unique images
-- **Velocity**: 25,064 mph → 25,192 mph (**+128 mph increase**)
-- **Distance to Moon**: 248,174 mi → 248,297 mi (+123 miles)
-- **Distance from Earth**: 28 mi → 32 mi (+4 miles)
+Segment 1 Data (scenes 1-408):
+- Timespan: Video 1:28:19 → 1:28:44 (25 seconds of broadcast)
+- Frames analyzed: 38 unique images
+- Velocity: 25,064 mph → 25,192 mph (+128 mph increase)
+- Distance to Moon: 248,174 mi → 248,297 mi (+123 miles)
+- Distance from Earth: 28 mi → 32 mi (+4 miles)
 
-**Velocity Trend**: Monotonically **non-decreasing** across all 38 frames — no deceleration observed.
+Velocity Trend: Monotonically non-decreasing across all 38 frames — no deceleration observed.
 
-**Expected Behavior**: Spacecraft entering Earth's atmosphere experiences atmospheric drag, causing rapid deceleration. Peak heating occurs at ~25,000 mph, with velocity dropping to ~300 mph by parachute deployment.
+Expected Behavior: Spacecraft entering Earth's atmosphere experiences atmospheric drag, causing rapid deceleration. Peak heating occurs at ~25,000 mph, with velocity dropping to ~300 mph by parachute deployment.
 
-**Observed Behavior**: Velocity increased throughout the segment.
+Observed Behavior: Velocity increased throughout the segment.
 
-**Potential Explanations**:
-1. **Simulation artifact**: Visualization may not represent real-time telemetry
-2. **Skip re-entry trajectory**: Orion uses skip guidance (brief atmospheric exit), which *can* cause temporary altitude increases, but velocity should still decrease during atmospheric passes
-3. **Telemetry display error**: Values shown may not reflect actual vehicle state
+Potential Explanations:
+1. Simulation artifact: Visualization may not represent real-time telemetry
+2. Skip re-entry trajectory: Orion uses skip guidance (brief atmospheric exit), which *can* cause temporary altitude increases, but velocity should still decrease during atmospheric passes
+3. Telemetry display error: Values shown may not reflect actual vehicle state
 
-**Tier Classification**: Tier 1 (provable from frames) + Tier 2 (physics-based expectation)
-
----
-
-### ISSUE 4: Velocity Plateaus Across Visually Distinct Frames
-
-**Description**: Multiple consecutive frames show **identical velocity readings** despite being visually distinct images (different MD5 hashes) and progressing video timestamps.
-
-#### Plateau 1: 13,658 mph
-- **Duration**: scene2157 → scene2223 (7 frames)
-- **Video time**: 1:30:40 → 1:30:44 (4 seconds elapsed)
-- **Unique images**: 7 (all different MD5 hashes)
-- **Velocity variation**: 0 mph across 4 seconds
-
-#### Plateau 2: 13,498 mph  
-- **Duration**: scene2256 → scene2278 (3 frames)
-- **Video time**: 1:30:47 → 1:30:48 (1 second elapsed)
-- **Unique images**: 3 (all different MD5 hashes)
-- **Velocity variation**: 0 mph across 1 second
-
-**Implication**: Telemetry update rate appears slower than video frame rate, or velocity values are being rounded/truncated causing artificial plateaus.
-
-**Note**: These differ from Issue 1 because the *images* are changing (different visual frames) but the *telemetry overlay* shows identical values.
+Tier Classification: Tier 1 (provable from frames) + Tier 2 (physics-based expectation)
 
 ---
 
-### ISSUE 5: Distance-from-Earth Field Anomaly
+ISSUE 4: Velocity Plateaus Across Visually Distinct Frames
 
-**Description**: The "Distance from Earth" telemetry field shows implausibly **minimal variation** across the entire broadcast segment.
+Description: Multiple consecutive frames show identical velocity readings despite being visually distinct images (different MD5 hashes) and progressing video timestamps.
 
-**Measured Values**:
-- **Total frames with Earth distance data**: 265
-- **Unique values observed**: 12
-- **Range**: 28 to 40 miles (12 miles total variation)
-- **Most common value**: 28 miles (appears in 38 frames)
+Plateau 1: 13,658 mph
+- Duration: scene2157 → scene2223 (7 frames)
+- Video time: 1:30:40 → 1:30:44 (4 seconds elapsed)
+- Unique images: 7 (all different MD5 hashes)
+- Velocity variation: 0 mph across 4 seconds
 
-**Context**:
+Plateau 2: 13,498 mph  
+- Duration: scene2256 → scene2278 (3 frames)
+- Video time: 1:30:47 → 1:30:48 (1 second elapsed)
+- Unique images: 3 (all different MD5 hashes)
+- Velocity variation: 0 mph across 1 second
+
+Implication: Telemetry update rate appears slower than video frame rate, or velocity values are being rounded/truncated causing artificial plateaus.
+
+Note: These differ from Issue 1 because the *images* are changing (different visual frames) but the *telemetry overlay* shows identical values.
+
+---
+
+ISSUE 5: Distance-from-Earth Field Anomaly
+
+Description: The "Distance from Earth" telemetry field shows implausibly minimal variation across the entire broadcast segment.
+
+Measured Values:
+- Total frames with Earth distance data: 265
+- Unique values observed: 12
+- Range: 28 to 40 miles (12 miles total variation)
+- Most common value: 28 miles (appears in 38 frames)
+
+Context:
 - Artemis II mission profile: ~270,000 mile round-trip (Earth to Lunar orbit and return)
 - Re-entry begins at ~400,000 feet (~76 miles altitude)
 - Expected distance variation during analyzed segment: Thousands of miles
 
-**Observed**: 12-mile variation represents **0.0044%** of total mission distance.
+Observed: 12-mile variation represents 0.0044% of total mission distance.
 
-**Possible Interpretations**:
-1. **Altitude above surface**: Field may show altitude (not distance from Earth's center), but 28-40 mile range still implies minimal descent during re-entry
-2. **Display resolution issue**: Field may be rounding to nearest 10 or hiding significant digits
-3. **Frozen/static field**: Similar to velocity issues, this field may not be updating properly
+Possible Interpretations:
+1. Altitude above surface: Field may show altitude (not distance from Earth's center), but 28-40 mile range still implies minimal descent during re-entry
+2. Display resolution issue: Field may be rounding to nearest 10 or hiding significant digits
+3. Frozen/static field: Similar to velocity issues, this field may not be updating properly
 
-**Cross-Reference to Issue 6**: Distance-from-Earth *increases* during re-entry phase, contradicting expected behavior.
+Cross-Reference to Issue 6: Distance-from-Earth *increases* during re-entry phase, contradicting expected behavior.
 
 ---
 
-### ISSUE 6: Distance Fields Contradict Expected Re-Entry Trajectory
+ISSUE 6: Distance Fields Contradict Expected Re-Entry Trajectory
 
-**Description**: During Segment 1 (identified as atmospheric re-entry phase), **both** distance-from-Earth and distance-to-Moon values **increase simultaneously**.
+Description: During Segment 1 (identified as atmospheric re-entry phase), both distance-from-Earth and distance-to-Moon values increase simultaneously.
 
-**Segment 1 Distance Changes**:
-- **Distance to Moon**: 248,174 mi → 248,297 mi (+123 miles)
-- **Distance from Earth**: 28 mi → 32 mi (+4 miles)
+Segment 1 Distance Changes:
+- Distance to Moon: 248,174 mi → 248,297 mi (+123 miles)
+- Distance from Earth: 28 mi → 32 mi (+4 miles)
 
-**Expected Behavior**:
+Expected Behavior:
 - Spacecraft returning from Moon and entering Earth's atmosphere
-- Distance to Moon should: **Increase** ✓ (moving away from Moon)
-- Distance from Earth should: **Decrease** ✗ (approaching Earth)
+- Distance to Moon should: Increase ✓ (moving away from Moon)
+- Distance from Earth should: Decrease ✗ (approaching Earth)
 
-**Observed**: Both values increased.
+Observed: Both values increased.
 
-**Geometric Impossibility**: A spacecraft cannot simultaneously move away from both Earth and Moon unless:
+Geometric Impossibility: A spacecraft cannot simultaneously move away from both Earth and Moon unless:
 1. It is leaving the Earth-Moon system entirely (not consistent with "re-entry")
 2. Distance fields measure different quantities than labeled
 3. Telemetry display contains errors
 
 ---
 
-### ISSUE 7: Post-Blackout Velocity Reversals
+ISSUE 7: Post-Blackout Velocity Reversals
 
-**Description**: Segment 2 (post-plasma-blackout, scenes 1684-2927) shows overall deceleration trend but with **7 instances** of velocity increases between consecutive frames.
+Description: Segment 2 (post-plasma-blackout, scenes 1684-2927) shows overall deceleration trend but with 7 instances of velocity increases between consecutive frames.
 
-**Overall Trend**:
+Overall Trend:
 - Start: 14,492 mph (scene1684)
 - End: 11,650 mph (scene2916)
 - Net change: -2,842 mph (expected deceleration ✓)
 
-**Velocity Reversals**:
+Velocity Reversals:
 
 | From Scene | To Scene | Velocity Change | Video Time |
 |------------|----------|-----------------|------------|
@@ -291,38 +308,38 @@ Anyone with the source frames can reproduce these findings by running the provid
 | scene2355 | scene2366 | 13,117 → 13,212 mph | +95 mph | 1:30:53 → 1:30:54 |
 | scene2872 | scene2883 | 11,711 → 14,745 mph | +3,034 mph | 1:31:29 → 1:31:29 |
 
-**Most Extreme Case**: scene2872 → scene2883 shows **+3,034 mph acceleration** at same video timestamp (1:31:29), suggesting potential data corruption or frame sequence error.
+Most Extreme Case: scene2872 → scene2883 shows +3,034 mph acceleration at same video timestamp (1:31:29), suggesting potential data corruption or frame sequence error.
 
-**Interpretation**:
-1. **OCR errors**: Possible misreads, though all values manually spot-checked
-2. **Telemetry jitter**: Real-time calculation errors in simulation
-3. **Frame sequence errors**: Screenshots may not be in true chronological order
-4. **Skip re-entry dynamics**: Orion's skip guidance causes altitude variations, but these velocity *increases* during descent phase are atypical
+Interpretation:
+1. OCR errors: Possible misreads, though all values manually spot-checked
+2. Telemetry jitter: Real-time calculation errors in simulation
+3. Frame sequence errors: Screenshots may not be in true chronological order
+4. Skip re-entry dynamics: Orion's skip guidance causes altitude variations, but these velocity *increases* during descent phase are atypical
 
 ---
 
-## Summary Statistics
+Summary Statistics
 
 | Metric | Value |
 |--------|-------|
-| **Total frames analyzed** | 266 |
-| **Unique images (by MD5)** | 155 |
-| **Byte-identical duplicates** | 114 frames (42.9%) |
-| **Duplicate groups** | 3 |
-| **Video timestamp resets** | 3 |
-| **Velocity plateau sequences** | 2 |
-| **Velocity reversals (Segment 2)** | 7 |
-| **Distance-from-Earth unique values** | 12 |
-| **Velocity increase during re-entry (Seg 1)** | +128 mph |
+| Total frames analyzed | 266 |
+| Unique images (by MD5) | 155 |
+| Byte-identical duplicates | 114 frames (42.9%) |
+| Duplicate groups | 3 |
+| Video timestamp resets | 3 |
+| Velocity plateau sequences | 2 |
+| Velocity reversals (Segment 2) | 7 |
+| Distance-from-Earth unique values | 12 |
+| Velocity increase during re-entry (Seg 1) | +128 mph |
 
 ---
 
-## Data Availability
+Data Availability
 
 All source data and analysis code available at:  
-**https://github.com/TrueSiddiqui/NASA-Caught**
+https://github.com/TrueSiddiqui/NASA-Caught
 
-### Files
+Files
 - `frames_final/` — All 266 PNG screenshot frames
 - `telemetry_clean.json` — OCR-extracted telemetry data
 - `timeline_full.txt` — Chronological sequence with flags
@@ -331,61 +348,61 @@ All source data and analysis code available at:
 
 ---
 
-## Tier Classification
+Tier Classification
 
-All findings in this report are **Tier 1**: Internally verifiable from the broadcast frames alone, requiring no external data sources or assumptions about mission parameters.
+All findings in this report are Tier 1: Internally verifiable from the broadcast frames alone, requiring no external data sources or assumptions about mission parameters.
 
-**No Tier 2 or Tier 3 claims** are included in the core findings. Physics-based expectations (e.g., "re-entry should cause deceleration") are noted as context but not asserted as proof of error without measurable evidence.
+No Tier 2 or Tier 3 claims are included in the core findings. Physics-based expectations (e.g., "re-entry should cause deceleration") are noted as context but not asserted as proof of error without measurable evidence.
 
 ---
 
-## Limitations & Transparency
+Limitations & Transparency
 
-### OCR Accuracy
+OCR Accuracy
 - Tesseract OCR used for telemetry extraction
 - Velocity and distance fields manually spot-checked on sample frames
 - Potential for misreads on visually ambiguous digits
 - All raw OCR output preserved in `telemetry_clean.json` for verification
 
-### Frame Sequence Uncertainty
+Frame Sequence Uncertainty
 - Screenshot scene numbers (00001-02927) do not guarantee chronological order
 - Video timestamp field used as primary chronology indicator
 - Timestamp resets indicate non-linear sequence or video editing
 
-### Scope Limitations
-- Analysis covers **broadcast visualization only**, not actual mission telemetry
+Scope Limitations
+- Analysis covers broadcast visualization only, not actual mission telemetry
 - No access to underlying simulation data or real-time flight data
 - Cannot verify if visualization accurately represents simulation state
 
-### Broadcast vs. Reality
-This analysis makes **no claims** about:
+Broadcast vs. Reality
+This analysis makes no claims about:
 - Actual Artemis II mission performance (not yet flown as of Aug 2026)
 - Accuracy of underlying NASA simulation
 - Whether broadcast visualization reflects simulation data correctly
 
-**Scope**: Anomalies in the *broadcast presentation* as captured in YouTube screenshots.
+Scope: Anomalies in the *broadcast presentation* as captured in YouTube screenshots.
 
 ---
 
-## Conclusion
+Conclusion
 
 Analysis of 266 frames from the NASA Artemis II re-entry broadcast reveals multiple categories of telemetry display anomalies:
 
-1. **42.9% duplicate frames** — Frozen displays across time
-2. **Non-linear timestamp progression** — 3 backward jumps
-3. **Counter-intuitive velocity trends** — Increases during re-entry
-4. **Minimal distance variation** — 12-mile range across segment
-5. **Geometric contradictions** — Both distances increasing
-6. **Velocity reversals** — 7 instances post-blackout
-7. **Static telemetry plateaus** — Unchanging values across visual updates
+1. 42.9% duplicate frames — Frozen displays across time
+2. Non-linear timestamp progression — 3 backward jumps
+3. Counter-intuitive velocity trends — Increases during re-entry
+4. Minimal distance variation — 12-mile range across segment
+5. Geometric contradictions — Both distances increasing
+6. Velocity reversals — 7 instances post-blackout
+7. Static telemetry plateaus — Unchanging values across visual updates
 
 All findings are reproducible from the provided source frames and analysis code.
 
-**No external claims, no bias, no unsubstantiated assertions** — only measurable, verifiable observations from the broadcast data.
+No external claims, no bias, no unsubstantiated assertions — only measurable, verifiable observations from the broadcast data.
 
 ---
 
-**Repository**: https://github.com/TrueSiddiqui/NASA-Caught  
-**License**: CC BY-NC 4.0 (Attribution required, non-commercial use)  
-**Researcher**: TrueSiddiqui  
-**Analysis Date**: August 23, 2026
+Repository: https://github.com/TrueSiddiqui/NASA-Caught  
+License: CC BY-NC 4.0 (Attribution required, non-commercial use)  
+Researcher: TrueSiddiqui  
+Analysis Date: August 23, 2026

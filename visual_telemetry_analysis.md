@@ -1,3 +1,20 @@
+> # ⚠️ SUPERSEDED — SEE CORRECTED REPORT
+>
+> **This document has been superseded by [`comprehensive_frame_report.md`](comprehensive_frame_report.md), which corrects errors found in this analysis.**
+>
+> On re-verification against the original frames, several headline claims below were found to be **OCR misreads or a misread on-screen time field**, and are **retracted**:
+>
+> - **"−142 minute time reset" / "time resets" (scenes 2817, 419, 1156, etc.)** — FALSE. The overlay shows time as **CURRENT / TOTAL**; "3:53:41" is the video's **total duration**, not a timestamp. Scene 2817's true time is 1:31:25, consistent with its neighbors. No time reset occurred.
+> - **"+2,937 mph velocity reversal" (scenes 2872 / 2883)** — FALSE. OCR misread the leading digit **1 as 4** (11,778→"14,778"). The true sequence is a smooth deceleration.
+> - **"Geometric impossibility" of both distances increasing** — WITHDRAWN. Simultaneous increase is geometrically possible during a skip/altitude-gain phase.
+> - Minor value fixes: scene 144 velocity = 25,105; scene 265 To-Moon = 248,254.
+>
+> **Also note:** this segment is a NASA-**labeled VISUALIZATION shown during the communications blackout**, so the dials are modeled values, not a live downlink. The byte-identical "frozen" frames each carry the **same** on-screen timestamp — they are the same broadcast moment captured repeatedly, not later moments with stale numbers.
+>
+> The content below is retained **only for transparency/audit**. Do not cite its anomaly claims. Refer to the corrected report instead.
+>
+> ---
+
 # NASA Artemis II Re-Entry Broadcast: Visual Telemetry Analysis
 ## Complete Analysis of 266 YouTube Screenshot Frames
 
