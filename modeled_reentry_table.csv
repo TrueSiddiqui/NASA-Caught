@@ -1,118 +1,1142 @@
 MET_from_EI,velocity_mph,altitude_ft,altitude_mi,decel_g,phase
 0:00,24592,400000,75.8,,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
-0:10,24791,383333,72.6,0.9,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
-0:20,24991,366667,69.4,0.9,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
-0:30,25190,350000,66.3,0.9,Initial descent - still accelerating slightly under gravity
+0:01,24612,398333,75.4,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:02,24632,396667,75.1,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:03,24652,395000,74.8,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:04,24672,393333,74.5,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:05,24692,391667,74.2,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:06,24712,390000,73.9,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:07,24732,388333,73.5,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:08,24751,386667,73.2,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:09,24771,385000,72.9,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:10,24791,383333,72.6,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:11,24811,381667,72.3,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:12,24831,380000,72.0,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:13,24851,378333,71.7,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:14,24871,376667,71.3,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:15,24891,375000,71.0,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:16,24911,373333,70.7,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:17,24931,371667,70.4,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:18,24951,370000,70.1,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:19,24971,368333,69.8,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:20,24991,366667,69.4,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:21,25011,365000,69.1,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:22,25031,363333,68.8,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:23,25050,361667,68.5,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:24,25070,360000,68.2,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:25,25090,358333,67.9,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:26,25110,356667,67.6,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:27,25130,355000,67.2,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:28,25150,353333,66.9,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:29,25170,351667,66.6,0.91,"Entry Interface (EI) - 400,000 ft, atmosphere begins"
+0:30,25190,350000,66.3,0.91,Initial descent - still accelerating slightly under gravity
+0:31,25166,348111,65.9,1.1,Initial descent - still accelerating slightly under gravity
+0:32,25142,346222,65.6,1.1,Initial descent - still accelerating slightly under gravity
+0:33,25117,344333,65.2,1.1,Initial descent - still accelerating slightly under gravity
+0:34,25093,342444,64.9,1.1,Initial descent - still accelerating slightly under gravity
+0:35,25069,340556,64.5,1.1,Initial descent - still accelerating slightly under gravity
+0:36,25045,338667,64.1,1.1,Initial descent - still accelerating slightly under gravity
+0:37,25020,336778,63.8,1.1,Initial descent - still accelerating slightly under gravity
+0:38,24996,334889,63.4,1.1,Initial descent - still accelerating slightly under gravity
+0:39,24972,333000,63.1,1.1,Initial descent - still accelerating slightly under gravity
 0:40,24948,331111,62.7,1.1,Initial descent - still accelerating slightly under gravity
+0:41,24924,329222,62.4,1.1,Initial descent - still accelerating slightly under gravity
+0:42,24899,327333,62.0,1.1,Initial descent - still accelerating slightly under gravity
+0:43,24875,325444,61.6,1.1,Initial descent - still accelerating slightly under gravity
+0:44,24851,323556,61.3,1.1,Initial descent - still accelerating slightly under gravity
+0:45,24827,321667,60.9,1.1,Initial descent - still accelerating slightly under gravity
+0:46,24802,319778,60.6,1.1,Initial descent - still accelerating slightly under gravity
+0:47,24778,317889,60.2,1.1,Initial descent - still accelerating slightly under gravity
+0:48,24754,316000,59.8,1.1,Initial descent - still accelerating slightly under gravity
+0:49,24730,314111,59.5,1.1,Initial descent - still accelerating slightly under gravity
 0:50,24706,312222,59.1,1.1,Initial descent - still accelerating slightly under gravity
+0:51,24681,310333,58.8,1.1,Initial descent - still accelerating slightly under gravity
+0:52,24657,308444,58.4,1.1,Initial descent - still accelerating slightly under gravity
+0:53,24633,306556,58.1,1.1,Initial descent - still accelerating slightly under gravity
+0:54,24609,304667,57.7,1.1,Initial descent - still accelerating slightly under gravity
+0:55,24584,302778,57.3,1.1,Initial descent - still accelerating slightly under gravity
+0:56,24560,300889,57.0,1.1,Initial descent - still accelerating slightly under gravity
+0:57,24536,299000,56.6,1.1,Initial descent - still accelerating slightly under gravity
+0:58,24512,297111,56.3,1.1,Initial descent - still accelerating slightly under gravity
+0:59,24488,295222,55.9,1.1,Initial descent - still accelerating slightly under gravity
 1:00,24463,293333,55.6,1.1,Initial descent - still accelerating slightly under gravity
+1:01,24439,291444,55.2,1.1,Initial descent - still accelerating slightly under gravity
+1:02,24415,289556,54.8,1.1,Initial descent - still accelerating slightly under gravity
+1:03,24391,287667,54.5,1.1,Initial descent - still accelerating slightly under gravity
+1:04,24366,285778,54.1,1.1,Initial descent - still accelerating slightly under gravity
+1:05,24342,283889,53.8,1.1,Initial descent - still accelerating slightly under gravity
+1:06,24318,282000,53.4,1.1,Initial descent - still accelerating slightly under gravity
+1:07,24294,280111,53.1,1.1,Initial descent - still accelerating slightly under gravity
+1:08,24270,278222,52.7,1.1,Initial descent - still accelerating slightly under gravity
+1:09,24245,276333,52.3,1.1,Initial descent - still accelerating slightly under gravity
 1:10,24221,274444,52.0,1.1,Initial descent - still accelerating slightly under gravity
+1:11,24197,272556,51.6,1.1,Initial descent - still accelerating slightly under gravity
+1:12,24173,270667,51.3,1.1,Initial descent - still accelerating slightly under gravity
+1:13,24148,268778,50.9,1.1,Initial descent - still accelerating slightly under gravity
+1:14,24124,266889,50.5,1.1,Initial descent - still accelerating slightly under gravity
 1:15,24100,265000,50.2,1.1,Atmospheric drag building
-1:20,23443,258571,49.0,6.0,Atmospheric drag building
-1:30,22129,245714,46.5,6.0,Atmospheric drag building
-1:40,20814,232857,44.1,6.0,Atmospheric drag building
-1:50,19500,220000,41.7,6.0,First peak heating / peak-g (first entry)
+1:16,23969,263714,49.9,5.99,Atmospheric drag building
+1:17,23837,262429,49.7,5.99,Atmospheric drag building
+1:18,23706,261143,49.5,5.99,Atmospheric drag building
+1:19,23574,259857,49.2,5.99,Atmospheric drag building
+1:20,23443,258571,49.0,5.99,Atmospheric drag building
+1:21,23311,257286,48.7,5.99,Atmospheric drag building
+1:22,23180,256000,48.5,5.99,Atmospheric drag building
+1:23,23049,254714,48.2,5.99,Atmospheric drag building
+1:24,22917,253429,48.0,5.99,Atmospheric drag building
+1:25,22786,252143,47.8,5.99,Atmospheric drag building
+1:26,22654,250857,47.5,5.99,Atmospheric drag building
+1:27,22523,249571,47.3,5.99,Atmospheric drag building
+1:28,22391,248286,47.0,5.99,Atmospheric drag building
+1:29,22260,247000,46.8,5.99,Atmospheric drag building
+1:30,22129,245714,46.5,5.99,Atmospheric drag building
+1:31,21997,244429,46.3,5.99,Atmospheric drag building
+1:32,21866,243143,46.0,5.99,Atmospheric drag building
+1:33,21734,241857,45.8,5.99,Atmospheric drag building
+1:34,21603,240571,45.6,5.99,Atmospheric drag building
+1:35,21471,239286,45.3,5.99,Atmospheric drag building
+1:36,21340,238000,45.1,5.99,Atmospheric drag building
+1:37,21209,236714,44.8,5.99,Atmospheric drag building
+1:38,21077,235429,44.6,5.99,Atmospheric drag building
+1:39,20946,234143,44.3,5.99,Atmospheric drag building
+1:40,20814,232857,44.1,5.99,Atmospheric drag building
+1:41,20683,231571,43.9,5.99,Atmospheric drag building
+1:42,20551,230286,43.6,5.99,Atmospheric drag building
+1:43,20420,229000,43.4,5.99,Atmospheric drag building
+1:44,20289,227714,43.1,5.99,Atmospheric drag building
+1:45,20157,226429,42.9,5.99,Atmospheric drag building
+1:46,20026,225143,42.6,5.99,Atmospheric drag building
+1:47,19894,223857,42.4,5.99,Atmospheric drag building
+1:48,19763,222571,42.2,5.99,Atmospheric drag building
+1:49,19631,221286,41.9,5.99,Atmospheric drag building
+1:50,19500,220000,41.7,5.99,First peak heating / peak-g (first entry)
+1:51,19375,219625,41.6,5.7,First peak heating / peak-g (first entry)
+1:52,19250,219250,41.5,5.7,First peak heating / peak-g (first entry)
+1:53,19125,218875,41.5,5.7,First peak heating / peak-g (first entry)
+1:54,19000,218500,41.4,5.7,First peak heating / peak-g (first entry)
+1:55,18875,218125,41.3,5.7,First peak heating / peak-g (first entry)
+1:56,18750,217750,41.2,5.7,First peak heating / peak-g (first entry)
+1:57,18625,217375,41.2,5.7,First peak heating / peak-g (first entry)
+1:58,18500,217000,41.1,5.7,First peak heating / peak-g (first entry)
+1:59,18375,216625,41.0,5.7,First peak heating / peak-g (first entry)
 2:00,18250,216250,41.0,5.7,First peak heating / peak-g (first entry)
+2:01,18125,215875,40.9,5.7,First peak heating / peak-g (first entry)
+2:02,18000,215500,40.8,5.7,First peak heating / peak-g (first entry)
+2:03,17875,215125,40.7,5.7,First peak heating / peak-g (first entry)
+2:04,17750,214750,40.7,5.7,First peak heating / peak-g (first entry)
+2:05,17625,214375,40.6,5.7,First peak heating / peak-g (first entry)
+2:06,17500,214000,40.5,5.7,First peak heating / peak-g (first entry)
+2:07,17375,213625,40.5,5.7,First peak heating / peak-g (first entry)
+2:08,17250,213250,40.4,5.7,First peak heating / peak-g (first entry)
+2:09,17125,212875,40.3,5.7,First peak heating / peak-g (first entry)
 2:10,17000,212500,40.2,5.7,First peak heating / peak-g (first entry)
+2:11,16875,212125,40.2,5.7,First peak heating / peak-g (first entry)
+2:12,16750,211750,40.1,5.7,First peak heating / peak-g (first entry)
+2:13,16625,211375,40.0,5.7,First peak heating / peak-g (first entry)
+2:14,16500,211000,40.0,5.7,First peak heating / peak-g (first entry)
+2:15,16375,210625,39.9,5.7,First peak heating / peak-g (first entry)
+2:16,16250,210250,39.8,5.7,First peak heating / peak-g (first entry)
+2:17,16125,209875,39.7,5.7,First peak heating / peak-g (first entry)
+2:18,16000,209500,39.7,5.7,First peak heating / peak-g (first entry)
+2:19,15875,209125,39.6,5.7,First peak heating / peak-g (first entry)
 2:20,15750,208750,39.5,5.7,First peak heating / peak-g (first entry)
+2:21,15625,208375,39.5,5.7,First peak heating / peak-g (first entry)
+2:22,15500,208000,39.4,5.7,First peak heating / peak-g (first entry)
+2:23,15375,207625,39.3,5.7,First peak heating / peak-g (first entry)
+2:24,15250,207250,39.3,5.7,First peak heating / peak-g (first entry)
+2:25,15125,206875,39.2,5.7,First peak heating / peak-g (first entry)
+2:26,15000,206500,39.1,5.7,First peak heating / peak-g (first entry)
+2:27,14875,206125,39.0,5.7,First peak heating / peak-g (first entry)
+2:28,14750,205750,39.0,5.7,First peak heating / peak-g (first entry)
+2:29,14625,205375,38.9,5.7,First peak heating / peak-g (first entry)
 2:30,14500,205000,38.8,5.7,Comms blackout - plasma sheath (first entry)
+2:31,14443,205100,38.8,2.6,Comms blackout - plasma sheath (first entry)
+2:32,14386,205200,38.9,2.6,Comms blackout - plasma sheath (first entry)
+2:33,14329,205300,38.9,2.6,Comms blackout - plasma sheath (first entry)
+2:34,14272,205400,38.9,2.6,Comms blackout - plasma sheath (first entry)
+2:35,14215,205500,38.9,2.6,Comms blackout - plasma sheath (first entry)
+2:36,14158,205600,38.9,2.6,Comms blackout - plasma sheath (first entry)
+2:37,14101,205700,39.0,2.6,Comms blackout - plasma sheath (first entry)
+2:38,14044,205800,39.0,2.6,Comms blackout - plasma sheath (first entry)
+2:39,13987,205900,39.0,2.6,Comms blackout - plasma sheath (first entry)
 2:40,13930,206000,39.0,2.6,Comms blackout - plasma sheath (first entry)
+2:41,13873,206100,39.0,2.6,Comms blackout - plasma sheath (first entry)
+2:42,13816,206200,39.1,2.6,Comms blackout - plasma sheath (first entry)
+2:43,13759,206300,39.1,2.6,Comms blackout - plasma sheath (first entry)
+2:44,13702,206400,39.1,2.6,Comms blackout - plasma sheath (first entry)
+2:45,13645,206500,39.1,2.6,Comms blackout - plasma sheath (first entry)
+2:46,13588,206600,39.1,2.6,Comms blackout - plasma sheath (first entry)
+2:47,13531,206700,39.1,2.6,Comms blackout - plasma sheath (first entry)
+2:48,13474,206800,39.2,2.6,Comms blackout - plasma sheath (first entry)
+2:49,13417,206900,39.2,2.6,Comms blackout - plasma sheath (first entry)
 2:50,13360,207000,39.2,2.6,Comms blackout - plasma sheath (first entry)
+2:51,13303,207100,39.2,2.6,Comms blackout - plasma sheath (first entry)
+2:52,13246,207200,39.2,2.6,Comms blackout - plasma sheath (first entry)
+2:53,13189,207300,39.3,2.6,Comms blackout - plasma sheath (first entry)
+2:54,13132,207400,39.3,2.6,Comms blackout - plasma sheath (first entry)
+2:55,13075,207500,39.3,2.6,Comms blackout - plasma sheath (first entry)
+2:56,13018,207600,39.3,2.6,Comms blackout - plasma sheath (first entry)
+2:57,12961,207700,39.3,2.6,Comms blackout - plasma sheath (first entry)
+2:58,12904,207800,39.4,2.6,Comms blackout - plasma sheath (first entry)
+2:59,12847,207900,39.4,2.6,Comms blackout - plasma sheath (first entry)
 3:00,12790,208000,39.4,2.6,Comms blackout - plasma sheath (first entry)
+3:01,12733,208100,39.4,2.6,Comms blackout - plasma sheath (first entry)
+3:02,12676,208200,39.4,2.6,Comms blackout - plasma sheath (first entry)
+3:03,12619,208300,39.5,2.6,Comms blackout - plasma sheath (first entry)
+3:04,12562,208400,39.5,2.6,Comms blackout - plasma sheath (first entry)
+3:05,12505,208500,39.5,2.6,Comms blackout - plasma sheath (first entry)
+3:06,12448,208600,39.5,2.6,Comms blackout - plasma sheath (first entry)
+3:07,12391,208700,39.5,2.6,Comms blackout - plasma sheath (first entry)
+3:08,12334,208800,39.5,2.6,Comms blackout - plasma sheath (first entry)
+3:09,12277,208900,39.6,2.6,Comms blackout - plasma sheath (first entry)
 3:10,12220,209000,39.6,2.6,Comms blackout - plasma sheath (first entry)
+3:11,12163,209100,39.6,2.6,Comms blackout - plasma sheath (first entry)
+3:12,12106,209200,39.6,2.6,Comms blackout - plasma sheath (first entry)
+3:13,12049,209300,39.6,2.6,Comms blackout - plasma sheath (first entry)
+3:14,11992,209400,39.7,2.6,Comms blackout - plasma sheath (first entry)
+3:15,11935,209500,39.7,2.6,Comms blackout - plasma sheath (first entry)
+3:16,11878,209600,39.7,2.6,Comms blackout - plasma sheath (first entry)
+3:17,11821,209700,39.7,2.6,Comms blackout - plasma sheath (first entry)
+3:18,11764,209800,39.7,2.6,Comms blackout - plasma sheath (first entry)
+3:19,11707,209900,39.8,2.6,Comms blackout - plasma sheath (first entry)
 3:20,11650,210000,39.8,2.6,End of first entry - velocity bled off
-3:30,11106,215556,40.8,2.5,End of first entry - velocity bled off
-3:40,10561,221111,41.9,2.5,End of first entry - velocity bled off
-3:50,10017,226667,42.9,2.5,End of first entry - velocity bled off
-4:00,9472,232222,44.0,2.5,End of first entry - velocity bled off
-4:05,9200,235000,44.5,2.5,"SKIP / loft - vehicle climbs, drag drops"
-4:10,9118,236818,44.9,0.7,"SKIP / loft - vehicle climbs, drag drops"
-4:20,8955,240455,45.5,0.7,"SKIP / loft - vehicle climbs, drag drops"
-4:30,8791,244091,46.2,0.7,"SKIP / loft - vehicle climbs, drag drops"
-4:40,8627,247727,46.9,0.7,"SKIP / loft - vehicle climbs, drag drops"
-4:50,8464,251364,47.6,0.7,"SKIP / loft - vehicle climbs, drag drops"
-5:00,8300,255000,48.3,0.7,"Skip apogee (loft peak) - thin air, low drag"
-5:10,8267,252500,47.8,0.2,"Skip apogee (loft peak) - thin air, low drag"
-5:20,8233,250000,47.3,0.2,"Skip apogee (loft peak) - thin air, low drag"
-5:30,8200,247500,46.9,0.2,"Skip apogee (loft peak) - thin air, low drag"
-5:40,8167,245000,46.4,0.2,"Skip apogee (loft peak) - thin air, low drag"
-5:50,8133,242500,45.9,0.2,"Skip apogee (loft peak) - thin air, low drag"
-6:00,8100,240000,45.5,0.2,Descending again toward second entry
-6:10,8029,235000,44.5,0.3,Descending again toward second entry
-6:20,7957,230000,43.6,0.3,Descending again toward second entry
-6:30,7886,225000,42.6,0.3,Descending again toward second entry
-6:40,7814,220000,41.7,0.3,Descending again toward second entry
-6:50,7743,215000,40.7,0.3,Descending again toward second entry
-7:00,7671,210000,39.8,0.3,Descending again toward second entry
-7:10,7600,205000,38.8,0.3,Second entry - atmosphere re-engages
-7:20,7120,197000,37.3,2.2,Second entry - atmosphere re-engages
-7:30,6640,189000,35.8,2.2,Second entry - atmosphere re-engages
-7:40,6160,181000,34.3,2.2,Second entry - atmosphere re-engages
-7:50,5680,173000,32.8,2.2,Second entry - atmosphere re-engages
-8:00,5200,165000,31.2,2.2,Second peak heating (second entry)
-8:10,4767,157500,29.8,2.0,Second peak heating (second entry)
-8:20,4333,150000,28.4,2.0,Second peak heating (second entry)
-8:30,3900,142500,27.0,2.0,Second peak heating (second entry)
-8:40,3467,135000,25.6,2.0,Second peak heating (second entry)
-8:50,3033,127500,24.1,2.0,Second peak heating (second entry)
-9:00,2600,120000,22.7,2.0,Rapid deceleration - lower atmosphere
+3:21,11596,210556,39.9,2.48,End of first entry - velocity bled off
+3:22,11541,211111,40.0,2.48,End of first entry - velocity bled off
+3:23,11487,211667,40.1,2.48,End of first entry - velocity bled off
+3:24,11432,212222,40.2,2.48,End of first entry - velocity bled off
+3:25,11378,212778,40.3,2.48,End of first entry - velocity bled off
+3:26,11323,213333,40.4,2.48,End of first entry - velocity bled off
+3:27,11269,213889,40.5,2.48,End of first entry - velocity bled off
+3:28,11214,214444,40.6,2.48,End of first entry - velocity bled off
+3:29,11160,215000,40.7,2.48,End of first entry - velocity bled off
+3:30,11106,215556,40.8,2.48,End of first entry - velocity bled off
+3:31,11051,216111,40.9,2.48,End of first entry - velocity bled off
+3:32,10997,216667,41.0,2.48,End of first entry - velocity bled off
+3:33,10942,217222,41.1,2.48,End of first entry - velocity bled off
+3:34,10888,217778,41.2,2.48,End of first entry - velocity bled off
+3:35,10833,218333,41.4,2.48,End of first entry - velocity bled off
+3:36,10779,218889,41.5,2.48,End of first entry - velocity bled off
+3:37,10724,219444,41.6,2.48,End of first entry - velocity bled off
+3:38,10670,220000,41.7,2.48,End of first entry - velocity bled off
+3:39,10616,220556,41.8,2.48,End of first entry - velocity bled off
+3:40,10561,221111,41.9,2.48,End of first entry - velocity bled off
+3:41,10507,221667,42.0,2.48,End of first entry - velocity bled off
+3:42,10452,222222,42.1,2.48,End of first entry - velocity bled off
+3:43,10398,222778,42.2,2.48,End of first entry - velocity bled off
+3:44,10343,223333,42.3,2.48,End of first entry - velocity bled off
+3:45,10289,223889,42.4,2.48,End of first entry - velocity bled off
+3:46,10234,224444,42.5,2.48,End of first entry - velocity bled off
+3:47,10180,225000,42.6,2.48,End of first entry - velocity bled off
+3:48,10126,225556,42.7,2.48,End of first entry - velocity bled off
+3:49,10071,226111,42.8,2.48,End of first entry - velocity bled off
+3:50,10017,226667,42.9,2.48,End of first entry - velocity bled off
+3:51,9962,227222,43.0,2.48,End of first entry - velocity bled off
+3:52,9908,227778,43.1,2.48,End of first entry - velocity bled off
+3:53,9853,228333,43.2,2.48,End of first entry - velocity bled off
+3:54,9799,228889,43.4,2.48,End of first entry - velocity bled off
+3:55,9744,229444,43.5,2.48,End of first entry - velocity bled off
+3:56,9690,230000,43.6,2.48,End of first entry - velocity bled off
+3:57,9636,230556,43.7,2.48,End of first entry - velocity bled off
+3:58,9581,231111,43.8,2.48,End of first entry - velocity bled off
+3:59,9527,231667,43.9,2.48,End of first entry - velocity bled off
+4:00,9472,232222,44.0,2.48,End of first entry - velocity bled off
+4:01,9418,232778,44.1,2.48,End of first entry - velocity bled off
+4:02,9363,233333,44.2,2.48,End of first entry - velocity bled off
+4:03,9309,233889,44.3,2.48,End of first entry - velocity bled off
+4:04,9254,234444,44.4,2.48,End of first entry - velocity bled off
+4:05,9200,235000,44.5,2.48,"SKIP / loft - vehicle climbs, drag drops"
+4:06,9184,235364,44.6,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:07,9167,235727,44.6,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:08,9151,236091,44.7,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:09,9135,236455,44.8,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:10,9118,236818,44.9,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:11,9102,237182,44.9,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:12,9085,237545,45.0,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:13,9069,237909,45.1,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:14,9053,238273,45.1,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:15,9036,238636,45.2,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:16,9020,239000,45.3,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:17,9004,239364,45.3,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:18,8987,239727,45.4,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:19,8971,240091,45.5,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:20,8955,240455,45.5,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:21,8938,240818,45.6,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:22,8922,241182,45.7,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:23,8905,241545,45.7,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:24,8889,241909,45.8,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:25,8873,242273,45.9,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:26,8856,242636,46.0,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:27,8840,243000,46.0,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:28,8824,243364,46.1,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:29,8807,243727,46.2,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:30,8791,244091,46.2,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:31,8775,244455,46.3,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:32,8758,244818,46.4,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:33,8742,245182,46.4,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:34,8725,245545,46.5,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:35,8709,245909,46.6,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:36,8693,246273,46.6,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:37,8676,246636,46.7,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:38,8660,247000,46.8,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:39,8644,247364,46.8,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:40,8627,247727,46.9,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:41,8611,248091,47.0,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:42,8595,248455,47.1,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:43,8578,248818,47.1,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:44,8562,249182,47.2,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:45,8545,249545,47.3,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:46,8529,249909,47.3,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:47,8513,250273,47.4,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:48,8496,250636,47.5,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:49,8480,251000,47.5,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:50,8464,251364,47.6,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:51,8447,251727,47.7,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:52,8431,252091,47.7,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:53,8415,252455,47.8,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:54,8398,252818,47.9,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:55,8382,253182,48.0,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:56,8365,253545,48.0,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:57,8349,253909,48.1,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:58,8333,254273,48.2,0.75,"SKIP / loft - vehicle climbs, drag drops"
+4:59,8316,254636,48.2,0.75,"SKIP / loft - vehicle climbs, drag drops"
+5:00,8300,255000,48.3,0.75,"Skip apogee (loft peak) - thin air, low drag"
+5:01,8297,254750,48.2,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:02,8293,254500,48.2,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:03,8290,254250,48.2,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:04,8287,254000,48.1,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:05,8283,253750,48.1,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:06,8280,253500,48.0,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:07,8277,253250,48.0,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:08,8273,253000,47.9,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:09,8270,252750,47.9,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:10,8267,252500,47.8,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:11,8263,252250,47.8,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:12,8260,252000,47.7,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:13,8257,251750,47.7,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:14,8253,251500,47.6,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:15,8250,251250,47.6,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:16,8247,251000,47.5,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:17,8243,250750,47.5,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:18,8240,250500,47.4,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:19,8237,250250,47.4,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:20,8233,250000,47.3,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:21,8230,249750,47.3,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:22,8227,249500,47.3,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:23,8223,249250,47.2,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:24,8220,249000,47.2,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:25,8217,248750,47.1,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:26,8213,248500,47.1,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:27,8210,248250,47.0,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:28,8207,248000,47.0,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:29,8203,247750,46.9,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:30,8200,247500,46.9,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:31,8197,247250,46.8,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:32,8193,247000,46.8,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:33,8190,246750,46.7,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:34,8187,246500,46.7,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:35,8183,246250,46.6,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:36,8180,246000,46.6,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:37,8177,245750,46.5,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:38,8173,245500,46.5,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:39,8170,245250,46.4,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:40,8167,245000,46.4,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:41,8163,244750,46.4,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:42,8160,244500,46.3,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:43,8157,244250,46.3,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:44,8153,244000,46.2,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:45,8150,243750,46.2,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:46,8147,243500,46.1,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:47,8143,243250,46.1,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:48,8140,243000,46.0,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:49,8137,242750,46.0,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:50,8133,242500,45.9,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:51,8130,242250,45.9,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:52,8127,242000,45.8,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:53,8123,241750,45.8,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:54,8120,241500,45.7,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:55,8117,241250,45.7,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:56,8113,241000,45.6,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:57,8110,240750,45.6,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:58,8107,240500,45.5,0.15,"Skip apogee (loft peak) - thin air, low drag"
+5:59,8103,240250,45.5,0.15,"Skip apogee (loft peak) - thin air, low drag"
+6:00,8100,240000,45.5,0.15,Descending again toward second entry
+6:01,8093,239500,45.4,0.33,Descending again toward second entry
+6:02,8086,239000,45.3,0.33,Descending again toward second entry
+6:03,8079,238500,45.2,0.33,Descending again toward second entry
+6:04,8071,238000,45.1,0.33,Descending again toward second entry
+6:05,8064,237500,45.0,0.33,Descending again toward second entry
+6:06,8057,237000,44.9,0.33,Descending again toward second entry
+6:07,8050,236500,44.8,0.33,Descending again toward second entry
+6:08,8043,236000,44.7,0.33,Descending again toward second entry
+6:09,8036,235500,44.6,0.33,Descending again toward second entry
+6:10,8029,235000,44.5,0.33,Descending again toward second entry
+6:11,8021,234500,44.4,0.33,Descending again toward second entry
+6:12,8014,234000,44.3,0.33,Descending again toward second entry
+6:13,8007,233500,44.2,0.33,Descending again toward second entry
+6:14,8000,233000,44.1,0.33,Descending again toward second entry
+6:15,7993,232500,44.0,0.33,Descending again toward second entry
+6:16,7986,232000,43.9,0.33,Descending again toward second entry
+6:17,7979,231500,43.8,0.33,Descending again toward second entry
+6:18,7971,231000,43.8,0.33,Descending again toward second entry
+6:19,7964,230500,43.7,0.33,Descending again toward second entry
+6:20,7957,230000,43.6,0.33,Descending again toward second entry
+6:21,7950,229500,43.5,0.33,Descending again toward second entry
+6:22,7943,229000,43.4,0.33,Descending again toward second entry
+6:23,7936,228500,43.3,0.33,Descending again toward second entry
+6:24,7929,228000,43.2,0.33,Descending again toward second entry
+6:25,7921,227500,43.1,0.33,Descending again toward second entry
+6:26,7914,227000,43.0,0.33,Descending again toward second entry
+6:27,7907,226500,42.9,0.33,Descending again toward second entry
+6:28,7900,226000,42.8,0.33,Descending again toward second entry
+6:29,7893,225500,42.7,0.33,Descending again toward second entry
+6:30,7886,225000,42.6,0.33,Descending again toward second entry
+6:31,7879,224500,42.5,0.33,Descending again toward second entry
+6:32,7871,224000,42.4,0.33,Descending again toward second entry
+6:33,7864,223500,42.3,0.33,Descending again toward second entry
+6:34,7857,223000,42.2,0.33,Descending again toward second entry
+6:35,7850,222500,42.1,0.33,Descending again toward second entry
+6:36,7843,222000,42.0,0.33,Descending again toward second entry
+6:37,7836,221500,42.0,0.33,Descending again toward second entry
+6:38,7829,221000,41.9,0.33,Descending again toward second entry
+6:39,7821,220500,41.8,0.33,Descending again toward second entry
+6:40,7814,220000,41.7,0.33,Descending again toward second entry
+6:41,7807,219500,41.6,0.33,Descending again toward second entry
+6:42,7800,219000,41.5,0.33,Descending again toward second entry
+6:43,7793,218500,41.4,0.33,Descending again toward second entry
+6:44,7786,218000,41.3,0.33,Descending again toward second entry
+6:45,7779,217500,41.2,0.33,Descending again toward second entry
+6:46,7771,217000,41.1,0.33,Descending again toward second entry
+6:47,7764,216500,41.0,0.33,Descending again toward second entry
+6:48,7757,216000,40.9,0.33,Descending again toward second entry
+6:49,7750,215500,40.8,0.33,Descending again toward second entry
+6:50,7743,215000,40.7,0.33,Descending again toward second entry
+6:51,7736,214500,40.6,0.33,Descending again toward second entry
+6:52,7729,214000,40.5,0.33,Descending again toward second entry
+6:53,7721,213500,40.4,0.33,Descending again toward second entry
+6:54,7714,213000,40.3,0.33,Descending again toward second entry
+6:55,7707,212500,40.2,0.33,Descending again toward second entry
+6:56,7700,212000,40.2,0.33,Descending again toward second entry
+6:57,7693,211500,40.1,0.33,Descending again toward second entry
+6:58,7686,211000,40.0,0.33,Descending again toward second entry
+6:59,7679,210500,39.9,0.33,Descending again toward second entry
+7:00,7671,210000,39.8,0.33,Descending again toward second entry
+7:01,7664,209500,39.7,0.33,Descending again toward second entry
+7:02,7657,209000,39.6,0.33,Descending again toward second entry
+7:03,7650,208500,39.5,0.33,Descending again toward second entry
+7:04,7643,208000,39.4,0.33,Descending again toward second entry
+7:05,7636,207500,39.3,0.33,Descending again toward second entry
+7:06,7629,207000,39.2,0.33,Descending again toward second entry
+7:07,7621,206500,39.1,0.33,Descending again toward second entry
+7:08,7614,206000,39.0,0.33,Descending again toward second entry
+7:09,7607,205500,38.9,0.33,Descending again toward second entry
+7:10,7600,205000,38.8,0.33,Second entry - atmosphere re-engages
+7:11,7552,204200,38.7,2.19,Second entry - atmosphere re-engages
+7:12,7504,203400,38.5,2.19,Second entry - atmosphere re-engages
+7:13,7456,202600,38.4,2.19,Second entry - atmosphere re-engages
+7:14,7408,201800,38.2,2.19,Second entry - atmosphere re-engages
+7:15,7360,201000,38.1,2.19,Second entry - atmosphere re-engages
+7:16,7312,200200,37.9,2.19,Second entry - atmosphere re-engages
+7:17,7264,199400,37.8,2.19,Second entry - atmosphere re-engages
+7:18,7216,198600,37.6,2.19,Second entry - atmosphere re-engages
+7:19,7168,197800,37.5,2.19,Second entry - atmosphere re-engages
+7:20,7120,197000,37.3,2.19,Second entry - atmosphere re-engages
+7:21,7072,196200,37.2,2.19,Second entry - atmosphere re-engages
+7:22,7024,195400,37.0,2.19,Second entry - atmosphere re-engages
+7:23,6976,194600,36.9,2.19,Second entry - atmosphere re-engages
+7:24,6928,193800,36.7,2.19,Second entry - atmosphere re-engages
+7:25,6880,193000,36.6,2.19,Second entry - atmosphere re-engages
+7:26,6832,192200,36.4,2.19,Second entry - atmosphere re-engages
+7:27,6784,191400,36.2,2.19,Second entry - atmosphere re-engages
+7:28,6736,190600,36.1,2.19,Second entry - atmosphere re-engages
+7:29,6688,189800,35.9,2.19,Second entry - atmosphere re-engages
+7:30,6640,189000,35.8,2.19,Second entry - atmosphere re-engages
+7:31,6592,188200,35.6,2.19,Second entry - atmosphere re-engages
+7:32,6544,187400,35.5,2.19,Second entry - atmosphere re-engages
+7:33,6496,186600,35.3,2.19,Second entry - atmosphere re-engages
+7:34,6448,185800,35.2,2.19,Second entry - atmosphere re-engages
+7:35,6400,185000,35.0,2.19,Second entry - atmosphere re-engages
+7:36,6352,184200,34.9,2.19,Second entry - atmosphere re-engages
+7:37,6304,183400,34.7,2.19,Second entry - atmosphere re-engages
+7:38,6256,182600,34.6,2.19,Second entry - atmosphere re-engages
+7:39,6208,181800,34.4,2.19,Second entry - atmosphere re-engages
+7:40,6160,181000,34.3,2.19,Second entry - atmosphere re-engages
+7:41,6112,180200,34.1,2.19,Second entry - atmosphere re-engages
+7:42,6064,179400,34.0,2.19,Second entry - atmosphere re-engages
+7:43,6016,178600,33.8,2.19,Second entry - atmosphere re-engages
+7:44,5968,177800,33.7,2.19,Second entry - atmosphere re-engages
+7:45,5920,177000,33.5,2.19,Second entry - atmosphere re-engages
+7:46,5872,176200,33.4,2.19,Second entry - atmosphere re-engages
+7:47,5824,175400,33.2,2.19,Second entry - atmosphere re-engages
+7:48,5776,174600,33.1,2.19,Second entry - atmosphere re-engages
+7:49,5728,173800,32.9,2.19,Second entry - atmosphere re-engages
+7:50,5680,173000,32.8,2.19,Second entry - atmosphere re-engages
+7:51,5632,172200,32.6,2.19,Second entry - atmosphere re-engages
+7:52,5584,171400,32.5,2.19,Second entry - atmosphere re-engages
+7:53,5536,170600,32.3,2.19,Second entry - atmosphere re-engages
+7:54,5488,169800,32.2,2.19,Second entry - atmosphere re-engages
+7:55,5440,169000,32.0,2.19,Second entry - atmosphere re-engages
+7:56,5392,168200,31.9,2.19,Second entry - atmosphere re-engages
+7:57,5344,167400,31.7,2.19,Second entry - atmosphere re-engages
+7:58,5296,166600,31.6,2.19,Second entry - atmosphere re-engages
+7:59,5248,165800,31.4,2.19,Second entry - atmosphere re-engages
+8:00,5200,165000,31.2,2.19,Second peak heating (second entry)
+8:01,5157,164250,31.1,1.97,Second peak heating (second entry)
+8:02,5113,163500,31.0,1.97,Second peak heating (second entry)
+8:03,5070,162750,30.8,1.97,Second peak heating (second entry)
+8:04,5027,162000,30.7,1.97,Second peak heating (second entry)
+8:05,4983,161250,30.5,1.97,Second peak heating (second entry)
+8:06,4940,160500,30.4,1.97,Second peak heating (second entry)
+8:07,4897,159750,30.3,1.97,Second peak heating (second entry)
+8:08,4853,159000,30.1,1.97,Second peak heating (second entry)
+8:09,4810,158250,30.0,1.97,Second peak heating (second entry)
+8:10,4767,157500,29.8,1.97,Second peak heating (second entry)
+8:11,4723,156750,29.7,1.97,Second peak heating (second entry)
+8:12,4680,156000,29.5,1.97,Second peak heating (second entry)
+8:13,4637,155250,29.4,1.97,Second peak heating (second entry)
+8:14,4593,154500,29.3,1.97,Second peak heating (second entry)
+8:15,4550,153750,29.1,1.97,Second peak heating (second entry)
+8:16,4507,153000,29.0,1.97,Second peak heating (second entry)
+8:17,4463,152250,28.8,1.97,Second peak heating (second entry)
+8:18,4420,151500,28.7,1.97,Second peak heating (second entry)
+8:19,4377,150750,28.6,1.97,Second peak heating (second entry)
+8:20,4333,150000,28.4,1.97,Second peak heating (second entry)
+8:21,4290,149250,28.3,1.97,Second peak heating (second entry)
+8:22,4247,148500,28.1,1.97,Second peak heating (second entry)
+8:23,4203,147750,28.0,1.97,Second peak heating (second entry)
+8:24,4160,147000,27.8,1.97,Second peak heating (second entry)
+8:25,4117,146250,27.7,1.97,Second peak heating (second entry)
+8:26,4073,145500,27.6,1.97,Second peak heating (second entry)
+8:27,4030,144750,27.4,1.97,Second peak heating (second entry)
+8:28,3987,144000,27.3,1.97,Second peak heating (second entry)
+8:29,3943,143250,27.1,1.97,Second peak heating (second entry)
+8:30,3900,142500,27.0,1.97,Second peak heating (second entry)
+8:31,3857,141750,26.8,1.97,Second peak heating (second entry)
+8:32,3813,141000,26.7,1.97,Second peak heating (second entry)
+8:33,3770,140250,26.6,1.97,Second peak heating (second entry)
+8:34,3727,139500,26.4,1.97,Second peak heating (second entry)
+8:35,3683,138750,26.3,1.97,Second peak heating (second entry)
+8:36,3640,138000,26.1,1.97,Second peak heating (second entry)
+8:37,3597,137250,26.0,1.97,Second peak heating (second entry)
+8:38,3553,136500,25.9,1.97,Second peak heating (second entry)
+8:39,3510,135750,25.7,1.97,Second peak heating (second entry)
+8:40,3467,135000,25.6,1.97,Second peak heating (second entry)
+8:41,3423,134250,25.4,1.97,Second peak heating (second entry)
+8:42,3380,133500,25.3,1.97,Second peak heating (second entry)
+8:43,3337,132750,25.1,1.97,Second peak heating (second entry)
+8:44,3293,132000,25.0,1.97,Second peak heating (second entry)
+8:45,3250,131250,24.9,1.97,Second peak heating (second entry)
+8:46,3207,130500,24.7,1.97,Second peak heating (second entry)
+8:47,3163,129750,24.6,1.97,Second peak heating (second entry)
+8:48,3120,129000,24.4,1.97,Second peak heating (second entry)
+8:49,3077,128250,24.3,1.97,Second peak heating (second entry)
+8:50,3033,127500,24.1,1.97,Second peak heating (second entry)
+8:51,2990,126750,24.0,1.97,Second peak heating (second entry)
+8:52,2947,126000,23.9,1.97,Second peak heating (second entry)
+8:53,2903,125250,23.7,1.97,Second peak heating (second entry)
+8:54,2860,124500,23.6,1.97,Second peak heating (second entry)
+8:55,2817,123750,23.4,1.97,Second peak heating (second entry)
+8:56,2773,123000,23.3,1.97,Second peak heating (second entry)
+8:57,2730,122250,23.2,1.97,Second peak heating (second entry)
+8:58,2687,121500,23.0,1.97,Second peak heating (second entry)
+8:59,2643,120750,22.9,1.97,Second peak heating (second entry)
+9:00,2600,120000,22.7,1.97,Rapid deceleration - lower atmosphere
+9:01,2576,119500,22.6,1.1,Rapid deceleration - lower atmosphere
+9:02,2552,119000,22.5,1.1,Rapid deceleration - lower atmosphere
+9:03,2528,118500,22.4,1.1,Rapid deceleration - lower atmosphere
+9:04,2503,118000,22.3,1.1,Rapid deceleration - lower atmosphere
+9:05,2479,117500,22.3,1.1,Rapid deceleration - lower atmosphere
+9:06,2455,117000,22.2,1.1,Rapid deceleration - lower atmosphere
+9:07,2431,116500,22.1,1.1,Rapid deceleration - lower atmosphere
+9:08,2407,116000,22.0,1.1,Rapid deceleration - lower atmosphere
+9:09,2382,115500,21.9,1.1,Rapid deceleration - lower atmosphere
 9:10,2358,115000,21.8,1.1,Rapid deceleration - lower atmosphere
+9:11,2334,114500,21.7,1.1,Rapid deceleration - lower atmosphere
+9:12,2310,114000,21.6,1.1,Rapid deceleration - lower atmosphere
+9:13,2286,113500,21.5,1.1,Rapid deceleration - lower atmosphere
+9:14,2262,113000,21.4,1.1,Rapid deceleration - lower atmosphere
+9:15,2238,112500,21.3,1.1,Rapid deceleration - lower atmosphere
+9:16,2213,112000,21.2,1.1,Rapid deceleration - lower atmosphere
+9:17,2189,111500,21.1,1.1,Rapid deceleration - lower atmosphere
+9:18,2165,111000,21.0,1.1,Rapid deceleration - lower atmosphere
+9:19,2141,110500,20.9,1.1,Rapid deceleration - lower atmosphere
 9:20,2117,110000,20.8,1.1,Rapid deceleration - lower atmosphere
+9:21,2092,109500,20.7,1.1,Rapid deceleration - lower atmosphere
+9:22,2068,109000,20.6,1.1,Rapid deceleration - lower atmosphere
+9:23,2044,108500,20.5,1.1,Rapid deceleration - lower atmosphere
+9:24,2020,108000,20.5,1.1,Rapid deceleration - lower atmosphere
+9:25,1996,107500,20.4,1.1,Rapid deceleration - lower atmosphere
+9:26,1972,107000,20.3,1.1,Rapid deceleration - lower atmosphere
+9:27,1948,106500,20.2,1.1,Rapid deceleration - lower atmosphere
+9:28,1923,106000,20.1,1.1,Rapid deceleration - lower atmosphere
+9:29,1899,105500,20.0,1.1,Rapid deceleration - lower atmosphere
 9:30,1875,105000,19.9,1.1,Rapid deceleration - lower atmosphere
+9:31,1851,104500,19.8,1.1,Rapid deceleration - lower atmosphere
+9:32,1827,104000,19.7,1.1,Rapid deceleration - lower atmosphere
+9:33,1802,103500,19.6,1.1,Rapid deceleration - lower atmosphere
+9:34,1778,103000,19.5,1.1,Rapid deceleration - lower atmosphere
+9:35,1754,102500,19.4,1.1,Rapid deceleration - lower atmosphere
+9:36,1730,102000,19.3,1.1,Rapid deceleration - lower atmosphere
+9:37,1706,101500,19.2,1.1,Rapid deceleration - lower atmosphere
+9:38,1682,101000,19.1,1.1,Rapid deceleration - lower atmosphere
+9:39,1658,100500,19.0,1.1,Rapid deceleration - lower atmosphere
 9:40,1633,100000,18.9,1.1,Rapid deceleration - lower atmosphere
+9:41,1609,99500,18.8,1.1,Rapid deceleration - lower atmosphere
+9:42,1585,99000,18.8,1.1,Rapid deceleration - lower atmosphere
+9:43,1561,98500,18.7,1.1,Rapid deceleration - lower atmosphere
+9:44,1537,98000,18.6,1.1,Rapid deceleration - lower atmosphere
+9:45,1512,97500,18.5,1.1,Rapid deceleration - lower atmosphere
+9:46,1488,97000,18.4,1.1,Rapid deceleration - lower atmosphere
+9:47,1464,96500,18.3,1.1,Rapid deceleration - lower atmosphere
+9:48,1440,96000,18.2,1.1,Rapid deceleration - lower atmosphere
+9:49,1416,95500,18.1,1.1,Rapid deceleration - lower atmosphere
 9:50,1392,95000,18.0,1.1,Rapid deceleration - lower atmosphere
+9:51,1368,94500,17.9,1.1,Rapid deceleration - lower atmosphere
+9:52,1343,94000,17.8,1.1,Rapid deceleration - lower atmosphere
+9:53,1319,93500,17.7,1.1,Rapid deceleration - lower atmosphere
+9:54,1295,93000,17.6,1.1,Rapid deceleration - lower atmosphere
+9:55,1271,92500,17.5,1.1,Rapid deceleration - lower atmosphere
+9:56,1247,92000,17.4,1.1,Rapid deceleration - lower atmosphere
+9:57,1222,91500,17.3,1.1,Rapid deceleration - lower atmosphere
+9:58,1198,91000,17.2,1.1,Rapid deceleration - lower atmosphere
+9:59,1174,90500,17.1,1.1,Rapid deceleration - lower atmosphere
 10:00,1150,90000,17.0,1.1,Subsonic transition approaching
-10:10,1052,83333,15.8,0.4,Subsonic transition approaching
-10:20,953,76667,14.5,0.4,Subsonic transition approaching
-10:30,855,70000,13.3,0.4,Subsonic transition approaching
-10:40,757,63333,12.0,0.4,Subsonic transition approaching
-10:50,658,56667,10.7,0.4,Subsonic transition approaching
-11:00,560,50000,9.5,0.4,Subsonic - stabilizing for chute sequence
-11:10,505,43750,8.3,0.3,Subsonic - stabilizing for chute sequence
-11:20,450,37500,7.1,0.3,Subsonic - stabilizing for chute sequence
-11:30,395,31250,5.9,0.3,Subsonic - stabilizing for chute sequence
-11:40,340,25000,4.7,0.3,"DROGUE parachutes deploy (~25,000 ft)"
-11:50,305,22833,4.3,0.2,"DROGUE parachutes deploy (~25,000 ft)"
-12:00,270,20667,3.9,0.2,"DROGUE parachutes deploy (~25,000 ft)"
-12:10,235,18500,3.5,0.2,"DROGUE parachutes deploy (~25,000 ft)"
-12:20,200,16333,3.1,0.2,"DROGUE parachutes deploy (~25,000 ft)"
-12:30,165,14167,2.7,0.2,"DROGUE parachutes deploy (~25,000 ft)"
-12:40,130,12000,2.3,0.2,Drogues stabilizing descent
-12:50,118,11167,2.1,0.1,Drogues stabilizing descent
-13:00,107,10333,2.0,0.1,Drogues stabilizing descent
-13:10,95,9500,1.8,0.1,"MAIN parachutes deploy (~9,500 ft)"
-13:20,83,8917,1.7,0.1,"MAIN parachutes deploy (~9,500 ft)"
-13:30,71,8333,1.6,0.1,"MAIN parachutes deploy (~9,500 ft)"
-13:40,58,7750,1.5,0.1,"MAIN parachutes deploy (~9,500 ft)"
-13:50,46,7167,1.4,0.1,"MAIN parachutes deploy (~9,500 ft)"
-14:00,34,6583,1.2,0.1,"MAIN parachutes deploy (~9,500 ft)"
-14:10,22,6000,1.1,0.1,Under mains - terminal descent
+10:01,1140,89333,16.9,0.45,Subsonic transition approaching
+10:02,1130,88667,16.8,0.45,Subsonic transition approaching
+10:03,1120,88000,16.7,0.45,Subsonic transition approaching
+10:04,1111,87333,16.5,0.45,Subsonic transition approaching
+10:05,1101,86667,16.4,0.45,Subsonic transition approaching
+10:06,1091,86000,16.3,0.45,Subsonic transition approaching
+10:07,1081,85333,16.2,0.45,Subsonic transition approaching
+10:08,1071,84667,16.0,0.45,Subsonic transition approaching
+10:09,1062,84000,15.9,0.45,Subsonic transition approaching
+10:10,1052,83333,15.8,0.45,Subsonic transition approaching
+10:11,1042,82667,15.7,0.45,Subsonic transition approaching
+10:12,1032,82000,15.5,0.45,Subsonic transition approaching
+10:13,1022,81333,15.4,0.45,Subsonic transition approaching
+10:14,1012,80667,15.3,0.45,Subsonic transition approaching
+10:15,1002,80000,15.2,0.45,Subsonic transition approaching
+10:16,993,79333,15.0,0.45,Subsonic transition approaching
+10:17,983,78667,14.9,0.45,Subsonic transition approaching
+10:18,973,78000,14.8,0.45,Subsonic transition approaching
+10:19,963,77333,14.6,0.45,Subsonic transition approaching
+10:20,953,76667,14.5,0.45,Subsonic transition approaching
+10:21,944,76000,14.4,0.45,Subsonic transition approaching
+10:22,934,75333,14.3,0.45,Subsonic transition approaching
+10:23,924,74667,14.1,0.45,Subsonic transition approaching
+10:24,914,74000,14.0,0.45,Subsonic transition approaching
+10:25,904,73333,13.9,0.45,Subsonic transition approaching
+10:26,894,72667,13.8,0.45,Subsonic transition approaching
+10:27,884,72000,13.6,0.45,Subsonic transition approaching
+10:28,875,71333,13.5,0.45,Subsonic transition approaching
+10:29,865,70667,13.4,0.45,Subsonic transition approaching
+10:30,855,70000,13.3,0.45,Subsonic transition approaching
+10:31,845,69333,13.1,0.45,Subsonic transition approaching
+10:32,835,68667,13.0,0.45,Subsonic transition approaching
+10:33,826,68000,12.9,0.45,Subsonic transition approaching
+10:34,816,67333,12.8,0.45,Subsonic transition approaching
+10:35,806,66667,12.6,0.45,Subsonic transition approaching
+10:36,796,66000,12.5,0.45,Subsonic transition approaching
+10:37,786,65333,12.4,0.45,Subsonic transition approaching
+10:38,776,64667,12.2,0.45,Subsonic transition approaching
+10:39,766,64000,12.1,0.45,Subsonic transition approaching
+10:40,757,63333,12.0,0.45,Subsonic transition approaching
+10:41,747,62667,11.9,0.45,Subsonic transition approaching
+10:42,737,62000,11.7,0.45,Subsonic transition approaching
+10:43,727,61333,11.6,0.45,Subsonic transition approaching
+10:44,717,60667,11.5,0.45,Subsonic transition approaching
+10:45,708,60000,11.4,0.45,Subsonic transition approaching
+10:46,698,59333,11.2,0.45,Subsonic transition approaching
+10:47,688,58667,11.1,0.45,Subsonic transition approaching
+10:48,678,58000,11.0,0.45,Subsonic transition approaching
+10:49,668,57333,10.9,0.45,Subsonic transition approaching
+10:50,658,56667,10.7,0.45,Subsonic transition approaching
+10:51,648,56000,10.6,0.45,Subsonic transition approaching
+10:52,639,55333,10.5,0.45,Subsonic transition approaching
+10:53,629,54667,10.4,0.45,Subsonic transition approaching
+10:54,619,54000,10.2,0.45,Subsonic transition approaching
+10:55,609,53333,10.1,0.45,Subsonic transition approaching
+10:56,599,52667,10.0,0.45,Subsonic transition approaching
+10:57,590,52000,9.8,0.45,Subsonic transition approaching
+10:58,580,51333,9.7,0.45,Subsonic transition approaching
+10:59,570,50667,9.6,0.45,Subsonic transition approaching
+11:00,560,50000,9.5,0.45,Subsonic - stabilizing for chute sequence
+11:01,554,49375,9.4,0.25,Subsonic - stabilizing for chute sequence
+11:02,549,48750,9.2,0.25,Subsonic - stabilizing for chute sequence
+11:03,544,48125,9.1,0.25,Subsonic - stabilizing for chute sequence
+11:04,538,47500,9.0,0.25,Subsonic - stabilizing for chute sequence
+11:05,532,46875,8.9,0.25,Subsonic - stabilizing for chute sequence
+11:06,527,46250,8.8,0.25,Subsonic - stabilizing for chute sequence
+11:07,522,45625,8.6,0.25,Subsonic - stabilizing for chute sequence
+11:08,516,45000,8.5,0.25,Subsonic - stabilizing for chute sequence
+11:09,510,44375,8.4,0.25,Subsonic - stabilizing for chute sequence
+11:10,505,43750,8.3,0.25,Subsonic - stabilizing for chute sequence
+11:11,500,43125,8.2,0.25,Subsonic - stabilizing for chute sequence
+11:12,494,42500,8.0,0.25,Subsonic - stabilizing for chute sequence
+11:13,488,41875,7.9,0.25,Subsonic - stabilizing for chute sequence
+11:14,483,41250,7.8,0.25,Subsonic - stabilizing for chute sequence
+11:15,478,40625,7.7,0.25,Subsonic - stabilizing for chute sequence
+11:16,472,40000,7.6,0.25,Subsonic - stabilizing for chute sequence
+11:17,466,39375,7.5,0.25,Subsonic - stabilizing for chute sequence
+11:18,461,38750,7.3,0.25,Subsonic - stabilizing for chute sequence
+11:19,456,38125,7.2,0.25,Subsonic - stabilizing for chute sequence
+11:20,450,37500,7.1,0.25,Subsonic - stabilizing for chute sequence
+11:21,444,36875,7.0,0.25,Subsonic - stabilizing for chute sequence
+11:22,439,36250,6.9,0.25,Subsonic - stabilizing for chute sequence
+11:23,434,35625,6.7,0.25,Subsonic - stabilizing for chute sequence
+11:24,428,35000,6.6,0.25,Subsonic - stabilizing for chute sequence
+11:25,422,34375,6.5,0.25,Subsonic - stabilizing for chute sequence
+11:26,417,33750,6.4,0.25,Subsonic - stabilizing for chute sequence
+11:27,412,33125,6.3,0.25,Subsonic - stabilizing for chute sequence
+11:28,406,32500,6.2,0.25,Subsonic - stabilizing for chute sequence
+11:29,400,31875,6.0,0.25,Subsonic - stabilizing for chute sequence
+11:30,395,31250,5.9,0.25,Subsonic - stabilizing for chute sequence
+11:31,390,30625,5.8,0.25,Subsonic - stabilizing for chute sequence
+11:32,384,30000,5.7,0.25,Subsonic - stabilizing for chute sequence
+11:33,378,29375,5.6,0.25,Subsonic - stabilizing for chute sequence
+11:34,373,28750,5.4,0.25,Subsonic - stabilizing for chute sequence
+11:35,368,28125,5.3,0.25,Subsonic - stabilizing for chute sequence
+11:36,362,27500,5.2,0.25,Subsonic - stabilizing for chute sequence
+11:37,356,26875,5.1,0.25,Subsonic - stabilizing for chute sequence
+11:38,351,26250,5.0,0.25,Subsonic - stabilizing for chute sequence
+11:39,346,25625,4.9,0.25,Subsonic - stabilizing for chute sequence
+11:40,340,25000,4.7,0.25,"DROGUE parachutes deploy (~25,000 ft)"
+11:41,336,24783,4.7,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:42,333,24567,4.7,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:43,330,24350,4.6,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:44,326,24133,4.6,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:45,322,23917,4.5,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:46,319,23700,4.5,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:47,316,23483,4.4,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:48,312,23267,4.4,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:49,308,23050,4.4,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:50,305,22833,4.3,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:51,302,22617,4.3,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:52,298,22400,4.2,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:53,294,22183,4.2,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:54,291,21967,4.2,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:55,288,21750,4.1,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:56,284,21533,4.1,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:57,280,21317,4.0,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:58,277,21100,4.0,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+11:59,274,20883,4.0,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:00,270,20667,3.9,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:01,266,20450,3.9,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:02,263,20233,3.8,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:03,260,20017,3.8,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:04,256,19800,3.8,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:05,252,19583,3.7,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:06,249,19367,3.7,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:07,246,19150,3.6,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:08,242,18933,3.6,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:09,238,18717,3.5,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:10,235,18500,3.5,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:11,232,18283,3.5,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:12,228,18067,3.4,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:13,224,17850,3.4,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:14,221,17633,3.3,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:15,218,17417,3.3,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:16,214,17200,3.3,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:17,210,16983,3.2,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:18,207,16767,3.2,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:19,204,16550,3.1,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:20,200,16333,3.1,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:21,196,16117,3.1,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:22,193,15900,3.0,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:23,190,15683,3.0,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:24,186,15467,2.9,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:25,182,15250,2.9,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:26,179,15033,2.8,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:27,176,14817,2.8,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:28,172,14600,2.8,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:29,168,14383,2.7,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:30,165,14167,2.7,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:31,162,13950,2.6,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:32,158,13733,2.6,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:33,154,13517,2.6,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:34,151,13300,2.5,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:35,148,13083,2.5,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:36,144,12867,2.4,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:37,140,12650,2.4,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:38,137,12433,2.4,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:39,134,12217,2.3,0.16,"DROGUE parachutes deploy (~25,000 ft)"
+12:40,130,12000,2.3,0.16,Drogues stabilizing descent
+12:41,129,11917,2.3,0.05,Drogues stabilizing descent
+12:42,128,11833,2.2,0.05,Drogues stabilizing descent
+12:43,126,11750,2.2,0.05,Drogues stabilizing descent
+12:44,125,11667,2.2,0.05,Drogues stabilizing descent
+12:45,124,11583,2.2,0.05,Drogues stabilizing descent
+12:46,123,11500,2.2,0.05,Drogues stabilizing descent
+12:47,122,11417,2.2,0.05,Drogues stabilizing descent
+12:48,121,11333,2.1,0.05,Drogues stabilizing descent
+12:49,120,11250,2.1,0.05,Drogues stabilizing descent
+12:50,118,11167,2.1,0.05,Drogues stabilizing descent
+12:51,117,11083,2.1,0.05,Drogues stabilizing descent
+12:52,116,11000,2.1,0.05,Drogues stabilizing descent
+12:53,115,10917,2.1,0.05,Drogues stabilizing descent
+12:54,114,10833,2.1,0.05,Drogues stabilizing descent
+12:55,112,10750,2.0,0.05,Drogues stabilizing descent
+12:56,111,10667,2.0,0.05,Drogues stabilizing descent
+12:57,110,10583,2.0,0.05,Drogues stabilizing descent
+12:58,109,10500,2.0,0.05,Drogues stabilizing descent
+12:59,108,10417,2.0,0.05,Drogues stabilizing descent
+13:00,107,10333,2.0,0.05,Drogues stabilizing descent
+13:01,106,10250,1.9,0.05,Drogues stabilizing descent
+13:02,104,10167,1.9,0.05,Drogues stabilizing descent
+13:03,103,10083,1.9,0.05,Drogues stabilizing descent
+13:04,102,10000,1.9,0.05,Drogues stabilizing descent
+13:05,101,9917,1.9,0.05,Drogues stabilizing descent
+13:06,100,9833,1.9,0.05,Drogues stabilizing descent
+13:07,98,9750,1.8,0.05,Drogues stabilizing descent
+13:08,97,9667,1.8,0.05,Drogues stabilizing descent
+13:09,96,9583,1.8,0.05,Drogues stabilizing descent
+13:10,95,9500,1.8,0.05,"MAIN parachutes deploy (~9,500 ft)"
+13:11,94,9442,1.8,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:12,93,9383,1.8,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:13,91,9325,1.8,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:14,90,9267,1.8,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:15,89,9208,1.7,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:16,88,9150,1.7,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:17,86,9092,1.7,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:18,85,9033,1.7,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:19,84,8975,1.7,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:20,83,8917,1.7,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:21,82,8858,1.7,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:22,80,8800,1.7,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:23,79,8742,1.7,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:24,78,8683,1.6,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:25,77,8625,1.6,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:26,76,8567,1.6,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:27,74,8508,1.6,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:28,73,8450,1.6,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:29,72,8392,1.6,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:30,71,8333,1.6,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:31,69,8275,1.6,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:32,68,8217,1.6,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:33,67,8158,1.5,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:34,66,8100,1.5,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:35,65,8042,1.5,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:36,63,7983,1.5,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:37,62,7925,1.5,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:38,61,7867,1.5,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:39,60,7808,1.5,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:40,58,7750,1.5,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:41,57,7692,1.5,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:42,56,7633,1.4,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:43,55,7575,1.4,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:44,54,7517,1.4,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:45,52,7458,1.4,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:46,51,7400,1.4,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:47,50,7342,1.4,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:48,49,7283,1.4,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:49,48,7225,1.4,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:50,46,7167,1.4,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:51,45,7108,1.3,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:52,44,7050,1.3,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:53,43,6992,1.3,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:54,41,6933,1.3,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:55,40,6875,1.3,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:56,39,6817,1.3,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:57,38,6758,1.3,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:58,37,6700,1.3,0.06,"MAIN parachutes deploy (~9,500 ft)"
+13:59,35,6642,1.3,0.06,"MAIN parachutes deploy (~9,500 ft)"
+14:00,34,6583,1.2,0.06,"MAIN parachutes deploy (~9,500 ft)"
+14:01,33,6525,1.2,0.06,"MAIN parachutes deploy (~9,500 ft)"
+14:02,32,6467,1.2,0.06,"MAIN parachutes deploy (~9,500 ft)"
+14:03,31,6408,1.2,0.06,"MAIN parachutes deploy (~9,500 ft)"
+14:04,29,6350,1.2,0.06,"MAIN parachutes deploy (~9,500 ft)"
+14:05,28,6292,1.2,0.06,"MAIN parachutes deploy (~9,500 ft)"
+14:06,27,6233,1.2,0.06,"MAIN parachutes deploy (~9,500 ft)"
+14:07,26,6175,1.2,0.06,"MAIN parachutes deploy (~9,500 ft)"
+14:08,24,6117,1.2,0.06,"MAIN parachutes deploy (~9,500 ft)"
+14:09,23,6058,1.1,0.06,"MAIN parachutes deploy (~9,500 ft)"
+14:10,22,6000,1.1,0.06,Under mains - terminal descent
+14:11,22,5973,1.1,0.0,Under mains - terminal descent
+14:12,22,5947,1.1,0.0,Under mains - terminal descent
+14:13,22,5920,1.1,0.0,Under mains - terminal descent
+14:14,22,5893,1.1,0.0,Under mains - terminal descent
+14:15,22,5867,1.1,0.0,Under mains - terminal descent
+14:16,22,5840,1.1,0.0,Under mains - terminal descent
+14:17,22,5813,1.1,0.0,Under mains - terminal descent
+14:18,22,5787,1.1,0.0,Under mains - terminal descent
+14:19,22,5760,1.1,0.0,Under mains - terminal descent
 14:20,22,5733,1.1,0.0,Under mains - terminal descent
+14:21,22,5707,1.1,0.0,Under mains - terminal descent
+14:22,22,5680,1.1,0.0,Under mains - terminal descent
+14:23,22,5653,1.1,0.0,Under mains - terminal descent
+14:24,22,5627,1.1,0.0,Under mains - terminal descent
+14:25,22,5600,1.1,0.0,Under mains - terminal descent
+14:26,22,5573,1.1,0.0,Under mains - terminal descent
+14:27,22,5547,1.1,0.0,Under mains - terminal descent
+14:28,22,5520,1.0,0.0,Under mains - terminal descent
+14:29,22,5493,1.0,0.0,Under mains - terminal descent
 14:30,22,5467,1.0,0.0,Under mains - terminal descent
+14:31,22,5440,1.0,0.0,Under mains - terminal descent
+14:32,22,5413,1.0,0.0,Under mains - terminal descent
+14:33,22,5387,1.0,0.0,Under mains - terminal descent
+14:34,22,5360,1.0,0.0,Under mains - terminal descent
+14:35,22,5333,1.0,0.0,Under mains - terminal descent
+14:36,22,5307,1.0,0.0,Under mains - terminal descent
+14:37,22,5280,1.0,0.0,Under mains - terminal descent
+14:38,22,5253,1.0,0.0,Under mains - terminal descent
+14:39,22,5227,1.0,0.0,Under mains - terminal descent
 14:40,22,5200,1.0,0.0,Under mains - terminal descent
+14:41,22,5173,1.0,0.0,Under mains - terminal descent
+14:42,22,5147,1.0,0.0,Under mains - terminal descent
+14:43,22,5120,1.0,0.0,Under mains - terminal descent
+14:44,22,5093,1.0,0.0,Under mains - terminal descent
+14:45,22,5067,1.0,0.0,Under mains - terminal descent
+14:46,22,5040,1.0,0.0,Under mains - terminal descent
+14:47,22,5013,0.9,0.0,Under mains - terminal descent
+14:48,21,4987,0.9,0.0,Under mains - terminal descent
+14:49,21,4960,0.9,0.0,Under mains - terminal descent
 14:50,21,4933,0.9,0.0,Under mains - terminal descent
+14:51,21,4907,0.9,0.0,Under mains - terminal descent
+14:52,21,4880,0.9,0.0,Under mains - terminal descent
+14:53,21,4853,0.9,0.0,Under mains - terminal descent
+14:54,21,4827,0.9,0.0,Under mains - terminal descent
+14:55,21,4800,0.9,0.0,Under mains - terminal descent
+14:56,21,4773,0.9,0.0,Under mains - terminal descent
+14:57,21,4747,0.9,0.0,Under mains - terminal descent
+14:58,21,4720,0.9,0.0,Under mains - terminal descent
+14:59,21,4693,0.9,0.0,Under mains - terminal descent
 15:00,21,4667,0.9,0.0,Under mains - terminal descent
+15:01,21,4640,0.9,0.0,Under mains - terminal descent
+15:02,21,4613,0.9,0.0,Under mains - terminal descent
+15:03,21,4587,0.9,0.0,Under mains - terminal descent
+15:04,21,4560,0.9,0.0,Under mains - terminal descent
+15:05,21,4533,0.9,0.0,Under mains - terminal descent
+15:06,21,4507,0.9,0.0,Under mains - terminal descent
+15:07,21,4480,0.8,0.0,Under mains - terminal descent
+15:08,21,4453,0.8,0.0,Under mains - terminal descent
+15:09,21,4427,0.8,0.0,Under mains - terminal descent
 15:10,21,4400,0.8,0.0,Under mains - terminal descent
+15:11,21,4373,0.8,0.0,Under mains - terminal descent
+15:12,21,4347,0.8,0.0,Under mains - terminal descent
+15:13,21,4320,0.8,0.0,Under mains - terminal descent
+15:14,21,4293,0.8,0.0,Under mains - terminal descent
+15:15,21,4267,0.8,0.0,Under mains - terminal descent
+15:16,21,4240,0.8,0.0,Under mains - terminal descent
+15:17,21,4213,0.8,0.0,Under mains - terminal descent
+15:18,21,4187,0.8,0.0,Under mains - terminal descent
+15:19,21,4160,0.8,0.0,Under mains - terminal descent
 15:20,21,4133,0.8,0.0,Under mains - terminal descent
+15:21,21,4107,0.8,0.0,Under mains - terminal descent
+15:22,21,4080,0.8,0.0,Under mains - terminal descent
+15:23,21,4053,0.8,0.0,Under mains - terminal descent
+15:24,21,4027,0.8,0.0,Under mains - terminal descent
+15:25,21,4000,0.8,0.0,Under mains - terminal descent
+15:26,21,3973,0.8,0.0,Under mains - terminal descent
+15:27,21,3947,0.7,0.0,Under mains - terminal descent
+15:28,21,3920,0.7,0.0,Under mains - terminal descent
+15:29,21,3893,0.7,0.0,Under mains - terminal descent
 15:30,21,3867,0.7,0.0,Under mains - terminal descent
+15:31,21,3840,0.7,0.0,Under mains - terminal descent
+15:32,21,3813,0.7,0.0,Under mains - terminal descent
+15:33,21,3787,0.7,0.0,Under mains - terminal descent
+15:34,21,3760,0.7,0.0,Under mains - terminal descent
+15:35,21,3733,0.7,0.0,Under mains - terminal descent
+15:36,21,3707,0.7,0.0,Under mains - terminal descent
+15:37,21,3680,0.7,0.0,Under mains - terminal descent
+15:38,21,3653,0.7,0.0,Under mains - terminal descent
+15:39,21,3627,0.7,0.0,Under mains - terminal descent
 15:40,21,3600,0.7,0.0,Under mains - terminal descent
+15:41,21,3573,0.7,0.0,Under mains - terminal descent
+15:42,21,3547,0.7,0.0,Under mains - terminal descent
+15:43,21,3520,0.7,0.0,Under mains - terminal descent
+15:44,21,3493,0.7,0.0,Under mains - terminal descent
+15:45,21,3467,0.7,0.0,Under mains - terminal descent
+15:46,21,3440,0.7,0.0,Under mains - terminal descent
+15:47,21,3413,0.6,0.0,Under mains - terminal descent
+15:48,21,3387,0.6,0.0,Under mains - terminal descent
+15:49,21,3360,0.6,0.0,Under mains - terminal descent
 15:50,21,3333,0.6,0.0,Under mains - terminal descent
+15:51,21,3307,0.6,0.0,Under mains - terminal descent
+15:52,21,3280,0.6,0.0,Under mains - terminal descent
+15:53,21,3253,0.6,0.0,Under mains - terminal descent
+15:54,21,3227,0.6,0.0,Under mains - terminal descent
+15:55,21,3200,0.6,0.0,Under mains - terminal descent
+15:56,21,3173,0.6,0.0,Under mains - terminal descent
+15:57,21,3147,0.6,0.0,Under mains - terminal descent
+15:58,21,3120,0.6,0.0,Under mains - terminal descent
+15:59,21,3093,0.6,0.0,Under mains - terminal descent
 16:00,21,3067,0.6,0.0,Under mains - terminal descent
+16:01,21,3040,0.6,0.0,Under mains - terminal descent
+16:02,21,3013,0.6,0.0,Under mains - terminal descent
+16:03,20,2987,0.6,0.0,Under mains - terminal descent
+16:04,20,2960,0.6,0.0,Under mains - terminal descent
+16:05,20,2933,0.6,0.0,Under mains - terminal descent
+16:06,20,2907,0.6,0.0,Under mains - terminal descent
+16:07,20,2880,0.5,0.0,Under mains - terminal descent
+16:08,20,2853,0.5,0.0,Under mains - terminal descent
+16:09,20,2827,0.5,0.0,Under mains - terminal descent
 16:10,20,2800,0.5,0.0,Under mains - terminal descent
+16:11,20,2773,0.5,0.0,Under mains - terminal descent
+16:12,20,2747,0.5,0.0,Under mains - terminal descent
+16:13,20,2720,0.5,0.0,Under mains - terminal descent
+16:14,20,2693,0.5,0.0,Under mains - terminal descent
+16:15,20,2667,0.5,0.0,Under mains - terminal descent
+16:16,20,2640,0.5,0.0,Under mains - terminal descent
+16:17,20,2613,0.5,0.0,Under mains - terminal descent
+16:18,20,2587,0.5,0.0,Under mains - terminal descent
+16:19,20,2560,0.5,0.0,Under mains - terminal descent
 16:20,20,2533,0.5,0.0,Under mains - terminal descent
+16:21,20,2507,0.5,0.0,Under mains - terminal descent
+16:22,20,2480,0.5,0.0,Under mains - terminal descent
+16:23,20,2453,0.5,0.0,Under mains - terminal descent
+16:24,20,2427,0.5,0.0,Under mains - terminal descent
+16:25,20,2400,0.5,0.0,Under mains - terminal descent
+16:26,20,2373,0.4,0.0,Under mains - terminal descent
+16:27,20,2347,0.4,0.0,Under mains - terminal descent
+16:28,20,2320,0.4,0.0,Under mains - terminal descent
+16:29,20,2293,0.4,0.0,Under mains - terminal descent
 16:30,20,2267,0.4,0.0,Under mains - terminal descent
+16:31,20,2240,0.4,0.0,Under mains - terminal descent
+16:32,20,2213,0.4,0.0,Under mains - terminal descent
+16:33,20,2187,0.4,0.0,Under mains - terminal descent
+16:34,20,2160,0.4,0.0,Under mains - terminal descent
+16:35,20,2133,0.4,0.0,Under mains - terminal descent
+16:36,20,2107,0.4,0.0,Under mains - terminal descent
+16:37,20,2080,0.4,0.0,Under mains - terminal descent
+16:38,20,2053,0.4,0.0,Under mains - terminal descent
+16:39,20,2027,0.4,0.0,Under mains - terminal descent
 16:40,20,2000,0.4,0.0,Under mains - steady descent
+16:41,20,1986,0.4,0.0,Under mains - steady descent
+16:42,20,1971,0.4,0.0,Under mains - steady descent
+16:43,20,1957,0.4,0.0,Under mains - steady descent
+16:44,20,1943,0.4,0.0,Under mains - steady descent
+16:45,20,1929,0.4,0.0,Under mains - steady descent
+16:46,20,1914,0.4,0.0,Under mains - steady descent
+16:47,20,1900,0.4,0.0,Under mains - steady descent
+16:48,20,1886,0.4,0.0,Under mains - steady descent
+16:49,20,1871,0.4,0.0,Under mains - steady descent
 16:50,20,1857,0.4,0.0,Under mains - steady descent
+16:51,20,1843,0.3,0.0,Under mains - steady descent
+16:52,20,1829,0.3,0.0,Under mains - steady descent
+16:53,20,1814,0.3,0.0,Under mains - steady descent
+16:54,20,1800,0.3,0.0,Under mains - steady descent
+16:55,20,1786,0.3,0.0,Under mains - steady descent
+16:56,20,1771,0.3,0.0,Under mains - steady descent
+16:57,20,1757,0.3,0.0,Under mains - steady descent
+16:58,20,1743,0.3,0.0,Under mains - steady descent
+16:59,20,1729,0.3,0.0,Under mains - steady descent
 17:00,20,1714,0.3,0.0,Under mains - steady descent
+17:01,20,1700,0.3,0.0,Under mains - steady descent
+17:02,20,1686,0.3,0.0,Under mains - steady descent
+17:03,20,1671,0.3,0.0,Under mains - steady descent
+17:04,19,1657,0.3,0.0,Under mains - steady descent
+17:05,19,1643,0.3,0.0,Under mains - steady descent
+17:06,19,1629,0.3,0.0,Under mains - steady descent
+17:07,19,1614,0.3,0.0,Under mains - steady descent
+17:08,19,1600,0.3,0.0,Under mains - steady descent
+17:09,19,1586,0.3,0.0,Under mains - steady descent
 17:10,19,1571,0.3,0.0,Under mains - steady descent
+17:11,19,1557,0.3,0.0,Under mains - steady descent
+17:12,19,1543,0.3,0.0,Under mains - steady descent
+17:13,19,1529,0.3,0.0,Under mains - steady descent
+17:14,19,1514,0.3,0.0,Under mains - steady descent
+17:15,19,1500,0.3,0.0,Under mains - steady descent
+17:16,19,1486,0.3,0.0,Under mains - steady descent
+17:17,19,1471,0.3,0.0,Under mains - steady descent
+17:18,19,1457,0.3,0.0,Under mains - steady descent
+17:19,19,1443,0.3,0.0,Under mains - steady descent
 17:20,19,1429,0.3,0.0,Under mains - steady descent
+17:21,19,1414,0.3,0.0,Under mains - steady descent
+17:22,19,1400,0.3,0.0,Under mains - steady descent
+17:23,19,1386,0.3,0.0,Under mains - steady descent
+17:24,19,1371,0.3,0.0,Under mains - steady descent
+17:25,19,1357,0.3,0.0,Under mains - steady descent
+17:26,19,1343,0.3,0.0,Under mains - steady descent
+17:27,19,1329,0.3,0.0,Under mains - steady descent
+17:28,19,1314,0.2,0.0,Under mains - steady descent
+17:29,19,1300,0.2,0.0,Under mains - steady descent
 17:30,19,1286,0.2,0.0,Under mains - steady descent
+17:31,19,1271,0.2,0.0,Under mains - steady descent
+17:32,19,1257,0.2,0.0,Under mains - steady descent
+17:33,19,1243,0.2,0.0,Under mains - steady descent
+17:34,19,1229,0.2,0.0,Under mains - steady descent
+17:35,19,1214,0.2,0.0,Under mains - steady descent
+17:36,19,1200,0.2,0.0,Under mains - steady descent
+17:37,19,1186,0.2,0.0,Under mains - steady descent
+17:38,19,1171,0.2,0.0,Under mains - steady descent
+17:39,19,1157,0.2,0.0,Under mains - steady descent
 17:40,19,1143,0.2,0.0,Under mains - steady descent
+17:41,19,1129,0.2,0.0,Under mains - steady descent
+17:42,19,1114,0.2,0.0,Under mains - steady descent
+17:43,19,1100,0.2,0.0,Under mains - steady descent
+17:44,19,1086,0.2,0.0,Under mains - steady descent
+17:45,19,1071,0.2,0.0,Under mains - steady descent
+17:46,19,1057,0.2,0.0,Under mains - steady descent
+17:47,19,1043,0.2,0.0,Under mains - steady descent
+17:48,19,1029,0.2,0.0,Under mains - steady descent
+17:49,19,1014,0.2,0.0,Under mains - steady descent
 17:50,18,1000,0.2,0.0,Under mains - steady descent
+17:51,18,986,0.2,0.0,Under mains - steady descent
+17:52,18,971,0.2,0.0,Under mains - steady descent
+17:53,18,957,0.2,0.0,Under mains - steady descent
+17:54,18,943,0.2,0.0,Under mains - steady descent
+17:55,18,929,0.2,0.0,Under mains - steady descent
+17:56,18,914,0.2,0.0,Under mains - steady descent
+17:57,18,900,0.2,0.0,Under mains - steady descent
+17:58,18,886,0.2,0.0,Under mains - steady descent
+17:59,18,871,0.2,0.0,Under mains - steady descent
 18:00,18,857,0.2,0.0,Under mains - steady descent
+18:01,18,843,0.2,0.0,Under mains - steady descent
+18:02,18,829,0.2,0.0,Under mains - steady descent
+18:03,18,814,0.2,0.0,Under mains - steady descent
+18:04,18,800,0.2,0.0,Under mains - steady descent
+18:05,18,786,0.1,0.0,Under mains - steady descent
+18:06,18,771,0.1,0.0,Under mains - steady descent
+18:07,18,757,0.1,0.0,Under mains - steady descent
+18:08,18,743,0.1,0.0,Under mains - steady descent
+18:09,18,729,0.1,0.0,Under mains - steady descent
 18:10,18,714,0.1,0.0,Under mains - steady descent
+18:11,18,700,0.1,0.0,Under mains - steady descent
+18:12,18,686,0.1,0.0,Under mains - steady descent
+18:13,18,671,0.1,0.0,Under mains - steady descent
+18:14,18,657,0.1,0.0,Under mains - steady descent
+18:15,18,643,0.1,0.0,Under mains - steady descent
+18:16,18,629,0.1,0.0,Under mains - steady descent
+18:17,18,614,0.1,0.0,Under mains - steady descent
+18:18,18,600,0.1,0.0,Under mains - steady descent
+18:19,18,586,0.1,0.0,Under mains - steady descent
 18:20,18,571,0.1,0.0,Under mains - steady descent
+18:21,18,557,0.1,0.0,Under mains - steady descent
+18:22,18,543,0.1,0.0,Under mains - steady descent
+18:23,18,529,0.1,0.0,Under mains - steady descent
+18:24,18,514,0.1,0.0,Under mains - steady descent
+18:25,18,500,0.1,0.0,Under mains - steady descent
+18:26,18,486,0.1,0.0,Under mains - steady descent
+18:27,18,471,0.1,0.0,Under mains - steady descent
+18:28,18,457,0.1,0.0,Under mains - steady descent
+18:29,18,443,0.1,0.0,Under mains - steady descent
 18:30,18,429,0.1,0.0,Under mains - steady descent
+18:31,18,414,0.1,0.0,Under mains - steady descent
+18:32,18,400,0.1,0.0,Under mains - steady descent
+18:33,18,386,0.1,0.0,Under mains - steady descent
+18:34,18,371,0.1,0.0,Under mains - steady descent
+18:35,18,357,0.1,0.0,Under mains - steady descent
+18:36,18,343,0.1,0.0,Under mains - steady descent
+18:37,17,329,0.1,0.0,Under mains - steady descent
+18:38,17,314,0.1,0.0,Under mains - steady descent
+18:39,17,300,0.1,0.0,Under mains - steady descent
 18:40,17,286,0.1,0.0,Under mains - steady descent
+18:41,17,271,0.1,0.0,Under mains - steady descent
+18:42,17,257,0.0,0.0,Under mains - steady descent
+18:43,17,243,0.0,0.0,Under mains - steady descent
+18:44,17,229,0.0,0.0,Under mains - steady descent
+18:45,17,214,0.0,0.0,Under mains - steady descent
+18:46,17,200,0.0,0.0,Under mains - steady descent
+18:47,17,186,0.0,0.0,Under mains - steady descent
+18:48,17,171,0.0,0.0,Under mains - steady descent
+18:49,17,157,0.0,0.0,Under mains - steady descent
 18:50,17,143,0.0,0.0,Under mains - steady descent
+18:51,17,129,0.0,0.0,Under mains - steady descent
+18:52,17,114,0.0,0.0,Under mains - steady descent
+18:53,17,100,0.0,0.0,Under mains - steady descent
+18:54,17,86,0.0,0.0,Under mains - steady descent
+18:55,17,71,0.0,0.0,Under mains - steady descent
+18:56,17,57,0.0,0.0,Under mains - steady descent
+18:57,17,43,0.0,0.0,Under mains - steady descent
+18:58,17,29,0.0,0.0,Under mains - steady descent
+18:59,17,14,0.0,0.0,Under mains - steady descent
 19:00,17,0,0.0,0.0,SPLASHDOWN - Pacific Ocean

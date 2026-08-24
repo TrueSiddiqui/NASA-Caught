@@ -1,123 +1,1147 @@
-# Modeled Re-entry Telemetry — Orion Lunar-Return Skip Entry
+# Modeled Re-entry Telemetry — Orion Lunar-Return Skip Entry (Second-by-Second)
 
-**Entry Interface (EI) → Splashdown.** Physics-based reference model (see notes at bottom). MET = Mission Elapsed Time measured from Entry Interface.
+**Entry Interface (EI) → Splashdown.** Physics-based reference model at 1-second resolution. MET = Mission Elapsed Time measured from Entry Interface.
 
 | MET (from EI) | Velocity (mph) | Altitude (ft) | Altitude (mi) | Decel (g) | Phase |
-|:-------------:|---------------:|--------------:|-------------:|:--------:|:------|
+|:-------------:|---------------:|--------------:|-------------:|:---------:|:------|
 | 0:00 | 24,592 | 400,000 | 75.8 |  | Entry Interface (EI) - 400,000 ft, atmosphere begins |
-| 0:10 | 24,791 | 383,333 | 72.6 | 0.9 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
-| 0:20 | 24,991 | 366,667 | 69.4 | 0.9 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
-| 0:30 | 25,190 | 350,000 | 66.3 | 0.9 | Initial descent - still accelerating slightly under gravity |
+| 0:01 | 24,612 | 398,333 | 75.4 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:02 | 24,632 | 396,667 | 75.1 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:03 | 24,652 | 395,000 | 74.8 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:04 | 24,672 | 393,333 | 74.5 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:05 | 24,692 | 391,667 | 74.2 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:06 | 24,712 | 390,000 | 73.9 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:07 | 24,732 | 388,333 | 73.5 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:08 | 24,751 | 386,667 | 73.2 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:09 | 24,771 | 385,000 | 72.9 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:10 | 24,791 | 383,333 | 72.6 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:11 | 24,811 | 381,667 | 72.3 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:12 | 24,831 | 380,000 | 72.0 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:13 | 24,851 | 378,333 | 71.7 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:14 | 24,871 | 376,667 | 71.3 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:15 | 24,891 | 375,000 | 71.0 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:16 | 24,911 | 373,333 | 70.7 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:17 | 24,931 | 371,667 | 70.4 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:18 | 24,951 | 370,000 | 70.1 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:19 | 24,971 | 368,333 | 69.8 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:20 | 24,991 | 366,667 | 69.4 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:21 | 25,011 | 365,000 | 69.1 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:22 | 25,031 | 363,333 | 68.8 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:23 | 25,050 | 361,667 | 68.5 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:24 | 25,070 | 360,000 | 68.2 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:25 | 25,090 | 358,333 | 67.9 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:26 | 25,110 | 356,667 | 67.6 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:27 | 25,130 | 355,000 | 67.2 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:28 | 25,150 | 353,333 | 66.9 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:29 | 25,170 | 351,667 | 66.6 | 0.91 | Entry Interface (EI) - 400,000 ft, atmosphere begins |
+| 0:30 | 25,190 | 350,000 | 66.3 | 0.91 | Initial descent - still accelerating slightly under gravity |
+| 0:31 | 25,166 | 348,111 | 65.9 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:32 | 25,142 | 346,222 | 65.6 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:33 | 25,117 | 344,333 | 65.2 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:34 | 25,093 | 342,444 | 64.9 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:35 | 25,069 | 340,556 | 64.5 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:36 | 25,045 | 338,667 | 64.1 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:37 | 25,020 | 336,778 | 63.8 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:38 | 24,996 | 334,889 | 63.4 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:39 | 24,972 | 333,000 | 63.1 | 1.1 | Initial descent - still accelerating slightly under gravity |
 | 0:40 | 24,948 | 331,111 | 62.7 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:41 | 24,924 | 329,222 | 62.4 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:42 | 24,899 | 327,333 | 62.0 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:43 | 24,875 | 325,444 | 61.6 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:44 | 24,851 | 323,556 | 61.3 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:45 | 24,827 | 321,667 | 60.9 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:46 | 24,802 | 319,778 | 60.6 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:47 | 24,778 | 317,889 | 60.2 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:48 | 24,754 | 316,000 | 59.8 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:49 | 24,730 | 314,111 | 59.5 | 1.1 | Initial descent - still accelerating slightly under gravity |
 | 0:50 | 24,706 | 312,222 | 59.1 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:51 | 24,681 | 310,333 | 58.8 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:52 | 24,657 | 308,444 | 58.4 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:53 | 24,633 | 306,556 | 58.1 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:54 | 24,609 | 304,667 | 57.7 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:55 | 24,584 | 302,778 | 57.3 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:56 | 24,560 | 300,889 | 57.0 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:57 | 24,536 | 299,000 | 56.6 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:58 | 24,512 | 297,111 | 56.3 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 0:59 | 24,488 | 295,222 | 55.9 | 1.1 | Initial descent - still accelerating slightly under gravity |
 | 1:00 | 24,463 | 293,333 | 55.6 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 1:01 | 24,439 | 291,444 | 55.2 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 1:02 | 24,415 | 289,556 | 54.8 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 1:03 | 24,391 | 287,667 | 54.5 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 1:04 | 24,366 | 285,778 | 54.1 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 1:05 | 24,342 | 283,889 | 53.8 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 1:06 | 24,318 | 282,000 | 53.4 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 1:07 | 24,294 | 280,111 | 53.1 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 1:08 | 24,270 | 278,222 | 52.7 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 1:09 | 24,245 | 276,333 | 52.3 | 1.1 | Initial descent - still accelerating slightly under gravity |
 | 1:10 | 24,221 | 274,444 | 52.0 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 1:11 | 24,197 | 272,556 | 51.6 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 1:12 | 24,173 | 270,667 | 51.3 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 1:13 | 24,148 | 268,778 | 50.9 | 1.1 | Initial descent - still accelerating slightly under gravity |
+| 1:14 | 24,124 | 266,889 | 50.5 | 1.1 | Initial descent - still accelerating slightly under gravity |
 | 1:15 | 24,100 | 265,000 | 50.2 | 1.1 | Atmospheric drag building |
-| 1:20 | 23,443 | 258,571 | 49.0 | 6.0 | Atmospheric drag building |
-| 1:30 | 22,129 | 245,714 | 46.5 | 6.0 | Atmospheric drag building |
-| 1:40 | 20,814 | 232,857 | 44.1 | 6.0 | Atmospheric drag building |
-| 1:50 | 19,500 | 220,000 | 41.7 | 6.0 | First peak heating / peak-g (first entry) |
+| 1:16 | 23,969 | 263,714 | 49.9 | 5.99 | Atmospheric drag building |
+| 1:17 | 23,837 | 262,429 | 49.7 | 5.99 | Atmospheric drag building |
+| 1:18 | 23,706 | 261,143 | 49.5 | 5.99 | Atmospheric drag building |
+| 1:19 | 23,574 | 259,857 | 49.2 | 5.99 | Atmospheric drag building |
+| 1:20 | 23,443 | 258,571 | 49.0 | 5.99 | Atmospheric drag building |
+| 1:21 | 23,311 | 257,286 | 48.7 | 5.99 | Atmospheric drag building |
+| 1:22 | 23,180 | 256,000 | 48.5 | 5.99 | Atmospheric drag building |
+| 1:23 | 23,049 | 254,714 | 48.2 | 5.99 | Atmospheric drag building |
+| 1:24 | 22,917 | 253,429 | 48.0 | 5.99 | Atmospheric drag building |
+| 1:25 | 22,786 | 252,143 | 47.8 | 5.99 | Atmospheric drag building |
+| 1:26 | 22,654 | 250,857 | 47.5 | 5.99 | Atmospheric drag building |
+| 1:27 | 22,523 | 249,571 | 47.3 | 5.99 | Atmospheric drag building |
+| 1:28 | 22,391 | 248,286 | 47.0 | 5.99 | Atmospheric drag building |
+| 1:29 | 22,260 | 247,000 | 46.8 | 5.99 | Atmospheric drag building |
+| 1:30 | 22,129 | 245,714 | 46.5 | 5.99 | Atmospheric drag building |
+| 1:31 | 21,997 | 244,429 | 46.3 | 5.99 | Atmospheric drag building |
+| 1:32 | 21,866 | 243,143 | 46.0 | 5.99 | Atmospheric drag building |
+| 1:33 | 21,734 | 241,857 | 45.8 | 5.99 | Atmospheric drag building |
+| 1:34 | 21,603 | 240,571 | 45.6 | 5.99 | Atmospheric drag building |
+| 1:35 | 21,471 | 239,286 | 45.3 | 5.99 | Atmospheric drag building |
+| 1:36 | 21,340 | 238,000 | 45.1 | 5.99 | Atmospheric drag building |
+| 1:37 | 21,209 | 236,714 | 44.8 | 5.99 | Atmospheric drag building |
+| 1:38 | 21,077 | 235,429 | 44.6 | 5.99 | Atmospheric drag building |
+| 1:39 | 20,946 | 234,143 | 44.3 | 5.99 | Atmospheric drag building |
+| 1:40 | 20,814 | 232,857 | 44.1 | 5.99 | Atmospheric drag building |
+| 1:41 | 20,683 | 231,571 | 43.9 | 5.99 | Atmospheric drag building |
+| 1:42 | 20,551 | 230,286 | 43.6 | 5.99 | Atmospheric drag building |
+| 1:43 | 20,420 | 229,000 | 43.4 | 5.99 | Atmospheric drag building |
+| 1:44 | 20,289 | 227,714 | 43.1 | 5.99 | Atmospheric drag building |
+| 1:45 | 20,157 | 226,429 | 42.9 | 5.99 | Atmospheric drag building |
+| 1:46 | 20,026 | 225,143 | 42.6 | 5.99 | Atmospheric drag building |
+| 1:47 | 19,894 | 223,857 | 42.4 | 5.99 | Atmospheric drag building |
+| 1:48 | 19,763 | 222,571 | 42.2 | 5.99 | Atmospheric drag building |
+| 1:49 | 19,631 | 221,286 | 41.9 | 5.99 | Atmospheric drag building |
+| 1:50 | 19,500 | 220,000 | 41.7 | 5.99 | First peak heating / peak-g (first entry) |
+| 1:51 | 19,375 | 219,625 | 41.6 | 5.7 | First peak heating / peak-g (first entry) |
+| 1:52 | 19,250 | 219,250 | 41.5 | 5.7 | First peak heating / peak-g (first entry) |
+| 1:53 | 19,125 | 218,875 | 41.5 | 5.7 | First peak heating / peak-g (first entry) |
+| 1:54 | 19,000 | 218,500 | 41.4 | 5.7 | First peak heating / peak-g (first entry) |
+| 1:55 | 18,875 | 218,125 | 41.3 | 5.7 | First peak heating / peak-g (first entry) |
+| 1:56 | 18,750 | 217,750 | 41.2 | 5.7 | First peak heating / peak-g (first entry) |
+| 1:57 | 18,625 | 217,375 | 41.2 | 5.7 | First peak heating / peak-g (first entry) |
+| 1:58 | 18,500 | 217,000 | 41.1 | 5.7 | First peak heating / peak-g (first entry) |
+| 1:59 | 18,375 | 216,625 | 41.0 | 5.7 | First peak heating / peak-g (first entry) |
 | 2:00 | 18,250 | 216,250 | 41.0 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:01 | 18,125 | 215,875 | 40.9 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:02 | 18,000 | 215,500 | 40.8 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:03 | 17,875 | 215,125 | 40.7 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:04 | 17,750 | 214,750 | 40.7 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:05 | 17,625 | 214,375 | 40.6 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:06 | 17,500 | 214,000 | 40.5 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:07 | 17,375 | 213,625 | 40.5 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:08 | 17,250 | 213,250 | 40.4 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:09 | 17,125 | 212,875 | 40.3 | 5.7 | First peak heating / peak-g (first entry) |
 | 2:10 | 17,000 | 212,500 | 40.2 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:11 | 16,875 | 212,125 | 40.2 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:12 | 16,750 | 211,750 | 40.1 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:13 | 16,625 | 211,375 | 40.0 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:14 | 16,500 | 211,000 | 40.0 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:15 | 16,375 | 210,625 | 39.9 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:16 | 16,250 | 210,250 | 39.8 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:17 | 16,125 | 209,875 | 39.7 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:18 | 16,000 | 209,500 | 39.7 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:19 | 15,875 | 209,125 | 39.6 | 5.7 | First peak heating / peak-g (first entry) |
 | 2:20 | 15,750 | 208,750 | 39.5 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:21 | 15,625 | 208,375 | 39.5 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:22 | 15,500 | 208,000 | 39.4 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:23 | 15,375 | 207,625 | 39.3 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:24 | 15,250 | 207,250 | 39.3 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:25 | 15,125 | 206,875 | 39.2 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:26 | 15,000 | 206,500 | 39.1 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:27 | 14,875 | 206,125 | 39.0 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:28 | 14,750 | 205,750 | 39.0 | 5.7 | First peak heating / peak-g (first entry) |
+| 2:29 | 14,625 | 205,375 | 38.9 | 5.7 | First peak heating / peak-g (first entry) |
 | 2:30 | 14,500 | 205,000 | 38.8 | 5.7 | Comms blackout - plasma sheath (first entry) |
+| 2:31 | 14,443 | 205,100 | 38.8 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:32 | 14,386 | 205,200 | 38.9 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:33 | 14,329 | 205,300 | 38.9 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:34 | 14,272 | 205,400 | 38.9 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:35 | 14,215 | 205,500 | 38.9 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:36 | 14,158 | 205,600 | 38.9 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:37 | 14,101 | 205,700 | 39.0 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:38 | 14,044 | 205,800 | 39.0 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:39 | 13,987 | 205,900 | 39.0 | 2.6 | Comms blackout - plasma sheath (first entry) |
 | 2:40 | 13,930 | 206,000 | 39.0 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:41 | 13,873 | 206,100 | 39.0 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:42 | 13,816 | 206,200 | 39.1 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:43 | 13,759 | 206,300 | 39.1 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:44 | 13,702 | 206,400 | 39.1 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:45 | 13,645 | 206,500 | 39.1 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:46 | 13,588 | 206,600 | 39.1 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:47 | 13,531 | 206,700 | 39.1 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:48 | 13,474 | 206,800 | 39.2 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:49 | 13,417 | 206,900 | 39.2 | 2.6 | Comms blackout - plasma sheath (first entry) |
 | 2:50 | 13,360 | 207,000 | 39.2 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:51 | 13,303 | 207,100 | 39.2 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:52 | 13,246 | 207,200 | 39.2 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:53 | 13,189 | 207,300 | 39.3 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:54 | 13,132 | 207,400 | 39.3 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:55 | 13,075 | 207,500 | 39.3 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:56 | 13,018 | 207,600 | 39.3 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:57 | 12,961 | 207,700 | 39.3 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:58 | 12,904 | 207,800 | 39.4 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 2:59 | 12,847 | 207,900 | 39.4 | 2.6 | Comms blackout - plasma sheath (first entry) |
 | 3:00 | 12,790 | 208,000 | 39.4 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:01 | 12,733 | 208,100 | 39.4 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:02 | 12,676 | 208,200 | 39.4 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:03 | 12,619 | 208,300 | 39.5 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:04 | 12,562 | 208,400 | 39.5 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:05 | 12,505 | 208,500 | 39.5 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:06 | 12,448 | 208,600 | 39.5 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:07 | 12,391 | 208,700 | 39.5 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:08 | 12,334 | 208,800 | 39.5 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:09 | 12,277 | 208,900 | 39.6 | 2.6 | Comms blackout - plasma sheath (first entry) |
 | 3:10 | 12,220 | 209,000 | 39.6 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:11 | 12,163 | 209,100 | 39.6 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:12 | 12,106 | 209,200 | 39.6 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:13 | 12,049 | 209,300 | 39.6 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:14 | 11,992 | 209,400 | 39.7 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:15 | 11,935 | 209,500 | 39.7 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:16 | 11,878 | 209,600 | 39.7 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:17 | 11,821 | 209,700 | 39.7 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:18 | 11,764 | 209,800 | 39.7 | 2.6 | Comms blackout - plasma sheath (first entry) |
+| 3:19 | 11,707 | 209,900 | 39.8 | 2.6 | Comms blackout - plasma sheath (first entry) |
 | 3:20 | 11,650 | 210,000 | 39.8 | 2.6 | End of first entry - velocity bled off |
-| 3:30 | 11,106 | 215,556 | 40.8 | 2.5 | End of first entry - velocity bled off |
-| 3:40 | 10,561 | 221,111 | 41.9 | 2.5 | End of first entry - velocity bled off |
-| 3:50 | 10,017 | 226,667 | 42.9 | 2.5 | End of first entry - velocity bled off |
-| 4:00 | 9,472 | 232,222 | 44.0 | 2.5 | End of first entry - velocity bled off |
-| 4:05 | 9,200 | 235,000 | 44.5 | 2.5 | SKIP / loft - vehicle climbs, drag drops |
-| 4:10 | 9,118 | 236,818 | 44.9 | 0.7 | SKIP / loft - vehicle climbs, drag drops |
-| 4:20 | 8,955 | 240,455 | 45.5 | 0.7 | SKIP / loft - vehicle climbs, drag drops |
-| 4:30 | 8,791 | 244,091 | 46.2 | 0.7 | SKIP / loft - vehicle climbs, drag drops |
-| 4:40 | 8,627 | 247,727 | 46.9 | 0.7 | SKIP / loft - vehicle climbs, drag drops |
-| 4:50 | 8,464 | 251,364 | 47.6 | 0.7 | SKIP / loft - vehicle climbs, drag drops |
-| 5:00 | 8,300 | 255,000 | 48.3 | 0.7 | Skip apogee (loft peak) - thin air, low drag |
-| 5:10 | 8,267 | 252,500 | 47.8 | 0.2 | Skip apogee (loft peak) - thin air, low drag |
-| 5:20 | 8,233 | 250,000 | 47.3 | 0.2 | Skip apogee (loft peak) - thin air, low drag |
-| 5:30 | 8,200 | 247,500 | 46.9 | 0.2 | Skip apogee (loft peak) - thin air, low drag |
-| 5:40 | 8,167 | 245,000 | 46.4 | 0.2 | Skip apogee (loft peak) - thin air, low drag |
-| 5:50 | 8,133 | 242,500 | 45.9 | 0.2 | Skip apogee (loft peak) - thin air, low drag |
-| 6:00 | 8,100 | 240,000 | 45.5 | 0.2 | Descending again toward second entry |
-| 6:10 | 8,029 | 235,000 | 44.5 | 0.3 | Descending again toward second entry |
-| 6:20 | 7,957 | 230,000 | 43.6 | 0.3 | Descending again toward second entry |
-| 6:30 | 7,886 | 225,000 | 42.6 | 0.3 | Descending again toward second entry |
-| 6:40 | 7,814 | 220,000 | 41.7 | 0.3 | Descending again toward second entry |
-| 6:50 | 7,743 | 215,000 | 40.7 | 0.3 | Descending again toward second entry |
-| 7:00 | 7,671 | 210,000 | 39.8 | 0.3 | Descending again toward second entry |
-| 7:10 | 7,600 | 205,000 | 38.8 | 0.3 | Second entry - atmosphere re-engages |
-| 7:20 | 7,120 | 197,000 | 37.3 | 2.2 | Second entry - atmosphere re-engages |
-| 7:30 | 6,640 | 189,000 | 35.8 | 2.2 | Second entry - atmosphere re-engages |
-| 7:40 | 6,160 | 181,000 | 34.3 | 2.2 | Second entry - atmosphere re-engages |
-| 7:50 | 5,680 | 173,000 | 32.8 | 2.2 | Second entry - atmosphere re-engages |
-| 8:00 | 5,200 | 165,000 | 31.2 | 2.2 | Second peak heating (second entry) |
-| 8:10 | 4,767 | 157,500 | 29.8 | 2.0 | Second peak heating (second entry) |
-| 8:20 | 4,333 | 150,000 | 28.4 | 2.0 | Second peak heating (second entry) |
-| 8:30 | 3,900 | 142,500 | 27.0 | 2.0 | Second peak heating (second entry) |
-| 8:40 | 3,467 | 135,000 | 25.6 | 2.0 | Second peak heating (second entry) |
-| 8:50 | 3,033 | 127,500 | 24.1 | 2.0 | Second peak heating (second entry) |
-| 9:00 | 2,600 | 120,000 | 22.7 | 2.0 | Rapid deceleration - lower atmosphere |
+| 3:21 | 11,596 | 210,556 | 39.9 | 2.48 | End of first entry - velocity bled off |
+| 3:22 | 11,541 | 211,111 | 40.0 | 2.48 | End of first entry - velocity bled off |
+| 3:23 | 11,487 | 211,667 | 40.1 | 2.48 | End of first entry - velocity bled off |
+| 3:24 | 11,432 | 212,222 | 40.2 | 2.48 | End of first entry - velocity bled off |
+| 3:25 | 11,378 | 212,778 | 40.3 | 2.48 | End of first entry - velocity bled off |
+| 3:26 | 11,323 | 213,333 | 40.4 | 2.48 | End of first entry - velocity bled off |
+| 3:27 | 11,269 | 213,889 | 40.5 | 2.48 | End of first entry - velocity bled off |
+| 3:28 | 11,214 | 214,444 | 40.6 | 2.48 | End of first entry - velocity bled off |
+| 3:29 | 11,160 | 215,000 | 40.7 | 2.48 | End of first entry - velocity bled off |
+| 3:30 | 11,106 | 215,556 | 40.8 | 2.48 | End of first entry - velocity bled off |
+| 3:31 | 11,051 | 216,111 | 40.9 | 2.48 | End of first entry - velocity bled off |
+| 3:32 | 10,997 | 216,667 | 41.0 | 2.48 | End of first entry - velocity bled off |
+| 3:33 | 10,942 | 217,222 | 41.1 | 2.48 | End of first entry - velocity bled off |
+| 3:34 | 10,888 | 217,778 | 41.2 | 2.48 | End of first entry - velocity bled off |
+| 3:35 | 10,833 | 218,333 | 41.4 | 2.48 | End of first entry - velocity bled off |
+| 3:36 | 10,779 | 218,889 | 41.5 | 2.48 | End of first entry - velocity bled off |
+| 3:37 | 10,724 | 219,444 | 41.6 | 2.48 | End of first entry - velocity bled off |
+| 3:38 | 10,670 | 220,000 | 41.7 | 2.48 | End of first entry - velocity bled off |
+| 3:39 | 10,616 | 220,556 | 41.8 | 2.48 | End of first entry - velocity bled off |
+| 3:40 | 10,561 | 221,111 | 41.9 | 2.48 | End of first entry - velocity bled off |
+| 3:41 | 10,507 | 221,667 | 42.0 | 2.48 | End of first entry - velocity bled off |
+| 3:42 | 10,452 | 222,222 | 42.1 | 2.48 | End of first entry - velocity bled off |
+| 3:43 | 10,398 | 222,778 | 42.2 | 2.48 | End of first entry - velocity bled off |
+| 3:44 | 10,343 | 223,333 | 42.3 | 2.48 | End of first entry - velocity bled off |
+| 3:45 | 10,289 | 223,889 | 42.4 | 2.48 | End of first entry - velocity bled off |
+| 3:46 | 10,234 | 224,444 | 42.5 | 2.48 | End of first entry - velocity bled off |
+| 3:47 | 10,180 | 225,000 | 42.6 | 2.48 | End of first entry - velocity bled off |
+| 3:48 | 10,126 | 225,556 | 42.7 | 2.48 | End of first entry - velocity bled off |
+| 3:49 | 10,071 | 226,111 | 42.8 | 2.48 | End of first entry - velocity bled off |
+| 3:50 | 10,017 | 226,667 | 42.9 | 2.48 | End of first entry - velocity bled off |
+| 3:51 | 9,962 | 227,222 | 43.0 | 2.48 | End of first entry - velocity bled off |
+| 3:52 | 9,908 | 227,778 | 43.1 | 2.48 | End of first entry - velocity bled off |
+| 3:53 | 9,853 | 228,333 | 43.2 | 2.48 | End of first entry - velocity bled off |
+| 3:54 | 9,799 | 228,889 | 43.4 | 2.48 | End of first entry - velocity bled off |
+| 3:55 | 9,744 | 229,444 | 43.5 | 2.48 | End of first entry - velocity bled off |
+| 3:56 | 9,690 | 230,000 | 43.6 | 2.48 | End of first entry - velocity bled off |
+| 3:57 | 9,636 | 230,556 | 43.7 | 2.48 | End of first entry - velocity bled off |
+| 3:58 | 9,581 | 231,111 | 43.8 | 2.48 | End of first entry - velocity bled off |
+| 3:59 | 9,527 | 231,667 | 43.9 | 2.48 | End of first entry - velocity bled off |
+| 4:00 | 9,472 | 232,222 | 44.0 | 2.48 | End of first entry - velocity bled off |
+| 4:01 | 9,418 | 232,778 | 44.1 | 2.48 | End of first entry - velocity bled off |
+| 4:02 | 9,363 | 233,333 | 44.2 | 2.48 | End of first entry - velocity bled off |
+| 4:03 | 9,309 | 233,889 | 44.3 | 2.48 | End of first entry - velocity bled off |
+| 4:04 | 9,254 | 234,444 | 44.4 | 2.48 | End of first entry - velocity bled off |
+| 4:05 | 9,200 | 235,000 | 44.5 | 2.48 | SKIP / loft - vehicle climbs, drag drops |
+| 4:06 | 9,184 | 235,364 | 44.6 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:07 | 9,167 | 235,727 | 44.6 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:08 | 9,151 | 236,091 | 44.7 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:09 | 9,135 | 236,455 | 44.8 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:10 | 9,118 | 236,818 | 44.9 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:11 | 9,102 | 237,182 | 44.9 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:12 | 9,085 | 237,545 | 45.0 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:13 | 9,069 | 237,909 | 45.1 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:14 | 9,053 | 238,273 | 45.1 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:15 | 9,036 | 238,636 | 45.2 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:16 | 9,020 | 239,000 | 45.3 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:17 | 9,004 | 239,364 | 45.3 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:18 | 8,987 | 239,727 | 45.4 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:19 | 8,971 | 240,091 | 45.5 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:20 | 8,955 | 240,455 | 45.5 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:21 | 8,938 | 240,818 | 45.6 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:22 | 8,922 | 241,182 | 45.7 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:23 | 8,905 | 241,545 | 45.7 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:24 | 8,889 | 241,909 | 45.8 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:25 | 8,873 | 242,273 | 45.9 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:26 | 8,856 | 242,636 | 46.0 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:27 | 8,840 | 243,000 | 46.0 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:28 | 8,824 | 243,364 | 46.1 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:29 | 8,807 | 243,727 | 46.2 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:30 | 8,791 | 244,091 | 46.2 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:31 | 8,775 | 244,455 | 46.3 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:32 | 8,758 | 244,818 | 46.4 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:33 | 8,742 | 245,182 | 46.4 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:34 | 8,725 | 245,545 | 46.5 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:35 | 8,709 | 245,909 | 46.6 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:36 | 8,693 | 246,273 | 46.6 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:37 | 8,676 | 246,636 | 46.7 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:38 | 8,660 | 247,000 | 46.8 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:39 | 8,644 | 247,364 | 46.8 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:40 | 8,627 | 247,727 | 46.9 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:41 | 8,611 | 248,091 | 47.0 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:42 | 8,595 | 248,455 | 47.1 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:43 | 8,578 | 248,818 | 47.1 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:44 | 8,562 | 249,182 | 47.2 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:45 | 8,545 | 249,545 | 47.3 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:46 | 8,529 | 249,909 | 47.3 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:47 | 8,513 | 250,273 | 47.4 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:48 | 8,496 | 250,636 | 47.5 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:49 | 8,480 | 251,000 | 47.5 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:50 | 8,464 | 251,364 | 47.6 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:51 | 8,447 | 251,727 | 47.7 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:52 | 8,431 | 252,091 | 47.7 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:53 | 8,415 | 252,455 | 47.8 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:54 | 8,398 | 252,818 | 47.9 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:55 | 8,382 | 253,182 | 48.0 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:56 | 8,365 | 253,545 | 48.0 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:57 | 8,349 | 253,909 | 48.1 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:58 | 8,333 | 254,273 | 48.2 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 4:59 | 8,316 | 254,636 | 48.2 | 0.75 | SKIP / loft - vehicle climbs, drag drops |
+| 5:00 | 8,300 | 255,000 | 48.3 | 0.75 | Skip apogee (loft peak) - thin air, low drag |
+| 5:01 | 8,297 | 254,750 | 48.2 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:02 | 8,293 | 254,500 | 48.2 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:03 | 8,290 | 254,250 | 48.2 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:04 | 8,287 | 254,000 | 48.1 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:05 | 8,283 | 253,750 | 48.1 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:06 | 8,280 | 253,500 | 48.0 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:07 | 8,277 | 253,250 | 48.0 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:08 | 8,273 | 253,000 | 47.9 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:09 | 8,270 | 252,750 | 47.9 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:10 | 8,267 | 252,500 | 47.8 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:11 | 8,263 | 252,250 | 47.8 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:12 | 8,260 | 252,000 | 47.7 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:13 | 8,257 | 251,750 | 47.7 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:14 | 8,253 | 251,500 | 47.6 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:15 | 8,250 | 251,250 | 47.6 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:16 | 8,247 | 251,000 | 47.5 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:17 | 8,243 | 250,750 | 47.5 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:18 | 8,240 | 250,500 | 47.4 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:19 | 8,237 | 250,250 | 47.4 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:20 | 8,233 | 250,000 | 47.3 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:21 | 8,230 | 249,750 | 47.3 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:22 | 8,227 | 249,500 | 47.3 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:23 | 8,223 | 249,250 | 47.2 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:24 | 8,220 | 249,000 | 47.2 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:25 | 8,217 | 248,750 | 47.1 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:26 | 8,213 | 248,500 | 47.1 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:27 | 8,210 | 248,250 | 47.0 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:28 | 8,207 | 248,000 | 47.0 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:29 | 8,203 | 247,750 | 46.9 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:30 | 8,200 | 247,500 | 46.9 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:31 | 8,197 | 247,250 | 46.8 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:32 | 8,193 | 247,000 | 46.8 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:33 | 8,190 | 246,750 | 46.7 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:34 | 8,187 | 246,500 | 46.7 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:35 | 8,183 | 246,250 | 46.6 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:36 | 8,180 | 246,000 | 46.6 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:37 | 8,177 | 245,750 | 46.5 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:38 | 8,173 | 245,500 | 46.5 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:39 | 8,170 | 245,250 | 46.4 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:40 | 8,167 | 245,000 | 46.4 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:41 | 8,163 | 244,750 | 46.4 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:42 | 8,160 | 244,500 | 46.3 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:43 | 8,157 | 244,250 | 46.3 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:44 | 8,153 | 244,000 | 46.2 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:45 | 8,150 | 243,750 | 46.2 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:46 | 8,147 | 243,500 | 46.1 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:47 | 8,143 | 243,250 | 46.1 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:48 | 8,140 | 243,000 | 46.0 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:49 | 8,137 | 242,750 | 46.0 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:50 | 8,133 | 242,500 | 45.9 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:51 | 8,130 | 242,250 | 45.9 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:52 | 8,127 | 242,000 | 45.8 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:53 | 8,123 | 241,750 | 45.8 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:54 | 8,120 | 241,500 | 45.7 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:55 | 8,117 | 241,250 | 45.7 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:56 | 8,113 | 241,000 | 45.6 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:57 | 8,110 | 240,750 | 45.6 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:58 | 8,107 | 240,500 | 45.5 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 5:59 | 8,103 | 240,250 | 45.5 | 0.15 | Skip apogee (loft peak) - thin air, low drag |
+| 6:00 | 8,100 | 240,000 | 45.5 | 0.15 | Descending again toward second entry |
+| 6:01 | 8,093 | 239,500 | 45.4 | 0.33 | Descending again toward second entry |
+| 6:02 | 8,086 | 239,000 | 45.3 | 0.33 | Descending again toward second entry |
+| 6:03 | 8,079 | 238,500 | 45.2 | 0.33 | Descending again toward second entry |
+| 6:04 | 8,071 | 238,000 | 45.1 | 0.33 | Descending again toward second entry |
+| 6:05 | 8,064 | 237,500 | 45.0 | 0.33 | Descending again toward second entry |
+| 6:06 | 8,057 | 237,000 | 44.9 | 0.33 | Descending again toward second entry |
+| 6:07 | 8,050 | 236,500 | 44.8 | 0.33 | Descending again toward second entry |
+| 6:08 | 8,043 | 236,000 | 44.7 | 0.33 | Descending again toward second entry |
+| 6:09 | 8,036 | 235,500 | 44.6 | 0.33 | Descending again toward second entry |
+| 6:10 | 8,029 | 235,000 | 44.5 | 0.33 | Descending again toward second entry |
+| 6:11 | 8,021 | 234,500 | 44.4 | 0.33 | Descending again toward second entry |
+| 6:12 | 8,014 | 234,000 | 44.3 | 0.33 | Descending again toward second entry |
+| 6:13 | 8,007 | 233,500 | 44.2 | 0.33 | Descending again toward second entry |
+| 6:14 | 8,000 | 233,000 | 44.1 | 0.33 | Descending again toward second entry |
+| 6:15 | 7,993 | 232,500 | 44.0 | 0.33 | Descending again toward second entry |
+| 6:16 | 7,986 | 232,000 | 43.9 | 0.33 | Descending again toward second entry |
+| 6:17 | 7,979 | 231,500 | 43.8 | 0.33 | Descending again toward second entry |
+| 6:18 | 7,971 | 231,000 | 43.8 | 0.33 | Descending again toward second entry |
+| 6:19 | 7,964 | 230,500 | 43.7 | 0.33 | Descending again toward second entry |
+| 6:20 | 7,957 | 230,000 | 43.6 | 0.33 | Descending again toward second entry |
+| 6:21 | 7,950 | 229,500 | 43.5 | 0.33 | Descending again toward second entry |
+| 6:22 | 7,943 | 229,000 | 43.4 | 0.33 | Descending again toward second entry |
+| 6:23 | 7,936 | 228,500 | 43.3 | 0.33 | Descending again toward second entry |
+| 6:24 | 7,929 | 228,000 | 43.2 | 0.33 | Descending again toward second entry |
+| 6:25 | 7,921 | 227,500 | 43.1 | 0.33 | Descending again toward second entry |
+| 6:26 | 7,914 | 227,000 | 43.0 | 0.33 | Descending again toward second entry |
+| 6:27 | 7,907 | 226,500 | 42.9 | 0.33 | Descending again toward second entry |
+| 6:28 | 7,900 | 226,000 | 42.8 | 0.33 | Descending again toward second entry |
+| 6:29 | 7,893 | 225,500 | 42.7 | 0.33 | Descending again toward second entry |
+| 6:30 | 7,886 | 225,000 | 42.6 | 0.33 | Descending again toward second entry |
+| 6:31 | 7,879 | 224,500 | 42.5 | 0.33 | Descending again toward second entry |
+| 6:32 | 7,871 | 224,000 | 42.4 | 0.33 | Descending again toward second entry |
+| 6:33 | 7,864 | 223,500 | 42.3 | 0.33 | Descending again toward second entry |
+| 6:34 | 7,857 | 223,000 | 42.2 | 0.33 | Descending again toward second entry |
+| 6:35 | 7,850 | 222,500 | 42.1 | 0.33 | Descending again toward second entry |
+| 6:36 | 7,843 | 222,000 | 42.0 | 0.33 | Descending again toward second entry |
+| 6:37 | 7,836 | 221,500 | 42.0 | 0.33 | Descending again toward second entry |
+| 6:38 | 7,829 | 221,000 | 41.9 | 0.33 | Descending again toward second entry |
+| 6:39 | 7,821 | 220,500 | 41.8 | 0.33 | Descending again toward second entry |
+| 6:40 | 7,814 | 220,000 | 41.7 | 0.33 | Descending again toward second entry |
+| 6:41 | 7,807 | 219,500 | 41.6 | 0.33 | Descending again toward second entry |
+| 6:42 | 7,800 | 219,000 | 41.5 | 0.33 | Descending again toward second entry |
+| 6:43 | 7,793 | 218,500 | 41.4 | 0.33 | Descending again toward second entry |
+| 6:44 | 7,786 | 218,000 | 41.3 | 0.33 | Descending again toward second entry |
+| 6:45 | 7,779 | 217,500 | 41.2 | 0.33 | Descending again toward second entry |
+| 6:46 | 7,771 | 217,000 | 41.1 | 0.33 | Descending again toward second entry |
+| 6:47 | 7,764 | 216,500 | 41.0 | 0.33 | Descending again toward second entry |
+| 6:48 | 7,757 | 216,000 | 40.9 | 0.33 | Descending again toward second entry |
+| 6:49 | 7,750 | 215,500 | 40.8 | 0.33 | Descending again toward second entry |
+| 6:50 | 7,743 | 215,000 | 40.7 | 0.33 | Descending again toward second entry |
+| 6:51 | 7,736 | 214,500 | 40.6 | 0.33 | Descending again toward second entry |
+| 6:52 | 7,729 | 214,000 | 40.5 | 0.33 | Descending again toward second entry |
+| 6:53 | 7,721 | 213,500 | 40.4 | 0.33 | Descending again toward second entry |
+| 6:54 | 7,714 | 213,000 | 40.3 | 0.33 | Descending again toward second entry |
+| 6:55 | 7,707 | 212,500 | 40.2 | 0.33 | Descending again toward second entry |
+| 6:56 | 7,700 | 212,000 | 40.2 | 0.33 | Descending again toward second entry |
+| 6:57 | 7,693 | 211,500 | 40.1 | 0.33 | Descending again toward second entry |
+| 6:58 | 7,686 | 211,000 | 40.0 | 0.33 | Descending again toward second entry |
+| 6:59 | 7,679 | 210,500 | 39.9 | 0.33 | Descending again toward second entry |
+| 7:00 | 7,671 | 210,000 | 39.8 | 0.33 | Descending again toward second entry |
+| 7:01 | 7,664 | 209,500 | 39.7 | 0.33 | Descending again toward second entry |
+| 7:02 | 7,657 | 209,000 | 39.6 | 0.33 | Descending again toward second entry |
+| 7:03 | 7,650 | 208,500 | 39.5 | 0.33 | Descending again toward second entry |
+| 7:04 | 7,643 | 208,000 | 39.4 | 0.33 | Descending again toward second entry |
+| 7:05 | 7,636 | 207,500 | 39.3 | 0.33 | Descending again toward second entry |
+| 7:06 | 7,629 | 207,000 | 39.2 | 0.33 | Descending again toward second entry |
+| 7:07 | 7,621 | 206,500 | 39.1 | 0.33 | Descending again toward second entry |
+| 7:08 | 7,614 | 206,000 | 39.0 | 0.33 | Descending again toward second entry |
+| 7:09 | 7,607 | 205,500 | 38.9 | 0.33 | Descending again toward second entry |
+| 7:10 | 7,600 | 205,000 | 38.8 | 0.33 | Second entry - atmosphere re-engages |
+| 7:11 | 7,552 | 204,200 | 38.7 | 2.19 | Second entry - atmosphere re-engages |
+| 7:12 | 7,504 | 203,400 | 38.5 | 2.19 | Second entry - atmosphere re-engages |
+| 7:13 | 7,456 | 202,600 | 38.4 | 2.19 | Second entry - atmosphere re-engages |
+| 7:14 | 7,408 | 201,800 | 38.2 | 2.19 | Second entry - atmosphere re-engages |
+| 7:15 | 7,360 | 201,000 | 38.1 | 2.19 | Second entry - atmosphere re-engages |
+| 7:16 | 7,312 | 200,200 | 37.9 | 2.19 | Second entry - atmosphere re-engages |
+| 7:17 | 7,264 | 199,400 | 37.8 | 2.19 | Second entry - atmosphere re-engages |
+| 7:18 | 7,216 | 198,600 | 37.6 | 2.19 | Second entry - atmosphere re-engages |
+| 7:19 | 7,168 | 197,800 | 37.5 | 2.19 | Second entry - atmosphere re-engages |
+| 7:20 | 7,120 | 197,000 | 37.3 | 2.19 | Second entry - atmosphere re-engages |
+| 7:21 | 7,072 | 196,200 | 37.2 | 2.19 | Second entry - atmosphere re-engages |
+| 7:22 | 7,024 | 195,400 | 37.0 | 2.19 | Second entry - atmosphere re-engages |
+| 7:23 | 6,976 | 194,600 | 36.9 | 2.19 | Second entry - atmosphere re-engages |
+| 7:24 | 6,928 | 193,800 | 36.7 | 2.19 | Second entry - atmosphere re-engages |
+| 7:25 | 6,880 | 193,000 | 36.6 | 2.19 | Second entry - atmosphere re-engages |
+| 7:26 | 6,832 | 192,200 | 36.4 | 2.19 | Second entry - atmosphere re-engages |
+| 7:27 | 6,784 | 191,400 | 36.2 | 2.19 | Second entry - atmosphere re-engages |
+| 7:28 | 6,736 | 190,600 | 36.1 | 2.19 | Second entry - atmosphere re-engages |
+| 7:29 | 6,688 | 189,800 | 35.9 | 2.19 | Second entry - atmosphere re-engages |
+| 7:30 | 6,640 | 189,000 | 35.8 | 2.19 | Second entry - atmosphere re-engages |
+| 7:31 | 6,592 | 188,200 | 35.6 | 2.19 | Second entry - atmosphere re-engages |
+| 7:32 | 6,544 | 187,400 | 35.5 | 2.19 | Second entry - atmosphere re-engages |
+| 7:33 | 6,496 | 186,600 | 35.3 | 2.19 | Second entry - atmosphere re-engages |
+| 7:34 | 6,448 | 185,800 | 35.2 | 2.19 | Second entry - atmosphere re-engages |
+| 7:35 | 6,400 | 185,000 | 35.0 | 2.19 | Second entry - atmosphere re-engages |
+| 7:36 | 6,352 | 184,200 | 34.9 | 2.19 | Second entry - atmosphere re-engages |
+| 7:37 | 6,304 | 183,400 | 34.7 | 2.19 | Second entry - atmosphere re-engages |
+| 7:38 | 6,256 | 182,600 | 34.6 | 2.19 | Second entry - atmosphere re-engages |
+| 7:39 | 6,208 | 181,800 | 34.4 | 2.19 | Second entry - atmosphere re-engages |
+| 7:40 | 6,160 | 181,000 | 34.3 | 2.19 | Second entry - atmosphere re-engages |
+| 7:41 | 6,112 | 180,200 | 34.1 | 2.19 | Second entry - atmosphere re-engages |
+| 7:42 | 6,064 | 179,400 | 34.0 | 2.19 | Second entry - atmosphere re-engages |
+| 7:43 | 6,016 | 178,600 | 33.8 | 2.19 | Second entry - atmosphere re-engages |
+| 7:44 | 5,968 | 177,800 | 33.7 | 2.19 | Second entry - atmosphere re-engages |
+| 7:45 | 5,920 | 177,000 | 33.5 | 2.19 | Second entry - atmosphere re-engages |
+| 7:46 | 5,872 | 176,200 | 33.4 | 2.19 | Second entry - atmosphere re-engages |
+| 7:47 | 5,824 | 175,400 | 33.2 | 2.19 | Second entry - atmosphere re-engages |
+| 7:48 | 5,776 | 174,600 | 33.1 | 2.19 | Second entry - atmosphere re-engages |
+| 7:49 | 5,728 | 173,800 | 32.9 | 2.19 | Second entry - atmosphere re-engages |
+| 7:50 | 5,680 | 173,000 | 32.8 | 2.19 | Second entry - atmosphere re-engages |
+| 7:51 | 5,632 | 172,200 | 32.6 | 2.19 | Second entry - atmosphere re-engages |
+| 7:52 | 5,584 | 171,400 | 32.5 | 2.19 | Second entry - atmosphere re-engages |
+| 7:53 | 5,536 | 170,600 | 32.3 | 2.19 | Second entry - atmosphere re-engages |
+| 7:54 | 5,488 | 169,800 | 32.2 | 2.19 | Second entry - atmosphere re-engages |
+| 7:55 | 5,440 | 169,000 | 32.0 | 2.19 | Second entry - atmosphere re-engages |
+| 7:56 | 5,392 | 168,200 | 31.9 | 2.19 | Second entry - atmosphere re-engages |
+| 7:57 | 5,344 | 167,400 | 31.7 | 2.19 | Second entry - atmosphere re-engages |
+| 7:58 | 5,296 | 166,600 | 31.6 | 2.19 | Second entry - atmosphere re-engages |
+| 7:59 | 5,248 | 165,800 | 31.4 | 2.19 | Second entry - atmosphere re-engages |
+| 8:00 | 5,200 | 165,000 | 31.2 | 2.19 | Second peak heating (second entry) |
+| 8:01 | 5,157 | 164,250 | 31.1 | 1.97 | Second peak heating (second entry) |
+| 8:02 | 5,113 | 163,500 | 31.0 | 1.97 | Second peak heating (second entry) |
+| 8:03 | 5,070 | 162,750 | 30.8 | 1.97 | Second peak heating (second entry) |
+| 8:04 | 5,027 | 162,000 | 30.7 | 1.97 | Second peak heating (second entry) |
+| 8:05 | 4,983 | 161,250 | 30.5 | 1.97 | Second peak heating (second entry) |
+| 8:06 | 4,940 | 160,500 | 30.4 | 1.97 | Second peak heating (second entry) |
+| 8:07 | 4,897 | 159,750 | 30.3 | 1.97 | Second peak heating (second entry) |
+| 8:08 | 4,853 | 159,000 | 30.1 | 1.97 | Second peak heating (second entry) |
+| 8:09 | 4,810 | 158,250 | 30.0 | 1.97 | Second peak heating (second entry) |
+| 8:10 | 4,767 | 157,500 | 29.8 | 1.97 | Second peak heating (second entry) |
+| 8:11 | 4,723 | 156,750 | 29.7 | 1.97 | Second peak heating (second entry) |
+| 8:12 | 4,680 | 156,000 | 29.5 | 1.97 | Second peak heating (second entry) |
+| 8:13 | 4,637 | 155,250 | 29.4 | 1.97 | Second peak heating (second entry) |
+| 8:14 | 4,593 | 154,500 | 29.3 | 1.97 | Second peak heating (second entry) |
+| 8:15 | 4,550 | 153,750 | 29.1 | 1.97 | Second peak heating (second entry) |
+| 8:16 | 4,507 | 153,000 | 29.0 | 1.97 | Second peak heating (second entry) |
+| 8:17 | 4,463 | 152,250 | 28.8 | 1.97 | Second peak heating (second entry) |
+| 8:18 | 4,420 | 151,500 | 28.7 | 1.97 | Second peak heating (second entry) |
+| 8:19 | 4,377 | 150,750 | 28.6 | 1.97 | Second peak heating (second entry) |
+| 8:20 | 4,333 | 150,000 | 28.4 | 1.97 | Second peak heating (second entry) |
+| 8:21 | 4,290 | 149,250 | 28.3 | 1.97 | Second peak heating (second entry) |
+| 8:22 | 4,247 | 148,500 | 28.1 | 1.97 | Second peak heating (second entry) |
+| 8:23 | 4,203 | 147,750 | 28.0 | 1.97 | Second peak heating (second entry) |
+| 8:24 | 4,160 | 147,000 | 27.8 | 1.97 | Second peak heating (second entry) |
+| 8:25 | 4,117 | 146,250 | 27.7 | 1.97 | Second peak heating (second entry) |
+| 8:26 | 4,073 | 145,500 | 27.6 | 1.97 | Second peak heating (second entry) |
+| 8:27 | 4,030 | 144,750 | 27.4 | 1.97 | Second peak heating (second entry) |
+| 8:28 | 3,987 | 144,000 | 27.3 | 1.97 | Second peak heating (second entry) |
+| 8:29 | 3,943 | 143,250 | 27.1 | 1.97 | Second peak heating (second entry) |
+| 8:30 | 3,900 | 142,500 | 27.0 | 1.97 | Second peak heating (second entry) |
+| 8:31 | 3,857 | 141,750 | 26.8 | 1.97 | Second peak heating (second entry) |
+| 8:32 | 3,813 | 141,000 | 26.7 | 1.97 | Second peak heating (second entry) |
+| 8:33 | 3,770 | 140,250 | 26.6 | 1.97 | Second peak heating (second entry) |
+| 8:34 | 3,727 | 139,500 | 26.4 | 1.97 | Second peak heating (second entry) |
+| 8:35 | 3,683 | 138,750 | 26.3 | 1.97 | Second peak heating (second entry) |
+| 8:36 | 3,640 | 138,000 | 26.1 | 1.97 | Second peak heating (second entry) |
+| 8:37 | 3,597 | 137,250 | 26.0 | 1.97 | Second peak heating (second entry) |
+| 8:38 | 3,553 | 136,500 | 25.9 | 1.97 | Second peak heating (second entry) |
+| 8:39 | 3,510 | 135,750 | 25.7 | 1.97 | Second peak heating (second entry) |
+| 8:40 | 3,467 | 135,000 | 25.6 | 1.97 | Second peak heating (second entry) |
+| 8:41 | 3,423 | 134,250 | 25.4 | 1.97 | Second peak heating (second entry) |
+| 8:42 | 3,380 | 133,500 | 25.3 | 1.97 | Second peak heating (second entry) |
+| 8:43 | 3,337 | 132,750 | 25.1 | 1.97 | Second peak heating (second entry) |
+| 8:44 | 3,293 | 132,000 | 25.0 | 1.97 | Second peak heating (second entry) |
+| 8:45 | 3,250 | 131,250 | 24.9 | 1.97 | Second peak heating (second entry) |
+| 8:46 | 3,207 | 130,500 | 24.7 | 1.97 | Second peak heating (second entry) |
+| 8:47 | 3,163 | 129,750 | 24.6 | 1.97 | Second peak heating (second entry) |
+| 8:48 | 3,120 | 129,000 | 24.4 | 1.97 | Second peak heating (second entry) |
+| 8:49 | 3,077 | 128,250 | 24.3 | 1.97 | Second peak heating (second entry) |
+| 8:50 | 3,033 | 127,500 | 24.1 | 1.97 | Second peak heating (second entry) |
+| 8:51 | 2,990 | 126,750 | 24.0 | 1.97 | Second peak heating (second entry) |
+| 8:52 | 2,947 | 126,000 | 23.9 | 1.97 | Second peak heating (second entry) |
+| 8:53 | 2,903 | 125,250 | 23.7 | 1.97 | Second peak heating (second entry) |
+| 8:54 | 2,860 | 124,500 | 23.6 | 1.97 | Second peak heating (second entry) |
+| 8:55 | 2,817 | 123,750 | 23.4 | 1.97 | Second peak heating (second entry) |
+| 8:56 | 2,773 | 123,000 | 23.3 | 1.97 | Second peak heating (second entry) |
+| 8:57 | 2,730 | 122,250 | 23.2 | 1.97 | Second peak heating (second entry) |
+| 8:58 | 2,687 | 121,500 | 23.0 | 1.97 | Second peak heating (second entry) |
+| 8:59 | 2,643 | 120,750 | 22.9 | 1.97 | Second peak heating (second entry) |
+| 9:00 | 2,600 | 120,000 | 22.7 | 1.97 | Rapid deceleration - lower atmosphere |
+| 9:01 | 2,576 | 119,500 | 22.6 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:02 | 2,552 | 119,000 | 22.5 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:03 | 2,528 | 118,500 | 22.4 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:04 | 2,503 | 118,000 | 22.3 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:05 | 2,479 | 117,500 | 22.3 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:06 | 2,455 | 117,000 | 22.2 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:07 | 2,431 | 116,500 | 22.1 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:08 | 2,407 | 116,000 | 22.0 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:09 | 2,382 | 115,500 | 21.9 | 1.1 | Rapid deceleration - lower atmosphere |
 | 9:10 | 2,358 | 115,000 | 21.8 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:11 | 2,334 | 114,500 | 21.7 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:12 | 2,310 | 114,000 | 21.6 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:13 | 2,286 | 113,500 | 21.5 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:14 | 2,262 | 113,000 | 21.4 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:15 | 2,238 | 112,500 | 21.3 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:16 | 2,213 | 112,000 | 21.2 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:17 | 2,189 | 111,500 | 21.1 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:18 | 2,165 | 111,000 | 21.0 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:19 | 2,141 | 110,500 | 20.9 | 1.1 | Rapid deceleration - lower atmosphere |
 | 9:20 | 2,117 | 110,000 | 20.8 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:21 | 2,092 | 109,500 | 20.7 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:22 | 2,068 | 109,000 | 20.6 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:23 | 2,044 | 108,500 | 20.5 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:24 | 2,020 | 108,000 | 20.5 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:25 | 1,996 | 107,500 | 20.4 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:26 | 1,972 | 107,000 | 20.3 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:27 | 1,948 | 106,500 | 20.2 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:28 | 1,923 | 106,000 | 20.1 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:29 | 1,899 | 105,500 | 20.0 | 1.1 | Rapid deceleration - lower atmosphere |
 | 9:30 | 1,875 | 105,000 | 19.9 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:31 | 1,851 | 104,500 | 19.8 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:32 | 1,827 | 104,000 | 19.7 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:33 | 1,802 | 103,500 | 19.6 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:34 | 1,778 | 103,000 | 19.5 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:35 | 1,754 | 102,500 | 19.4 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:36 | 1,730 | 102,000 | 19.3 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:37 | 1,706 | 101,500 | 19.2 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:38 | 1,682 | 101,000 | 19.1 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:39 | 1,658 | 100,500 | 19.0 | 1.1 | Rapid deceleration - lower atmosphere |
 | 9:40 | 1,633 | 100,000 | 18.9 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:41 | 1,609 | 99,500 | 18.8 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:42 | 1,585 | 99,000 | 18.8 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:43 | 1,561 | 98,500 | 18.7 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:44 | 1,537 | 98,000 | 18.6 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:45 | 1,512 | 97,500 | 18.5 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:46 | 1,488 | 97,000 | 18.4 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:47 | 1,464 | 96,500 | 18.3 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:48 | 1,440 | 96,000 | 18.2 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:49 | 1,416 | 95,500 | 18.1 | 1.1 | Rapid deceleration - lower atmosphere |
 | 9:50 | 1,392 | 95,000 | 18.0 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:51 | 1,368 | 94,500 | 17.9 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:52 | 1,343 | 94,000 | 17.8 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:53 | 1,319 | 93,500 | 17.7 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:54 | 1,295 | 93,000 | 17.6 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:55 | 1,271 | 92,500 | 17.5 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:56 | 1,247 | 92,000 | 17.4 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:57 | 1,222 | 91,500 | 17.3 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:58 | 1,198 | 91,000 | 17.2 | 1.1 | Rapid deceleration - lower atmosphere |
+| 9:59 | 1,174 | 90,500 | 17.1 | 1.1 | Rapid deceleration - lower atmosphere |
 | 10:00 | 1,150 | 90,000 | 17.0 | 1.1 | Subsonic transition approaching |
-| 10:10 | 1,052 | 83,333 | 15.8 | 0.4 | Subsonic transition approaching |
-| 10:20 | 953 | 76,667 | 14.5 | 0.4 | Subsonic transition approaching |
-| 10:30 | 855 | 70,000 | 13.3 | 0.4 | Subsonic transition approaching |
-| 10:40 | 757 | 63,333 | 12.0 | 0.4 | Subsonic transition approaching |
-| 10:50 | 658 | 56,667 | 10.7 | 0.4 | Subsonic transition approaching |
-| 11:00 | 560 | 50,000 | 9.5 | 0.4 | Subsonic - stabilizing for chute sequence |
-| 11:10 | 505 | 43,750 | 8.3 | 0.3 | Subsonic - stabilizing for chute sequence |
-| 11:20 | 450 | 37,500 | 7.1 | 0.3 | Subsonic - stabilizing for chute sequence |
-| 11:30 | 395 | 31,250 | 5.9 | 0.3 | Subsonic - stabilizing for chute sequence |
-| 11:40 | 340 | 25,000 | 4.7 | 0.3 | DROGUE parachutes deploy (~25,000 ft) |
-| 11:50 | 305 | 22,833 | 4.3 | 0.2 | DROGUE parachutes deploy (~25,000 ft) |
-| 12:00 | 270 | 20,667 | 3.9 | 0.2 | DROGUE parachutes deploy (~25,000 ft) |
-| 12:10 | 235 | 18,500 | 3.5 | 0.2 | DROGUE parachutes deploy (~25,000 ft) |
-| 12:20 | 200 | 16,333 | 3.1 | 0.2 | DROGUE parachutes deploy (~25,000 ft) |
-| 12:30 | 165 | 14,167 | 2.7 | 0.2 | DROGUE parachutes deploy (~25,000 ft) |
-| 12:40 | 130 | 12,000 | 2.3 | 0.2 | Drogues stabilizing descent |
-| 12:50 | 118 | 11,167 | 2.1 | 0.1 | Drogues stabilizing descent |
-| 13:00 | 107 | 10,333 | 2.0 | 0.1 | Drogues stabilizing descent |
-| 13:10 | 95 | 9,500 | 1.8 | 0.1 | MAIN parachutes deploy (~9,500 ft) |
-| 13:20 | 83 | 8,917 | 1.7 | 0.1 | MAIN parachutes deploy (~9,500 ft) |
-| 13:30 | 71 | 8,333 | 1.6 | 0.1 | MAIN parachutes deploy (~9,500 ft) |
-| 13:40 | 58 | 7,750 | 1.5 | 0.1 | MAIN parachutes deploy (~9,500 ft) |
-| 13:50 | 46 | 7,167 | 1.4 | 0.1 | MAIN parachutes deploy (~9,500 ft) |
-| 14:00 | 34 | 6,583 | 1.2 | 0.1 | MAIN parachutes deploy (~9,500 ft) |
-| 14:10 | 22 | 6,000 | 1.1 | 0.1 | Under mains - terminal descent |
+| 10:01 | 1,140 | 89,333 | 16.9 | 0.45 | Subsonic transition approaching |
+| 10:02 | 1,130 | 88,667 | 16.8 | 0.45 | Subsonic transition approaching |
+| 10:03 | 1,120 | 88,000 | 16.7 | 0.45 | Subsonic transition approaching |
+| 10:04 | 1,111 | 87,333 | 16.5 | 0.45 | Subsonic transition approaching |
+| 10:05 | 1,101 | 86,667 | 16.4 | 0.45 | Subsonic transition approaching |
+| 10:06 | 1,091 | 86,000 | 16.3 | 0.45 | Subsonic transition approaching |
+| 10:07 | 1,081 | 85,333 | 16.2 | 0.45 | Subsonic transition approaching |
+| 10:08 | 1,071 | 84,667 | 16.0 | 0.45 | Subsonic transition approaching |
+| 10:09 | 1,062 | 84,000 | 15.9 | 0.45 | Subsonic transition approaching |
+| 10:10 | 1,052 | 83,333 | 15.8 | 0.45 | Subsonic transition approaching |
+| 10:11 | 1,042 | 82,667 | 15.7 | 0.45 | Subsonic transition approaching |
+| 10:12 | 1,032 | 82,000 | 15.5 | 0.45 | Subsonic transition approaching |
+| 10:13 | 1,022 | 81,333 | 15.4 | 0.45 | Subsonic transition approaching |
+| 10:14 | 1,012 | 80,667 | 15.3 | 0.45 | Subsonic transition approaching |
+| 10:15 | 1,002 | 80,000 | 15.2 | 0.45 | Subsonic transition approaching |
+| 10:16 | 993 | 79,333 | 15.0 | 0.45 | Subsonic transition approaching |
+| 10:17 | 983 | 78,667 | 14.9 | 0.45 | Subsonic transition approaching |
+| 10:18 | 973 | 78,000 | 14.8 | 0.45 | Subsonic transition approaching |
+| 10:19 | 963 | 77,333 | 14.6 | 0.45 | Subsonic transition approaching |
+| 10:20 | 953 | 76,667 | 14.5 | 0.45 | Subsonic transition approaching |
+| 10:21 | 944 | 76,000 | 14.4 | 0.45 | Subsonic transition approaching |
+| 10:22 | 934 | 75,333 | 14.3 | 0.45 | Subsonic transition approaching |
+| 10:23 | 924 | 74,667 | 14.1 | 0.45 | Subsonic transition approaching |
+| 10:24 | 914 | 74,000 | 14.0 | 0.45 | Subsonic transition approaching |
+| 10:25 | 904 | 73,333 | 13.9 | 0.45 | Subsonic transition approaching |
+| 10:26 | 894 | 72,667 | 13.8 | 0.45 | Subsonic transition approaching |
+| 10:27 | 884 | 72,000 | 13.6 | 0.45 | Subsonic transition approaching |
+| 10:28 | 875 | 71,333 | 13.5 | 0.45 | Subsonic transition approaching |
+| 10:29 | 865 | 70,667 | 13.4 | 0.45 | Subsonic transition approaching |
+| 10:30 | 855 | 70,000 | 13.3 | 0.45 | Subsonic transition approaching |
+| 10:31 | 845 | 69,333 | 13.1 | 0.45 | Subsonic transition approaching |
+| 10:32 | 835 | 68,667 | 13.0 | 0.45 | Subsonic transition approaching |
+| 10:33 | 826 | 68,000 | 12.9 | 0.45 | Subsonic transition approaching |
+| 10:34 | 816 | 67,333 | 12.8 | 0.45 | Subsonic transition approaching |
+| 10:35 | 806 | 66,667 | 12.6 | 0.45 | Subsonic transition approaching |
+| 10:36 | 796 | 66,000 | 12.5 | 0.45 | Subsonic transition approaching |
+| 10:37 | 786 | 65,333 | 12.4 | 0.45 | Subsonic transition approaching |
+| 10:38 | 776 | 64,667 | 12.2 | 0.45 | Subsonic transition approaching |
+| 10:39 | 766 | 64,000 | 12.1 | 0.45 | Subsonic transition approaching |
+| 10:40 | 757 | 63,333 | 12.0 | 0.45 | Subsonic transition approaching |
+| 10:41 | 747 | 62,667 | 11.9 | 0.45 | Subsonic transition approaching |
+| 10:42 | 737 | 62,000 | 11.7 | 0.45 | Subsonic transition approaching |
+| 10:43 | 727 | 61,333 | 11.6 | 0.45 | Subsonic transition approaching |
+| 10:44 | 717 | 60,667 | 11.5 | 0.45 | Subsonic transition approaching |
+| 10:45 | 708 | 60,000 | 11.4 | 0.45 | Subsonic transition approaching |
+| 10:46 | 698 | 59,333 | 11.2 | 0.45 | Subsonic transition approaching |
+| 10:47 | 688 | 58,667 | 11.1 | 0.45 | Subsonic transition approaching |
+| 10:48 | 678 | 58,000 | 11.0 | 0.45 | Subsonic transition approaching |
+| 10:49 | 668 | 57,333 | 10.9 | 0.45 | Subsonic transition approaching |
+| 10:50 | 658 | 56,667 | 10.7 | 0.45 | Subsonic transition approaching |
+| 10:51 | 648 | 56,000 | 10.6 | 0.45 | Subsonic transition approaching |
+| 10:52 | 639 | 55,333 | 10.5 | 0.45 | Subsonic transition approaching |
+| 10:53 | 629 | 54,667 | 10.4 | 0.45 | Subsonic transition approaching |
+| 10:54 | 619 | 54,000 | 10.2 | 0.45 | Subsonic transition approaching |
+| 10:55 | 609 | 53,333 | 10.1 | 0.45 | Subsonic transition approaching |
+| 10:56 | 599 | 52,667 | 10.0 | 0.45 | Subsonic transition approaching |
+| 10:57 | 590 | 52,000 | 9.8 | 0.45 | Subsonic transition approaching |
+| 10:58 | 580 | 51,333 | 9.7 | 0.45 | Subsonic transition approaching |
+| 10:59 | 570 | 50,667 | 9.6 | 0.45 | Subsonic transition approaching |
+| 11:00 | 560 | 50,000 | 9.5 | 0.45 | Subsonic - stabilizing for chute sequence |
+| 11:01 | 554 | 49,375 | 9.4 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:02 | 549 | 48,750 | 9.2 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:03 | 544 | 48,125 | 9.1 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:04 | 538 | 47,500 | 9.0 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:05 | 532 | 46,875 | 8.9 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:06 | 527 | 46,250 | 8.8 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:07 | 522 | 45,625 | 8.6 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:08 | 516 | 45,000 | 8.5 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:09 | 510 | 44,375 | 8.4 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:10 | 505 | 43,750 | 8.3 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:11 | 500 | 43,125 | 8.2 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:12 | 494 | 42,500 | 8.0 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:13 | 488 | 41,875 | 7.9 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:14 | 483 | 41,250 | 7.8 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:15 | 478 | 40,625 | 7.7 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:16 | 472 | 40,000 | 7.6 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:17 | 466 | 39,375 | 7.5 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:18 | 461 | 38,750 | 7.3 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:19 | 456 | 38,125 | 7.2 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:20 | 450 | 37,500 | 7.1 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:21 | 444 | 36,875 | 7.0 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:22 | 439 | 36,250 | 6.9 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:23 | 434 | 35,625 | 6.7 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:24 | 428 | 35,000 | 6.6 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:25 | 422 | 34,375 | 6.5 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:26 | 417 | 33,750 | 6.4 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:27 | 412 | 33,125 | 6.3 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:28 | 406 | 32,500 | 6.2 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:29 | 400 | 31,875 | 6.0 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:30 | 395 | 31,250 | 5.9 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:31 | 390 | 30,625 | 5.8 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:32 | 384 | 30,000 | 5.7 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:33 | 378 | 29,375 | 5.6 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:34 | 373 | 28,750 | 5.4 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:35 | 368 | 28,125 | 5.3 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:36 | 362 | 27,500 | 5.2 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:37 | 356 | 26,875 | 5.1 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:38 | 351 | 26,250 | 5.0 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:39 | 346 | 25,625 | 4.9 | 0.25 | Subsonic - stabilizing for chute sequence |
+| 11:40 | 340 | 25,000 | 4.7 | 0.25 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:41 | 336 | 24,783 | 4.7 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:42 | 333 | 24,567 | 4.7 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:43 | 330 | 24,350 | 4.6 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:44 | 326 | 24,133 | 4.6 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:45 | 322 | 23,917 | 4.5 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:46 | 319 | 23,700 | 4.5 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:47 | 316 | 23,483 | 4.4 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:48 | 312 | 23,267 | 4.4 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:49 | 308 | 23,050 | 4.4 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:50 | 305 | 22,833 | 4.3 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:51 | 302 | 22,617 | 4.3 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:52 | 298 | 22,400 | 4.2 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:53 | 294 | 22,183 | 4.2 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:54 | 291 | 21,967 | 4.2 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:55 | 288 | 21,750 | 4.1 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:56 | 284 | 21,533 | 4.1 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:57 | 280 | 21,317 | 4.0 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:58 | 277 | 21,100 | 4.0 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 11:59 | 274 | 20,883 | 4.0 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:00 | 270 | 20,667 | 3.9 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:01 | 266 | 20,450 | 3.9 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:02 | 263 | 20,233 | 3.8 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:03 | 260 | 20,017 | 3.8 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:04 | 256 | 19,800 | 3.8 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:05 | 252 | 19,583 | 3.7 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:06 | 249 | 19,367 | 3.7 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:07 | 246 | 19,150 | 3.6 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:08 | 242 | 18,933 | 3.6 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:09 | 238 | 18,717 | 3.5 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:10 | 235 | 18,500 | 3.5 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:11 | 232 | 18,283 | 3.5 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:12 | 228 | 18,067 | 3.4 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:13 | 224 | 17,850 | 3.4 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:14 | 221 | 17,633 | 3.3 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:15 | 218 | 17,417 | 3.3 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:16 | 214 | 17,200 | 3.3 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:17 | 210 | 16,983 | 3.2 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:18 | 207 | 16,767 | 3.2 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:19 | 204 | 16,550 | 3.1 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:20 | 200 | 16,333 | 3.1 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:21 | 196 | 16,117 | 3.1 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:22 | 193 | 15,900 | 3.0 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:23 | 190 | 15,683 | 3.0 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:24 | 186 | 15,467 | 2.9 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:25 | 182 | 15,250 | 2.9 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:26 | 179 | 15,033 | 2.8 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:27 | 176 | 14,817 | 2.8 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:28 | 172 | 14,600 | 2.8 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:29 | 168 | 14,383 | 2.7 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:30 | 165 | 14,167 | 2.7 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:31 | 162 | 13,950 | 2.6 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:32 | 158 | 13,733 | 2.6 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:33 | 154 | 13,517 | 2.6 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:34 | 151 | 13,300 | 2.5 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:35 | 148 | 13,083 | 2.5 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:36 | 144 | 12,867 | 2.4 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:37 | 140 | 12,650 | 2.4 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:38 | 137 | 12,433 | 2.4 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:39 | 134 | 12,217 | 2.3 | 0.16 | DROGUE parachutes deploy (~25,000 ft) |
+| 12:40 | 130 | 12,000 | 2.3 | 0.16 | Drogues stabilizing descent |
+| 12:41 | 129 | 11,917 | 2.3 | 0.05 | Drogues stabilizing descent |
+| 12:42 | 128 | 11,833 | 2.2 | 0.05 | Drogues stabilizing descent |
+| 12:43 | 126 | 11,750 | 2.2 | 0.05 | Drogues stabilizing descent |
+| 12:44 | 125 | 11,667 | 2.2 | 0.05 | Drogues stabilizing descent |
+| 12:45 | 124 | 11,583 | 2.2 | 0.05 | Drogues stabilizing descent |
+| 12:46 | 123 | 11,500 | 2.2 | 0.05 | Drogues stabilizing descent |
+| 12:47 | 122 | 11,417 | 2.2 | 0.05 | Drogues stabilizing descent |
+| 12:48 | 121 | 11,333 | 2.1 | 0.05 | Drogues stabilizing descent |
+| 12:49 | 120 | 11,250 | 2.1 | 0.05 | Drogues stabilizing descent |
+| 12:50 | 118 | 11,167 | 2.1 | 0.05 | Drogues stabilizing descent |
+| 12:51 | 117 | 11,083 | 2.1 | 0.05 | Drogues stabilizing descent |
+| 12:52 | 116 | 11,000 | 2.1 | 0.05 | Drogues stabilizing descent |
+| 12:53 | 115 | 10,917 | 2.1 | 0.05 | Drogues stabilizing descent |
+| 12:54 | 114 | 10,833 | 2.1 | 0.05 | Drogues stabilizing descent |
+| 12:55 | 112 | 10,750 | 2.0 | 0.05 | Drogues stabilizing descent |
+| 12:56 | 111 | 10,667 | 2.0 | 0.05 | Drogues stabilizing descent |
+| 12:57 | 110 | 10,583 | 2.0 | 0.05 | Drogues stabilizing descent |
+| 12:58 | 109 | 10,500 | 2.0 | 0.05 | Drogues stabilizing descent |
+| 12:59 | 108 | 10,417 | 2.0 | 0.05 | Drogues stabilizing descent |
+| 13:00 | 107 | 10,333 | 2.0 | 0.05 | Drogues stabilizing descent |
+| 13:01 | 106 | 10,250 | 1.9 | 0.05 | Drogues stabilizing descent |
+| 13:02 | 104 | 10,167 | 1.9 | 0.05 | Drogues stabilizing descent |
+| 13:03 | 103 | 10,083 | 1.9 | 0.05 | Drogues stabilizing descent |
+| 13:04 | 102 | 10,000 | 1.9 | 0.05 | Drogues stabilizing descent |
+| 13:05 | 101 | 9,917 | 1.9 | 0.05 | Drogues stabilizing descent |
+| 13:06 | 100 | 9,833 | 1.9 | 0.05 | Drogues stabilizing descent |
+| 13:07 | 98 | 9,750 | 1.8 | 0.05 | Drogues stabilizing descent |
+| 13:08 | 97 | 9,667 | 1.8 | 0.05 | Drogues stabilizing descent |
+| 13:09 | 96 | 9,583 | 1.8 | 0.05 | Drogues stabilizing descent |
+| 13:10 | 95 | 9,500 | 1.8 | 0.05 | MAIN parachutes deploy (~9,500 ft) |
+| 13:11 | 94 | 9,442 | 1.8 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:12 | 93 | 9,383 | 1.8 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:13 | 91 | 9,325 | 1.8 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:14 | 90 | 9,267 | 1.8 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:15 | 89 | 9,208 | 1.7 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:16 | 88 | 9,150 | 1.7 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:17 | 86 | 9,092 | 1.7 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:18 | 85 | 9,033 | 1.7 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:19 | 84 | 8,975 | 1.7 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:20 | 83 | 8,917 | 1.7 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:21 | 82 | 8,858 | 1.7 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:22 | 80 | 8,800 | 1.7 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:23 | 79 | 8,742 | 1.7 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:24 | 78 | 8,683 | 1.6 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:25 | 77 | 8,625 | 1.6 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:26 | 76 | 8,567 | 1.6 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:27 | 74 | 8,508 | 1.6 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:28 | 73 | 8,450 | 1.6 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:29 | 72 | 8,392 | 1.6 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:30 | 71 | 8,333 | 1.6 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:31 | 69 | 8,275 | 1.6 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:32 | 68 | 8,217 | 1.6 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:33 | 67 | 8,158 | 1.5 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:34 | 66 | 8,100 | 1.5 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:35 | 65 | 8,042 | 1.5 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:36 | 63 | 7,983 | 1.5 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:37 | 62 | 7,925 | 1.5 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:38 | 61 | 7,867 | 1.5 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:39 | 60 | 7,808 | 1.5 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:40 | 58 | 7,750 | 1.5 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:41 | 57 | 7,692 | 1.5 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:42 | 56 | 7,633 | 1.4 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:43 | 55 | 7,575 | 1.4 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:44 | 54 | 7,517 | 1.4 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:45 | 52 | 7,458 | 1.4 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:46 | 51 | 7,400 | 1.4 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:47 | 50 | 7,342 | 1.4 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:48 | 49 | 7,283 | 1.4 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:49 | 48 | 7,225 | 1.4 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:50 | 46 | 7,167 | 1.4 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:51 | 45 | 7,108 | 1.3 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:52 | 44 | 7,050 | 1.3 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:53 | 43 | 6,992 | 1.3 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:54 | 41 | 6,933 | 1.3 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:55 | 40 | 6,875 | 1.3 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:56 | 39 | 6,817 | 1.3 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:57 | 38 | 6,758 | 1.3 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:58 | 37 | 6,700 | 1.3 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 13:59 | 35 | 6,642 | 1.3 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 14:00 | 34 | 6,583 | 1.2 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 14:01 | 33 | 6,525 | 1.2 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 14:02 | 32 | 6,467 | 1.2 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 14:03 | 31 | 6,408 | 1.2 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 14:04 | 29 | 6,350 | 1.2 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 14:05 | 28 | 6,292 | 1.2 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 14:06 | 27 | 6,233 | 1.2 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 14:07 | 26 | 6,175 | 1.2 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 14:08 | 24 | 6,117 | 1.2 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 14:09 | 23 | 6,058 | 1.1 | 0.06 | MAIN parachutes deploy (~9,500 ft) |
+| 14:10 | 22 | 6,000 | 1.1 | 0.06 | Under mains - terminal descent |
+| 14:11 | 22 | 5,973 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:12 | 22 | 5,947 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:13 | 22 | 5,920 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:14 | 22 | 5,893 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:15 | 22 | 5,867 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:16 | 22 | 5,840 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:17 | 22 | 5,813 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:18 | 22 | 5,787 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:19 | 22 | 5,760 | 1.1 | 0.0 | Under mains - terminal descent |
 | 14:20 | 22 | 5,733 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:21 | 22 | 5,707 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:22 | 22 | 5,680 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:23 | 22 | 5,653 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:24 | 22 | 5,627 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:25 | 22 | 5,600 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:26 | 22 | 5,573 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:27 | 22 | 5,547 | 1.1 | 0.0 | Under mains - terminal descent |
+| 14:28 | 22 | 5,520 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:29 | 22 | 5,493 | 1.0 | 0.0 | Under mains - terminal descent |
 | 14:30 | 22 | 5,467 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:31 | 22 | 5,440 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:32 | 22 | 5,413 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:33 | 22 | 5,387 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:34 | 22 | 5,360 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:35 | 22 | 5,333 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:36 | 22 | 5,307 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:37 | 22 | 5,280 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:38 | 22 | 5,253 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:39 | 22 | 5,227 | 1.0 | 0.0 | Under mains - terminal descent |
 | 14:40 | 22 | 5,200 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:41 | 22 | 5,173 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:42 | 22 | 5,147 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:43 | 22 | 5,120 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:44 | 22 | 5,093 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:45 | 22 | 5,067 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:46 | 22 | 5,040 | 1.0 | 0.0 | Under mains - terminal descent |
+| 14:47 | 22 | 5,013 | 0.9 | 0.0 | Under mains - terminal descent |
+| 14:48 | 21 | 4,987 | 0.9 | 0.0 | Under mains - terminal descent |
+| 14:49 | 21 | 4,960 | 0.9 | 0.0 | Under mains - terminal descent |
 | 14:50 | 21 | 4,933 | 0.9 | 0.0 | Under mains - terminal descent |
+| 14:51 | 21 | 4,907 | 0.9 | 0.0 | Under mains - terminal descent |
+| 14:52 | 21 | 4,880 | 0.9 | 0.0 | Under mains - terminal descent |
+| 14:53 | 21 | 4,853 | 0.9 | 0.0 | Under mains - terminal descent |
+| 14:54 | 21 | 4,827 | 0.9 | 0.0 | Under mains - terminal descent |
+| 14:55 | 21 | 4,800 | 0.9 | 0.0 | Under mains - terminal descent |
+| 14:56 | 21 | 4,773 | 0.9 | 0.0 | Under mains - terminal descent |
+| 14:57 | 21 | 4,747 | 0.9 | 0.0 | Under mains - terminal descent |
+| 14:58 | 21 | 4,720 | 0.9 | 0.0 | Under mains - terminal descent |
+| 14:59 | 21 | 4,693 | 0.9 | 0.0 | Under mains - terminal descent |
 | 15:00 | 21 | 4,667 | 0.9 | 0.0 | Under mains - terminal descent |
+| 15:01 | 21 | 4,640 | 0.9 | 0.0 | Under mains - terminal descent |
+| 15:02 | 21 | 4,613 | 0.9 | 0.0 | Under mains - terminal descent |
+| 15:03 | 21 | 4,587 | 0.9 | 0.0 | Under mains - terminal descent |
+| 15:04 | 21 | 4,560 | 0.9 | 0.0 | Under mains - terminal descent |
+| 15:05 | 21 | 4,533 | 0.9 | 0.0 | Under mains - terminal descent |
+| 15:06 | 21 | 4,507 | 0.9 | 0.0 | Under mains - terminal descent |
+| 15:07 | 21 | 4,480 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:08 | 21 | 4,453 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:09 | 21 | 4,427 | 0.8 | 0.0 | Under mains - terminal descent |
 | 15:10 | 21 | 4,400 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:11 | 21 | 4,373 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:12 | 21 | 4,347 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:13 | 21 | 4,320 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:14 | 21 | 4,293 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:15 | 21 | 4,267 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:16 | 21 | 4,240 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:17 | 21 | 4,213 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:18 | 21 | 4,187 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:19 | 21 | 4,160 | 0.8 | 0.0 | Under mains - terminal descent |
 | 15:20 | 21 | 4,133 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:21 | 21 | 4,107 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:22 | 21 | 4,080 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:23 | 21 | 4,053 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:24 | 21 | 4,027 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:25 | 21 | 4,000 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:26 | 21 | 3,973 | 0.8 | 0.0 | Under mains - terminal descent |
+| 15:27 | 21 | 3,947 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:28 | 21 | 3,920 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:29 | 21 | 3,893 | 0.7 | 0.0 | Under mains - terminal descent |
 | 15:30 | 21 | 3,867 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:31 | 21 | 3,840 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:32 | 21 | 3,813 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:33 | 21 | 3,787 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:34 | 21 | 3,760 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:35 | 21 | 3,733 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:36 | 21 | 3,707 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:37 | 21 | 3,680 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:38 | 21 | 3,653 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:39 | 21 | 3,627 | 0.7 | 0.0 | Under mains - terminal descent |
 | 15:40 | 21 | 3,600 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:41 | 21 | 3,573 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:42 | 21 | 3,547 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:43 | 21 | 3,520 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:44 | 21 | 3,493 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:45 | 21 | 3,467 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:46 | 21 | 3,440 | 0.7 | 0.0 | Under mains - terminal descent |
+| 15:47 | 21 | 3,413 | 0.6 | 0.0 | Under mains - terminal descent |
+| 15:48 | 21 | 3,387 | 0.6 | 0.0 | Under mains - terminal descent |
+| 15:49 | 21 | 3,360 | 0.6 | 0.0 | Under mains - terminal descent |
 | 15:50 | 21 | 3,333 | 0.6 | 0.0 | Under mains - terminal descent |
+| 15:51 | 21 | 3,307 | 0.6 | 0.0 | Under mains - terminal descent |
+| 15:52 | 21 | 3,280 | 0.6 | 0.0 | Under mains - terminal descent |
+| 15:53 | 21 | 3,253 | 0.6 | 0.0 | Under mains - terminal descent |
+| 15:54 | 21 | 3,227 | 0.6 | 0.0 | Under mains - terminal descent |
+| 15:55 | 21 | 3,200 | 0.6 | 0.0 | Under mains - terminal descent |
+| 15:56 | 21 | 3,173 | 0.6 | 0.0 | Under mains - terminal descent |
+| 15:57 | 21 | 3,147 | 0.6 | 0.0 | Under mains - terminal descent |
+| 15:58 | 21 | 3,120 | 0.6 | 0.0 | Under mains - terminal descent |
+| 15:59 | 21 | 3,093 | 0.6 | 0.0 | Under mains - terminal descent |
 | 16:00 | 21 | 3,067 | 0.6 | 0.0 | Under mains - terminal descent |
+| 16:01 | 21 | 3,040 | 0.6 | 0.0 | Under mains - terminal descent |
+| 16:02 | 21 | 3,013 | 0.6 | 0.0 | Under mains - terminal descent |
+| 16:03 | 20 | 2,987 | 0.6 | 0.0 | Under mains - terminal descent |
+| 16:04 | 20 | 2,960 | 0.6 | 0.0 | Under mains - terminal descent |
+| 16:05 | 20 | 2,933 | 0.6 | 0.0 | Under mains - terminal descent |
+| 16:06 | 20 | 2,907 | 0.6 | 0.0 | Under mains - terminal descent |
+| 16:07 | 20 | 2,880 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:08 | 20 | 2,853 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:09 | 20 | 2,827 | 0.5 | 0.0 | Under mains - terminal descent |
 | 16:10 | 20 | 2,800 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:11 | 20 | 2,773 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:12 | 20 | 2,747 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:13 | 20 | 2,720 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:14 | 20 | 2,693 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:15 | 20 | 2,667 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:16 | 20 | 2,640 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:17 | 20 | 2,613 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:18 | 20 | 2,587 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:19 | 20 | 2,560 | 0.5 | 0.0 | Under mains - terminal descent |
 | 16:20 | 20 | 2,533 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:21 | 20 | 2,507 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:22 | 20 | 2,480 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:23 | 20 | 2,453 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:24 | 20 | 2,427 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:25 | 20 | 2,400 | 0.5 | 0.0 | Under mains - terminal descent |
+| 16:26 | 20 | 2,373 | 0.4 | 0.0 | Under mains - terminal descent |
+| 16:27 | 20 | 2,347 | 0.4 | 0.0 | Under mains - terminal descent |
+| 16:28 | 20 | 2,320 | 0.4 | 0.0 | Under mains - terminal descent |
+| 16:29 | 20 | 2,293 | 0.4 | 0.0 | Under mains - terminal descent |
 | 16:30 | 20 | 2,267 | 0.4 | 0.0 | Under mains - terminal descent |
+| 16:31 | 20 | 2,240 | 0.4 | 0.0 | Under mains - terminal descent |
+| 16:32 | 20 | 2,213 | 0.4 | 0.0 | Under mains - terminal descent |
+| 16:33 | 20 | 2,187 | 0.4 | 0.0 | Under mains - terminal descent |
+| 16:34 | 20 | 2,160 | 0.4 | 0.0 | Under mains - terminal descent |
+| 16:35 | 20 | 2,133 | 0.4 | 0.0 | Under mains - terminal descent |
+| 16:36 | 20 | 2,107 | 0.4 | 0.0 | Under mains - terminal descent |
+| 16:37 | 20 | 2,080 | 0.4 | 0.0 | Under mains - terminal descent |
+| 16:38 | 20 | 2,053 | 0.4 | 0.0 | Under mains - terminal descent |
+| 16:39 | 20 | 2,027 | 0.4 | 0.0 | Under mains - terminal descent |
 | 16:40 | 20 | 2,000 | 0.4 | 0.0 | Under mains - steady descent |
+| 16:41 | 20 | 1,986 | 0.4 | 0.0 | Under mains - steady descent |
+| 16:42 | 20 | 1,971 | 0.4 | 0.0 | Under mains - steady descent |
+| 16:43 | 20 | 1,957 | 0.4 | 0.0 | Under mains - steady descent |
+| 16:44 | 20 | 1,943 | 0.4 | 0.0 | Under mains - steady descent |
+| 16:45 | 20 | 1,929 | 0.4 | 0.0 | Under mains - steady descent |
+| 16:46 | 20 | 1,914 | 0.4 | 0.0 | Under mains - steady descent |
+| 16:47 | 20 | 1,900 | 0.4 | 0.0 | Under mains - steady descent |
+| 16:48 | 20 | 1,886 | 0.4 | 0.0 | Under mains - steady descent |
+| 16:49 | 20 | 1,871 | 0.4 | 0.0 | Under mains - steady descent |
 | 16:50 | 20 | 1,857 | 0.4 | 0.0 | Under mains - steady descent |
+| 16:51 | 20 | 1,843 | 0.3 | 0.0 | Under mains - steady descent |
+| 16:52 | 20 | 1,829 | 0.3 | 0.0 | Under mains - steady descent |
+| 16:53 | 20 | 1,814 | 0.3 | 0.0 | Under mains - steady descent |
+| 16:54 | 20 | 1,800 | 0.3 | 0.0 | Under mains - steady descent |
+| 16:55 | 20 | 1,786 | 0.3 | 0.0 | Under mains - steady descent |
+| 16:56 | 20 | 1,771 | 0.3 | 0.0 | Under mains - steady descent |
+| 16:57 | 20 | 1,757 | 0.3 | 0.0 | Under mains - steady descent |
+| 16:58 | 20 | 1,743 | 0.3 | 0.0 | Under mains - steady descent |
+| 16:59 | 20 | 1,729 | 0.3 | 0.0 | Under mains - steady descent |
 | 17:00 | 20 | 1,714 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:01 | 20 | 1,700 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:02 | 20 | 1,686 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:03 | 20 | 1,671 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:04 | 19 | 1,657 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:05 | 19 | 1,643 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:06 | 19 | 1,629 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:07 | 19 | 1,614 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:08 | 19 | 1,600 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:09 | 19 | 1,586 | 0.3 | 0.0 | Under mains - steady descent |
 | 17:10 | 19 | 1,571 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:11 | 19 | 1,557 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:12 | 19 | 1,543 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:13 | 19 | 1,529 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:14 | 19 | 1,514 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:15 | 19 | 1,500 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:16 | 19 | 1,486 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:17 | 19 | 1,471 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:18 | 19 | 1,457 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:19 | 19 | 1,443 | 0.3 | 0.0 | Under mains - steady descent |
 | 17:20 | 19 | 1,429 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:21 | 19 | 1,414 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:22 | 19 | 1,400 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:23 | 19 | 1,386 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:24 | 19 | 1,371 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:25 | 19 | 1,357 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:26 | 19 | 1,343 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:27 | 19 | 1,329 | 0.3 | 0.0 | Under mains - steady descent |
+| 17:28 | 19 | 1,314 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:29 | 19 | 1,300 | 0.2 | 0.0 | Under mains - steady descent |
 | 17:30 | 19 | 1,286 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:31 | 19 | 1,271 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:32 | 19 | 1,257 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:33 | 19 | 1,243 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:34 | 19 | 1,229 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:35 | 19 | 1,214 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:36 | 19 | 1,200 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:37 | 19 | 1,186 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:38 | 19 | 1,171 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:39 | 19 | 1,157 | 0.2 | 0.0 | Under mains - steady descent |
 | 17:40 | 19 | 1,143 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:41 | 19 | 1,129 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:42 | 19 | 1,114 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:43 | 19 | 1,100 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:44 | 19 | 1,086 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:45 | 19 | 1,071 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:46 | 19 | 1,057 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:47 | 19 | 1,043 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:48 | 19 | 1,029 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:49 | 19 | 1,014 | 0.2 | 0.0 | Under mains - steady descent |
 | 17:50 | 18 | 1,000 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:51 | 18 | 986 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:52 | 18 | 971 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:53 | 18 | 957 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:54 | 18 | 943 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:55 | 18 | 929 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:56 | 18 | 914 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:57 | 18 | 900 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:58 | 18 | 886 | 0.2 | 0.0 | Under mains - steady descent |
+| 17:59 | 18 | 871 | 0.2 | 0.0 | Under mains - steady descent |
 | 18:00 | 18 | 857 | 0.2 | 0.0 | Under mains - steady descent |
+| 18:01 | 18 | 843 | 0.2 | 0.0 | Under mains - steady descent |
+| 18:02 | 18 | 829 | 0.2 | 0.0 | Under mains - steady descent |
+| 18:03 | 18 | 814 | 0.2 | 0.0 | Under mains - steady descent |
+| 18:04 | 18 | 800 | 0.2 | 0.0 | Under mains - steady descent |
+| 18:05 | 18 | 786 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:06 | 18 | 771 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:07 | 18 | 757 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:08 | 18 | 743 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:09 | 18 | 729 | 0.1 | 0.0 | Under mains - steady descent |
 | 18:10 | 18 | 714 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:11 | 18 | 700 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:12 | 18 | 686 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:13 | 18 | 671 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:14 | 18 | 657 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:15 | 18 | 643 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:16 | 18 | 629 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:17 | 18 | 614 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:18 | 18 | 600 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:19 | 18 | 586 | 0.1 | 0.0 | Under mains - steady descent |
 | 18:20 | 18 | 571 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:21 | 18 | 557 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:22 | 18 | 543 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:23 | 18 | 529 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:24 | 18 | 514 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:25 | 18 | 500 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:26 | 18 | 486 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:27 | 18 | 471 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:28 | 18 | 457 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:29 | 18 | 443 | 0.1 | 0.0 | Under mains - steady descent |
 | 18:30 | 18 | 429 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:31 | 18 | 414 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:32 | 18 | 400 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:33 | 18 | 386 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:34 | 18 | 371 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:35 | 18 | 357 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:36 | 18 | 343 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:37 | 17 | 329 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:38 | 17 | 314 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:39 | 17 | 300 | 0.1 | 0.0 | Under mains - steady descent |
 | 18:40 | 17 | 286 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:41 | 17 | 271 | 0.1 | 0.0 | Under mains - steady descent |
+| 18:42 | 17 | 257 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:43 | 17 | 243 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:44 | 17 | 229 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:45 | 17 | 214 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:46 | 17 | 200 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:47 | 17 | 186 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:48 | 17 | 171 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:49 | 17 | 157 | 0.0 | 0.0 | Under mains - steady descent |
 | 18:50 | 17 | 143 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:51 | 17 | 129 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:52 | 17 | 114 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:53 | 17 | 100 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:54 | 17 | 86 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:55 | 17 | 71 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:56 | 17 | 57 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:57 | 17 | 43 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:58 | 17 | 29 | 0.0 | 0.0 | Under mains - steady descent |
+| 18:59 | 17 | 14 | 0.0 | 0.0 | Under mains - steady descent |
 | 19:00 | 17 | 0 | 0.0 | 0.0 | SPLASHDOWN - Pacific Ocean |

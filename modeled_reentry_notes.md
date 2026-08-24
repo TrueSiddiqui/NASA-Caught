@@ -37,7 +37,7 @@ This is exactly why, in the observed dials, the "FROM EARTH / altitude-like" val
 | 13:10 | ~95 mph | 9,500 ft | **Main parachutes** deploy |
 | **19:00** | **~17 mph** | **0 ft** | **Splashdown** (Pacific Ocean) |
 
-Full 10-second-resolution table: `modeled_reentry_table.{csv,md,txt}`.
+Full **second-by-second** table (1,141 rows, 0:00→19:00): `modeled_reentry_table.{csv,md,txt}`.
 
 ---
 
