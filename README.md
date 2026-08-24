@@ -15,7 +15,9 @@ This repository contains a detailed, line-by-line analysis of a spacecraft re-en
 
 ## Key Findings
 
-The analysis identified **11 provable internal contradictions** from the transcript itself:
+### From Transcript Analysis
+
+The text-based analysis identified **11 provable internal contradictions** from the transcript itself:
 
 1. **"No voice, no data" claim violated** — Data processing reported during communications blackout
 2. **All splashdown countdown predictions wrong** — Seven separate countdowns all 27-39 seconds early
@@ -26,18 +28,35 @@ The analysis identified **11 provable internal contradictions** from the transcr
 7. **Time-count errors** — "3.5 minutes left" repeated unchanged 9 seconds apart
 8. **Cabin pressure/hydrazine logic** — Two unrelated systems linked without explanation
 
+### From Visual Telemetry Analysis (NEW)
+
+Frame-by-frame analysis of 69 YouTube broadcast screenshots revealed:
+
+1. **Six identical duplicate frames** — Files scene00199, 00496, 00595, 00606, 00694, 00749 all show the exact same timestamp (1:28:20) and telemetry data (25,067 M/H, 28 Miles, 248,177 Miles)
+2. **Transcript "3.5 minutes left" frozen for 25+ seconds** — Visual confirmation that the transcript panel displays "1:28:16 3.5 minutes left in" unchanged from video time 1:28:19 through 1:28:44, despite telemetry updating normally
+3. **Incomplete dataset** — Only 69 of 266 expected frames available (26%)
+
+**Visual evidence confirms the transcript analysis:** The "3.5 minutes" text persists far longer than the transcript alone showed.
+
 ---
 
 ## Files Included
 
 All research is available in multiple formats:
 
-- **complete_analysis.md** — Full analysis in Markdown format
+### Transcript Analysis
+- **complete_analysis.md** — Full transcript analysis in Markdown format
 - **complete_analysis.pdf** — PDF version for reading/printing
 - **complete_analysis.docx** — Microsoft Word format
 - **complete_analysis.txt** — Plain text version
 
-All files contain identical content covering:
+### Visual Telemetry Analysis (NEW)
+- **visual_telemetry_analysis.md** — Frame-by-frame screenshot analysis in Markdown
+- **visual_telemetry_analysis.pdf** — PDF version
+- **visual_telemetry_analysis.docx** — Microsoft Word format
+- **visual_telemetry_analysis.txt** — Plain text version
+
+The transcript analysis files contain identical content covering:
 - Original transcript with timestamps
 - Three analysis passes (initial, deep, comprehensive)
 - Tier-based final report separating provable findings from assumptions
