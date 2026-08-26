@@ -210,7 +210,9 @@ const play=document.getElementById("play"),scrub=document.getElementById("scrub"
 function loop(now){const dt=(now-last)/1000;last=now;
  if(playing){frame+=0.55;if(frame>=N-1){frame=N-1;playing=false;play.innerHTML="&#9654; Play";}scrub.value=Math.floor(frame);}
  const fi=Math.floor(frame);
- ROT = (TEL[fi].sec - TEL[0].sec) * OMEGA_DEG_S * ROT_VIS;   // Earth turns W->E as time advances
+ // Smooth rotation: advance linearly across playback frames (0→264), not telemetry time
+ // Total true rotation over window: 0.806° → visual ×20 = 16.13°
+ ROT = (fi / (N-1)) * 16.13;   // smooth interpolation across all frames
  ctx.clearRect(0,0,W,H);drawEarth();drawSplash();drawArc(fi);drawCraft(fi);readout(TEL[fi],fi);
  const e=frameXY(0);ctx.fillStyle="#38e1ff";ctx.font="11px system-ui";ctx.fillText("Entry 1:28:19",e[0]-30,e[1]-8);
  requestAnimationFrame(loop);}
