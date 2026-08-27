@@ -133,7 +133,9 @@ button:hover{background:#1a2f52}
 </h1></div>
 <div id="banner">
   <b>TRUTH SCOPE:</b> NASA trajectory = what their video visually depicts (no numeric data behind it).
-  Our telemetry = real dial readings (velocity / altitude / downrange / time) — but our dials carry
+  Our telemetry = dial readings (velocity / altitude / downrange / time) <b>read off NASA's own broadcast
+  graphics</b> — so BOTH sides here are NASA-produced. This is <b>NASA-vs-NASA</b>, not independent
+  verification (see ISSUES_DEEPDIVE.md §0). Our dials carry
   <b>NO latitude, longitude or heading</b>, so the geographic position of our arc is
   <b>ILLUSTRATIVE</b>, not fact.  Our data ENDS at <b>34 mi / 11,650 mph — still aloft</b>.
   We do not draw a splashdown because our dials never record one.
